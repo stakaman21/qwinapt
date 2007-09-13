@@ -1,0 +1,7 @@
+bin\Release\WinAptParser.exe
+bin\Release\WinAptParser.pdb
+bin\Release\WinAptCommon.dll
+bin\Release\WinAptCommon.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\WinAptParser.exe
+obj\Release\WinAptParser.pdb

@@ -7,8 +7,8 @@
     <ProjectGuid>{13E2D300-2E01-48B3-AD48-D533A957CDEF}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WinAptParser</RootNamespace>
-    <AssemblyName>WinAptParser</AssemblyName>
+    <RootNamespace>WinApt.Parser</RootNamespace>
+    <AssemblyName>WinApt.Parser</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

@@ -9,6 +9,15 @@ namespace WinApt.Common
 {
     public class WinAptLib
     {
+        public static int NoFile = 0;
+        public static int Downloaded = 1;
+        public static int NewVersion = 2;
+        //public enum State
+        //{
+        //    NoFile = 0,
+        //    Downloaded = 1,
+        //    NewVersion = 2
+        //}
         public static void WriteToFile(object o, string fileName)
         {
             XmlSerializer x = new XmlSerializer(o.GetType());

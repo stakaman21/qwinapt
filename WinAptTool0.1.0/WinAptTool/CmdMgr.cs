@@ -133,5 +133,33 @@ namespace WinApt.Client
             filename = this.myConfig.basePath + @"\" + it.catalog + @"\" + filename;
             return filename;
         }
+
+        public void UpdateAppDB(string content)
+        {
+            //load data from remote db.
+            this.myAppDB = (AppInfoDB)WinAptLib.ReadFromStream(typeof(AppInfoDB), content);
+
+            for (int i = 0; i < myAppDB.Items.Count; i++)
+            {
+                ((AppInfoBase)myAppDB.Items[i]).setIndex(i);
+            }
+
+            //compare with local data
+            foreach (AppInfoBase item in this.myConfig.Items)
+            {
+                int index = 0;
+                //already contains, mark as needDownload
+                if ((index = myAppDB.Contains(item)) != -1)
+                {
+                    ((AppInfoBase)myAppDB.Items[index]).setState(1);
+                }
+                //has older version, mark as needUpdate
+                if ((index = myAppDB.HasOldVersion(item)) != -1)
+                {
+                    ((AppInfoBase)myAppDB.Items[index]).setState(2);
+                    ((AppInfoBase)myAppDB.Items[index]).version = ((AppInfoBase)item).version;
+                }
+            }
+        }
     }
 }

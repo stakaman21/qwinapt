@@ -96,6 +96,14 @@ namespace WinApt.Common
             }
             return -1;
         }
+        public void SetIndex(int i)
+        {
+            index = i;
+        }
+        public int GetIndex()
+        {
+            return index;
+        }
 
     }
 
@@ -121,14 +129,14 @@ namespace WinApt.Common
         public string type = string.Empty; //eg: Share Software
 
         [XmlElement("popular")]      //¡ï¡ï¡ï
-        public string popular = string.Empty;
+        public int popular = 0;
 
         [XmlElement("icon")]
         public string icon = string.Empty; // icon/winrar.ico
         //state: needDownload, needUpdate, etc.
         protected int state = 0;
 
-        public AppInfoBase(string name, string url, string version, string description, string catalog, string type, string popular, string icon)
+        public AppInfoBase(string name, string url, string version, string description, string catalog, string type, int popular, string icon)
         {
             this.name = name;
             this.url = url;

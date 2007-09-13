@@ -1,0 +1,14 @@
+bin\Release\WinAptTool.exe
+bin\Release\WinAptTool.pdb
+bin\Release\FolderBrowser.dll
+bin\Release\WinAptCommon.dll
+bin\Release\WinAptCommon.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\WinApt.Client.GUI.ChoseForm.resources
+obj\Release\WinApt.Client.GUI.ExecuteForm.resources
+obj\Release\WinApt.Client.GUI.SplashForm.resources
+obj\Release\WinApt.Client.MainForm.resources
+obj\Release\WinAptClient.Properties.Resources.resources
+obj\Release\WinAptClient.csproj.GenerateResource.Cache
+obj\Release\WinAptTool.exe
+obj\Release\WinAptTool.pdb

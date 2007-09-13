@@ -40,5 +40,13 @@ namespace WinApt.Client.GUI
             basePath = fdDlg.SelectedPath;
             txtPath.Text = basePath;
         }
+
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+            if (txtPath.Text == "")
+            {
+                btnBrowser_Click(sender,e);
+            }
+        }
     }
 }

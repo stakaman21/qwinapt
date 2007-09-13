@@ -46,7 +46,7 @@ namespace WinApt.Client
                         myChoseForm.Config();
                         mySplash.InitApp();
                     }
-                    myChoseForm.Dispose();
+                    myChoseForm.Close();
                 }
                 else
                 {
@@ -55,7 +55,7 @@ namespace WinApt.Client
             }
             finally
             {
-                mySplash.Dispose();
+                mySplash.Close();
                 exitFlag = false;
             }
             if (exitFlag)

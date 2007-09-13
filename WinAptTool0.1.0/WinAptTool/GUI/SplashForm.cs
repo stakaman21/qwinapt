@@ -44,17 +44,24 @@ namespace WinApt.Client.GUI
             }
             //download update page.
             string content = "";
-            this.lbSplash.Text = "Load file from " + MainForm.myCmdMgr.Config.updateUrl;
+            this.lbSplash.Text = "Load DB file.";
             lbSplash.Update();
             try
             {
-
-                //
-                //TODO: change test code
-                //
-                //StreamReader infile = File.OpenText("appinfodb.xml");
-                //content = infile.ReadToEnd();
-                content = WinAptLib.getPageContent(MainForm.myCmdMgr.Config.updateUrl);
+                string fileName = "appinfodb_" + MainForm.myCmdMgr.Config.local + ".xml";
+                if (File.Exists(fileName))
+                {
+                    StreamReader infile = File.OpenText(fileName);
+                    content = infile.ReadToEnd();
+                    infile.Close();
+                }
+                else
+                {
+                    this.lbSplash.Text = "Download DB file.";
+                    lbSplash.Update();
+                    content = WinAptLib.getPageContent(MainForm.myCmdMgr.Config.updateUrl);
+                    File.WriteAllText(fileName, content);
+                }
             }
             catch (Exception e)
             {
@@ -66,32 +73,7 @@ namespace WinApt.Client.GUI
                 //save the config file, then quit program.
                 WinAptLib.WriteToFile(MainForm.myCmdMgr.Config, configFile);
             }
-            //load data from remote db.
-            MainForm.myCmdMgr.InfoDB = (AppInfoDB)WinAptLib.ReadFromStream(typeof(AppInfoDB), content);
-
-            for (int i = 0; i < MainForm.myCmdMgr.InfoDB.Items.Count; i++)
-            {
-                ((AppInfoBase)MainForm.myCmdMgr.InfoDB.Items[i]).setIndex(i);
-            }
-
-            this.lbSplash.Text = "Updating local AppInfo database...";
-            lbSplash.Update();
-            //compare with local data
-            foreach (AppInfoBase item in MainForm.myCmdMgr.Config.Items)
-            {
-                int index = 0;
-                //already contains, mark as needDownload
-                if ((index = MainForm.myCmdMgr.InfoDB.Contains(item)) != -1)
-                {
-                    ((AppInfoBase)MainForm.myCmdMgr.InfoDB.Items[index]).setState(1);
-                }
-                //has older version, mark as needUpdate
-                if ((index = MainForm.myCmdMgr.InfoDB.HasOldVersion(item)) != -1)
-                {
-                    ((AppInfoBase)MainForm.myCmdMgr.InfoDB.Items[index]).setState(2);
-                    ((AppInfoBase)MainForm.myCmdMgr.InfoDB.Items[index]).version = ((AppInfoBase)item).version;
-                }
-            }
+            MainForm.myCmdMgr.UpdateAppDB(content);
         }
     }
 }

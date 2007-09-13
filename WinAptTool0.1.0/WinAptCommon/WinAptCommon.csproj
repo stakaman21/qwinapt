@@ -7,8 +7,8 @@
     <ProjectGuid>{BADBD1FD-C3D7-4B3B-9773-8DF961C32D34}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WinAptCommon</RootNamespace>
-    <AssemblyName>WinAptCommon</AssemblyName>
+    <RootNamespace>WinApt.Common</RootNamespace>
+    <AssemblyName>WinApt.Common</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
