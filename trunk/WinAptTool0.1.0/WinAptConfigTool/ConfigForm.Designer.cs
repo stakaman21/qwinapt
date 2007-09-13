@@ -45,8 +45,8 @@ namespace WinApt.ConfigTool
             this.btnSave = new System.Windows.Forms.Button();
             this.btnLoad = new System.Windows.Forms.Button();
             this.openDlg = new System.Windows.Forms.OpenFileDialog();
-            this.saveDlg = new System.Windows.Forms.SaveFileDialog();
             this.btnEdit = new System.Windows.Forms.Button();
+            this.saveDlg = new System.Windows.Forms.SaveFileDialog();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -55,16 +55,16 @@ namespace WinApt.ConfigTool
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(12, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
+            this.label1.Size = new System.Drawing.Size(41, 12);
             this.label1.TabIndex = 0;
             this.label1.Text = "Search";
             // 
             // txtSearch
             // 
             this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSearch.Location = new System.Drawing.Point(58, 12);
+            this.txtSearch.Location = new System.Drawing.Point(58, 11);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(257, 21);
             this.txtSearch.TabIndex = 1;
@@ -72,9 +72,9 @@ namespace WinApt.ConfigTool
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(335, 11);
+            this.label2.Location = new System.Drawing.Point(335, 10);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(31, 13);
+            this.label2.Size = new System.Drawing.Size(29, 12);
             this.label2.TabIndex = 2;
             this.label2.Text = "Type";
             // 
@@ -85,15 +85,15 @@ namespace WinApt.ConfigTool
             "Free Software",
             "Green Software",
             "Share Software"});
-            this.cbType.Location = new System.Drawing.Point(384, 11);
+            this.cbType.Location = new System.Drawing.Point(384, 10);
             this.cbType.Name = "cbType";
-            this.cbType.Size = new System.Drawing.Size(181, 21);
+            this.cbType.Size = new System.Drawing.Size(181, 20);
             this.cbType.TabIndex = 3;
             this.cbType.SelectedIndexChanged += new System.EventHandler(this.cbType_SelectedIndexChanged);
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Location = new System.Drawing.Point(12, 39);
+            this.splitContainer1.Location = new System.Drawing.Point(12, 36);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -105,7 +105,7 @@ namespace WinApt.ConfigTool
             this.splitContainer1.Panel2.Controls.Add(this.rtxtDesc);
             this.splitContainer1.Panel2.Controls.Add(this.splitter1);
             this.splitContainer1.Panel2.Controls.Add(this.lvApp);
-            this.splitContainer1.Size = new System.Drawing.Size(553, 358);
+            this.splitContainer1.Size = new System.Drawing.Size(553, 330);
             this.splitContainer1.SplitterDistance = 188;
             this.splitContainer1.TabIndex = 4;
             // 
@@ -131,7 +131,7 @@ namespace WinApt.ConfigTool
             "Accessories"});
             this.lstCatalog.Location = new System.Drawing.Point(0, 0);
             this.lstCatalog.Name = "lstCatalog";
-            this.lstCatalog.Size = new System.Drawing.Size(188, 347);
+            this.lstCatalog.Size = new System.Drawing.Size(188, 324);
             this.lstCatalog.TabIndex = 0;
             this.lstCatalog.SelectedIndexChanged += new System.EventHandler(this.lstCatalog_SelectedIndexChanged);
             // 
@@ -139,16 +139,16 @@ namespace WinApt.ConfigTool
             // 
             this.rtxtDesc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.rtxtDesc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rtxtDesc.Location = new System.Drawing.Point(0, 191);
+            this.rtxtDesc.Location = new System.Drawing.Point(0, 177);
             this.rtxtDesc.Name = "rtxtDesc";
-            this.rtxtDesc.Size = new System.Drawing.Size(361, 167);
+            this.rtxtDesc.Size = new System.Drawing.Size(361, 153);
             this.rtxtDesc.TabIndex = 2;
             this.rtxtDesc.Text = "";
             // 
             // splitter1
             // 
             this.splitter1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.splitter1.Location = new System.Drawing.Point(0, 188);
+            this.splitter1.Location = new System.Drawing.Point(0, 174);
             this.splitter1.Name = "splitter1";
             this.splitter1.Size = new System.Drawing.Size(361, 3);
             this.splitter1.TabIndex = 1;
@@ -169,7 +169,7 @@ namespace WinApt.ConfigTool
             this.lvApp.Location = new System.Drawing.Point(0, 0);
             this.lvApp.MultiSelect = false;
             this.lvApp.Name = "lvApp";
-            this.lvApp.Size = new System.Drawing.Size(361, 188);
+            this.lvApp.Size = new System.Drawing.Size(361, 174);
             this.lvApp.TabIndex = 0;
             this.lvApp.UseCompatibleStateImageBehavior = false;
             this.lvApp.View = System.Windows.Forms.View.Details;
@@ -192,9 +192,9 @@ namespace WinApt.ConfigTool
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(276, 412);
+            this.btnAdd.Location = new System.Drawing.Point(276, 380);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.Size = new System.Drawing.Size(75, 21);
             this.btnAdd.TabIndex = 5;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -202,9 +202,9 @@ namespace WinApt.ConfigTool
             // 
             // btnDel
             // 
-            this.btnDel.Location = new System.Drawing.Point(490, 412);
+            this.btnDel.Location = new System.Drawing.Point(490, 380);
             this.btnDel.Name = "btnDel";
-            this.btnDel.Size = new System.Drawing.Size(75, 23);
+            this.btnDel.Size = new System.Drawing.Size(75, 21);
             this.btnDel.TabIndex = 6;
             this.btnDel.Text = "Delete";
             this.btnDel.UseVisualStyleBackColor = true;
@@ -212,9 +212,9 @@ namespace WinApt.ConfigTool
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(125, 412);
+            this.btnSave.Location = new System.Drawing.Point(125, 380);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSave.Size = new System.Drawing.Size(75, 21);
             this.btnSave.TabIndex = 7;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -222,9 +222,9 @@ namespace WinApt.ConfigTool
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(15, 412);
+            this.btnLoad.Location = new System.Drawing.Point(15, 380);
             this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(75, 23);
+            this.btnLoad.Size = new System.Drawing.Size(75, 21);
             this.btnLoad.TabIndex = 8;
             this.btnLoad.Text = "Load";
             this.btnLoad.UseVisualStyleBackColor = true;
@@ -232,23 +232,29 @@ namespace WinApt.ConfigTool
             // 
             // openDlg
             // 
-            this.openDlg.FileName = "openFileDialog1";
+            this.openDlg.DefaultExt = "xml";
+            this.openDlg.Title = "Open AppInfo DB file";
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(384, 412);
+            this.btnEdit.Location = new System.Drawing.Point(384, 380);
             this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(75, 23);
+            this.btnEdit.Size = new System.Drawing.Size(75, 21);
             this.btnEdit.TabIndex = 9;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = true;
             this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
+            // saveDlg
+            // 
+            this.saveDlg.DefaultExt = "xml";
+            this.saveDlg.Title = "Save the AppInfo DB fle";
+            // 
             // ConfigForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(577, 447);
+            this.ClientSize = new System.Drawing.Size(577, 413);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.btnSave);
@@ -290,7 +296,7 @@ namespace WinApt.ConfigTool
         private System.Windows.Forms.ColumnHeader Popularity;
         private System.Windows.Forms.Button btnLoad;
         private System.Windows.Forms.OpenFileDialog openDlg;
-        private System.Windows.Forms.SaveFileDialog saveDlg;
         private System.Windows.Forms.Button btnEdit;
+        private System.Windows.Forms.SaveFileDialog saveDlg;
     }
 }

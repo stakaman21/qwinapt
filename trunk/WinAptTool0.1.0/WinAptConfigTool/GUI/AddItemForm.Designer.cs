@@ -46,24 +46,24 @@ namespace WinApt.ConfigTool.GUI
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 11);
+            this.label1.Location = new System.Drawing.Point(8, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 13);
+            this.label1.Size = new System.Drawing.Size(29, 12);
             this.label1.TabIndex = 0;
             this.label1.Text = "Name";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(349, 11);
+            this.label3.Location = new System.Drawing.Point(349, 10);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 13);
+            this.label3.Size = new System.Drawing.Size(65, 12);
             this.label3.TabIndex = 2;
             this.label3.Text = "Popularity";
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(46, 15);
+            this.txtName.Location = new System.Drawing.Point(46, 14);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(158, 21);
             this.txtName.TabIndex = 6;
@@ -77,23 +77,23 @@ namespace WinApt.ConfigTool.GUI
             "3",
             "2",
             "1"});
-            this.cbPopularity.Location = new System.Drawing.Point(410, 12);
+            this.cbPopularity.Location = new System.Drawing.Point(410, 11);
             this.cbPopularity.Name = "cbPopularity";
-            this.cbPopularity.Size = new System.Drawing.Size(48, 21);
+            this.cbPopularity.Size = new System.Drawing.Size(48, 20);
             this.cbPopularity.TabIndex = 7;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(8, 44);
+            this.label2.Location = new System.Drawing.Point(8, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(20, 13);
+            this.label2.Size = new System.Drawing.Size(23, 12);
             this.label2.TabIndex = 8;
             this.label2.Text = "Url";
             // 
             // txtUrl
             // 
-            this.txtUrl.Location = new System.Drawing.Point(46, 44);
+            this.txtUrl.Location = new System.Drawing.Point(46, 41);
             this.txtUrl.Name = "txtUrl";
             this.txtUrl.Size = new System.Drawing.Size(412, 21);
             this.txtUrl.TabIndex = 9;
@@ -101,26 +101,26 @@ namespace WinApt.ConfigTool.GUI
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.rtxtDesc);
-            this.groupBox1.Location = new System.Drawing.Point(12, 71);
+            this.groupBox1.Location = new System.Drawing.Point(12, 66);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(446, 186);
+            this.groupBox1.Size = new System.Drawing.Size(446, 172);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Description";
             // 
             // rtxtDesc
             // 
-            this.rtxtDesc.Location = new System.Drawing.Point(6, 20);
+            this.rtxtDesc.Location = new System.Drawing.Point(6, 18);
             this.rtxtDesc.Name = "rtxtDesc";
-            this.rtxtDesc.Size = new System.Drawing.Size(434, 156);
+            this.rtxtDesc.Size = new System.Drawing.Size(434, 144);
             this.rtxtDesc.TabIndex = 0;
             this.rtxtDesc.Text = "";
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(129, 263);
+            this.btnOK.Location = new System.Drawing.Point(129, 243);
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(75, 23);
+            this.btnOK.Size = new System.Drawing.Size(75, 21);
             this.btnOK.TabIndex = 11;
             this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
@@ -128,9 +128,9 @@ namespace WinApt.ConfigTool.GUI
             // 
             // btnCancal
             // 
-            this.btnCancal.Location = new System.Drawing.Point(282, 263);
+            this.btnCancal.Location = new System.Drawing.Point(282, 243);
             this.btnCancal.Name = "btnCancal";
-            this.btnCancal.Size = new System.Drawing.Size(75, 23);
+            this.btnCancal.Size = new System.Drawing.Size(75, 21);
             this.btnCancal.TabIndex = 12;
             this.btnCancal.Text = "Cancal";
             this.btnCancal.UseVisualStyleBackColor = true;
@@ -139,24 +139,24 @@ namespace WinApt.ConfigTool.GUI
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(210, 12);
+            this.label4.Location = new System.Drawing.Point(210, 11);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(42, 13);
+            this.label4.Size = new System.Drawing.Size(47, 12);
             this.label4.TabIndex = 13;
             this.label4.Text = "Version";
             // 
             // txtVersion
             // 
-            this.txtVersion.Location = new System.Drawing.Point(258, 12);
+            this.txtVersion.Location = new System.Drawing.Point(258, 11);
             this.txtVersion.Name = "txtVersion";
             this.txtVersion.Size = new System.Drawing.Size(82, 21);
             this.txtVersion.TabIndex = 14;
             // 
             // AddItemForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(470, 298);
+            this.ClientSize = new System.Drawing.Size(470, 279);
             this.ControlBox = false;
             this.Controls.Add(this.txtVersion);
             this.Controls.Add(this.label4);
