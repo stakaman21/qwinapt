@@ -1,7 +1,0 @@
-bin\Debug\WinApt.exe
-bin\Debug\WinApt.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\WinApt.MainForm.resources
-obj\Debug\WinApt.csproj.GenerateResource.Cache
-obj\Debug\WinApt.exe
-obj\Debug\WinApt.pdb
