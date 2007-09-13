@@ -22,6 +22,7 @@ namespace WinApt.Client
 	public partial class MainForm : Form
 	{
         public static string configFile = "configDB.xml";
+        private string[] chars = { "★", "★★", "★★★", "★★★★", "★★★★★" };
         public static CmdMgr myCmdMgr = null;
         private bool initTag = true;
 
@@ -69,12 +70,12 @@ namespace WinApt.Client
                 //
                 ListViewItem lvitem = new ListViewItem();
                 int state = (int)item["state"];
-                lvitem.Checked = !(state == 0);
-                if (state == 2)
+                lvitem.Checked = !(state == WinAptLib.NoFile);
+                if (state == WinAptLib.NewVersion)
                     lvitem.ForeColor = Color.Red;
                 lvitem.Text = (string)item["name"];
                 lvitem.SubItems.Add((string)item["version"]);
-                lvitem.SubItems.Add("★★★");
+                lvitem.SubItems.Add(chars[(int)item["popular"]-1]);
                 lvitem.Tag = (int)item["index"];
                 lvApps.Items.Add(lvitem);
             }
@@ -93,7 +94,7 @@ namespace WinApt.Client
             int state = (int)item["state"];
             txtDesc.Text = (string)item["description"];
             txtDesc.AppendText("\n\nDownload Url:\n" + (string)item["url"]);
-            if (state == 2)
+            if (state == WinAptLib.NewVersion)
             {
                 txtDesc.AppendText("\nnew version: " + (string)item["version"] + "    " + (string)item["url"]);
             }
@@ -126,7 +127,7 @@ namespace WinApt.Client
                 {
                     myCmdMgr.SelectItems.Add(e.Item.Tag);
                 }
-                i.setState(1);
+                i.setState(WinAptLib.Downloaded);
             }
             else
             {
@@ -136,7 +137,7 @@ namespace WinApt.Client
                 {
                     myCmdMgr.DelectItems.Add(e.Item.Tag);
                 }
-                i.setState(0);
+                i.setState(WinAptLib.NoFile);
             }
             btnApply.Enabled = true;
         }
@@ -147,6 +148,10 @@ namespace WinApt.Client
         /// <param name="e"></param>
         private void btnApply_Click(object sender, EventArgs e)
         {
+            if (myCmdMgr.SelectItems.Count + myCmdMgr.DelectItems.Count == 0)
+            {
+                return;
+            }
             ExecuteForm exeForm = new ExecuteForm(myCmdMgr);
             exeForm.ShowDialog();
             //exeForm.Dispose();
@@ -158,8 +163,7 @@ namespace WinApt.Client
         {
             if (btnApply.Enabled)
             {
-                ExecuteForm exeForm = new ExecuteForm(myCmdMgr);
-                exeForm.ShowDialog();
+                btnApply_Click(sender, e);
                 //exeForm.Dispose();
             }
             Close();
@@ -185,12 +189,29 @@ namespace WinApt.Client
 
         private void btnProperty_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Bla, bla...");
+            MessageBox.Show("Nothing implement yet!");
         }
 
         private void btnHelp_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("WinApt tools.\nhttp://code.google.com/winapt");
+            AboutForm aboutFm = new AboutForm();
+            aboutFm.ShowDialog();
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            btnUpdate.Enabled = false;
+            btnOK.Enabled = false;
+            btnApply.Enabled = false;
+            UpdateForm upForm = new UpdateForm();
+            upForm.Show();
+            upForm.Update();
+            string content = WinAptLib.getPageContent(myCmdMgr.Config.updateUrl);
+            myCmdMgr.UpdateAppDB(content);
+            updateLvApp();
+            upForm.Dispose();
+            btnOK.Enabled = true;
+            btnApply.Enabled = true;
         }
 	}
 }

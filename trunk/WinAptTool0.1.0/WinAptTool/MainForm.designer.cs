@@ -68,6 +68,7 @@ namespace WinApt.Client
             this.colVersion = new System.Windows.Forms.ColumnHeader();
             this.colPop = new System.Windows.Forms.ColumnHeader();
             this.txtDesc = new System.Windows.Forms.RichTextBox();
+            this.btnUpdate = new System.Windows.Forms.Button();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -79,9 +80,9 @@ namespace WinApt.Client
             // lbType
             // 
             this.lbType.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbType.Location = new System.Drawing.Point(293, 14);
+            this.lbType.Location = new System.Drawing.Point(293, 15);
             this.lbType.Name = "lbType";
-            this.lbType.Size = new System.Drawing.Size(113, 21);
+            this.lbType.Size = new System.Drawing.Size(113, 23);
             this.lbType.TabIndex = 1;
             this.lbType.Text = "Show Type:";
             // 
@@ -92,25 +93,25 @@ namespace WinApt.Client
             "Free Software",
             "Green Software",
             "Share Software"});
-            this.cbTypes.Location = new System.Drawing.Point(396, 16);
+            this.cbTypes.Location = new System.Drawing.Point(396, 17);
             this.cbTypes.Name = "cbTypes";
-            this.cbTypes.Size = new System.Drawing.Size(243, 20);
+            this.cbTypes.Size = new System.Drawing.Size(243, 21);
             this.cbTypes.TabIndex = 2;
             this.cbTypes.SelectedIndexChanged += new System.EventHandler(this.cbTypes_SelectedIndexChanged);
             // 
             // lbSearch
             // 
             this.lbSearch.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbSearch.Location = new System.Drawing.Point(12, 14);
+            this.lbSearch.Location = new System.Drawing.Point(12, 15);
             this.lbSearch.Name = "lbSearch";
-            this.lbSearch.Size = new System.Drawing.Size(100, 21);
+            this.lbSearch.Size = new System.Drawing.Size(100, 23);
             this.lbSearch.TabIndex = 3;
             this.lbSearch.Text = "Search:";
             // 
             // txtSearch
             // 
             this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSearch.Location = new System.Drawing.Point(80, 16);
+            this.txtSearch.Location = new System.Drawing.Point(80, 17);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(207, 21);
             this.txtSearch.TabIndex = 4;
@@ -118,9 +119,9 @@ namespace WinApt.Client
             // btnHelp
             // 
             this.btnHelp.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHelp.Location = new System.Drawing.Point(11, 410);
+            this.btnHelp.Location = new System.Drawing.Point(11, 444);
             this.btnHelp.Name = "btnHelp";
-            this.btnHelp.Size = new System.Drawing.Size(80, 31);
+            this.btnHelp.Size = new System.Drawing.Size(80, 34);
             this.btnHelp.TabIndex = 7;
             this.btnHelp.Text = "&Help";
             this.btnHelp.UseVisualStyleBackColor = true;
@@ -129,9 +130,9 @@ namespace WinApt.Client
             // btnProperty
             // 
             this.btnProperty.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProperty.Location = new System.Drawing.Point(108, 410);
+            this.btnProperty.Location = new System.Drawing.Point(108, 444);
             this.btnProperty.Name = "btnProperty";
-            this.btnProperty.Size = new System.Drawing.Size(95, 31);
+            this.btnProperty.Size = new System.Drawing.Size(95, 34);
             this.btnProperty.TabIndex = 8;
             this.btnProperty.Text = "&Preferences";
             this.btnProperty.UseVisualStyleBackColor = true;
@@ -140,9 +141,9 @@ namespace WinApt.Client
             // btnApply
             // 
             this.btnApply.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnApply.Location = new System.Drawing.Point(363, 410);
+            this.btnApply.Location = new System.Drawing.Point(363, 444);
             this.btnApply.Name = "btnApply";
-            this.btnApply.Size = new System.Drawing.Size(80, 31);
+            this.btnApply.Size = new System.Drawing.Size(80, 34);
             this.btnApply.TabIndex = 9;
             this.btnApply.Text = "&Apply";
             this.btnApply.UseVisualStyleBackColor = true;
@@ -151,9 +152,9 @@ namespace WinApt.Client
             // btnCancal
             // 
             this.btnCancal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancal.Location = new System.Drawing.Point(460, 410);
+            this.btnCancal.Location = new System.Drawing.Point(460, 444);
             this.btnCancal.Name = "btnCancal";
-            this.btnCancal.Size = new System.Drawing.Size(80, 31);
+            this.btnCancal.Size = new System.Drawing.Size(80, 34);
             this.btnCancal.TabIndex = 10;
             this.btnCancal.Text = "&Cancal";
             this.btnCancal.UseVisualStyleBackColor = true;
@@ -162,9 +163,9 @@ namespace WinApt.Client
             // btnOK
             // 
             this.btnOK.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOK.Location = new System.Drawing.Point(558, 410);
+            this.btnOK.Location = new System.Drawing.Point(558, 444);
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(80, 31);
+            this.btnOK.Size = new System.Drawing.Size(80, 34);
             this.btnOK.TabIndex = 11;
             this.btnOK.Text = "&OK";
             this.btnOK.UseVisualStyleBackColor = true;
@@ -189,7 +190,7 @@ namespace WinApt.Client
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Location = new System.Drawing.Point(12, 41);
+            this.splitContainer1.Location = new System.Drawing.Point(12, 44);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -199,7 +200,7 @@ namespace WinApt.Client
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(627, 360);
+            this.splitContainer1.Size = new System.Drawing.Size(627, 390);
             this.splitContainer1.SplitterDistance = 209;
             this.splitContainer1.TabIndex = 13;
             // 
@@ -226,7 +227,7 @@ namespace WinApt.Client
             this.lvCatalog.Location = new System.Drawing.Point(0, 0);
             this.lvCatalog.MultiSelect = false;
             this.lvCatalog.Name = "lvCatalog";
-            this.lvCatalog.Size = new System.Drawing.Size(209, 360);
+            this.lvCatalog.Size = new System.Drawing.Size(209, 390);
             this.lvCatalog.SmallImageList = this.imgList1;
             this.lvCatalog.TabIndex = 0;
             this.lvCatalog.TileSize = new System.Drawing.Size(168, 29);
@@ -248,8 +249,8 @@ namespace WinApt.Client
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.txtDesc);
-            this.splitContainer2.Size = new System.Drawing.Size(414, 360);
-            this.splitContainer2.SplitterDistance = 207;
+            this.splitContainer2.Size = new System.Drawing.Size(414, 390);
+            this.splitContainer2.SplitterDistance = 224;
             this.splitContainer2.TabIndex = 0;
             // 
             // lvApps
@@ -264,10 +265,11 @@ namespace WinApt.Client
             this.lvApps.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvApps.FullRowSelect = true;
             this.lvApps.GridLines = true;
+            this.lvApps.HideSelection = false;
             this.lvApps.Location = new System.Drawing.Point(0, 0);
             this.lvApps.MultiSelect = false;
             this.lvApps.Name = "lvApps";
-            this.lvApps.Size = new System.Drawing.Size(414, 207);
+            this.lvApps.Size = new System.Drawing.Size(414, 224);
             this.lvApps.SmallImageList = this.imgList1;
             this.lvApps.TabIndex = 0;
             this.lvApps.UseCompatibleStateImageBehavior = false;
@@ -297,16 +299,28 @@ namespace WinApt.Client
             this.txtDesc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtDesc.Location = new System.Drawing.Point(0, 0);
             this.txtDesc.Name = "txtDesc";
-            this.txtDesc.Size = new System.Drawing.Size(414, 149);
+            this.txtDesc.Size = new System.Drawing.Size(414, 162);
             this.txtDesc.TabIndex = 0;
             this.txtDesc.Text = "";
             this.txtDesc.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.txtDesc_LinkClicked);
             // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.Location = new System.Drawing.Point(225, 444);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(80, 34);
+            this.btnUpdate.TabIndex = 14;
+            this.btnUpdate.Text = "&Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(647, 446);
+            this.ClientSize = new System.Drawing.Size(647, 483);
+            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.btnCancal);
@@ -321,7 +335,7 @@ namespace WinApt.Client
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "WinApt";
+            this.Text = "Quick WinApt Tool";
             this.Load += new System.EventHandler(this.MainFormLoad);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
@@ -351,5 +365,6 @@ namespace WinApt.Client
 		private System.Windows.Forms.Label lbSearch;
 		private System.Windows.Forms.ComboBox cbTypes;
         private System.Windows.Forms.Label lbType;
+        private System.Windows.Forms.Button btnUpdate;
 	}
 }

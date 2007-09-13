@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace WinAptConfigTool
+namespace WinApt.ConfigTool
 {
     static class Program
     {
@@ -14,7 +14,7 @@ namespace WinAptConfigTool
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new ConfigForm());
         }
     }
 }

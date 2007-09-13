@@ -86,7 +86,7 @@ namespace WinApt.Client.GUI
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ExecuteForm";
+            this.Text = "Apply Changes";
             this.ResumeLayout(false);
             this.PerformLayout();
 

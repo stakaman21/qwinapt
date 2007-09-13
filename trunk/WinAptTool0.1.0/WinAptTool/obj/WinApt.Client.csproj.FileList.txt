@@ -1,0 +1,16 @@
+bin\Debug\WinApt.Client.exe
+bin\Debug\WinApt.Client.pdb
+bin\Debug\FolderBrowser.dll
+bin\Debug\WinApt.Common.dll
+bin\Debug\WinApt.Common.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WinApt.Client.GUI.AboutForm.resources
+obj\Debug\WinApt.Client.GUI.ChoseForm.resources
+obj\Debug\WinApt.Client.GUI.ExecuteForm.resources
+obj\Debug\WinApt.Client.GUI.SplashForm.resources
+obj\Debug\WinApt.Client.GUI.UpdateForm.resources
+obj\Debug\WinApt.Client.MainForm.resources
+obj\Debug\WinApt.Client.Properties.Resources.resources
+obj\Debug\WinApt.Client.csproj.GenerateResource.Cache
+obj\Debug\WinApt.Client.exe
+obj\Debug\WinApt.Client.pdb

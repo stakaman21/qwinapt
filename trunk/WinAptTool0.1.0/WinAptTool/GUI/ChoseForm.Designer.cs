@@ -71,6 +71,7 @@ namespace WinApt.Client.GUI
             this.btnOK.TabIndex = 3;
             this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // openFileDialog1
             // 
@@ -92,7 +93,7 @@ namespace WinApt.Client.GUI
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "ChoseForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ChoseForm";
+            this.Text = "Config Tool";
             this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();

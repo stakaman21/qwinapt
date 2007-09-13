@@ -1,0 +1,5 @@
+bin\Debug\WinApt.Common.dll
+bin\Debug\WinApt.Common.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\WinApt.Common.dll
+obj\Debug\WinApt.Common.pdb

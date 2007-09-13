@@ -104,10 +104,10 @@ namespace WinApt.Parser
                 startPos = str.IndexOf("'>") + 2;
                 string catalog = str.Substring(startPos);
                 //find param
-                string param = "¡ï¡ï¡ï";
+                int popular = 3;
                 //if (retlist[i].Groups[1].Captures.Count > 4 )
                 //    param = retlist[i].Groups[1].Captures[4].Value;
-                this.myAppInfoDB.Add(new AppInfoBase(name, url, version, description, (string)catalogMap[catalog], "Free Software", param, ""));
+                this.myAppInfoDB.Add(new AppInfoBase(name, url, version, description, (string)catalogMap[catalog], "Free Software", popular, ""));
             }
         }
         /// <summary>

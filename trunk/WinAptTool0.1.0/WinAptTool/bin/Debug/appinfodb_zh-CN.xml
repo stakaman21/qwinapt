@@ -1,0 +1,2170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppInfoDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <updateUrl>http://qwinapt.googlecode.com/files/appinfodb_</updateUrl>
+  <Items>
+    <name>.NET_Framework_2.0</name>
+    <url>http://download.microsoft.com/download/5/6/7/567758a3-759e-473e-bf8f-52154438565a/dotnetfx.exe</url>
+    <version>2.0</version>
+    <description>The Microsoft .NET Framework version 2.0 redistributable package installs the .NET Framework runtime and associated files required to run applications developed to target the .NET Framework v2.0.</description>
+    <catalog>Other</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>1337player</name>
+    <url>http://www.daansystems.com/1337player/1337player.exe</url>
+    <version>Build 29</version>
+    <description>1337player is a small video player for Windows that fully utilizes
+DirectX9.
+
+Features:
+- Small in size.
+- Fully (and only) DirectX9 support.
+- Subtitle support.
+- Simple zooming.
+- Fast searching.
+- etc.etc. </description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>1by1</name>
+    <url>http://www.mpex.net/software/download.html?id=1by1&amp;u=http%3A%2F%2Fmp.mpex.net%2Ffiles%2F1by1_162.exe</url>
+    <version>1.62</version>
+    <description>1by1 is a small, fast and handy audio player which is not only small: it provides a smart and versatile environment to handle your file collection and listen to your tracks - with no need for playlists or databases. </description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>7zip</name>
+    <url>http://umn.dl.sourceforge.net/sourceforge/sevenzip/7z442.exe</url>
+    <version>4.42</version>
+    <description>7-Zip is a fast file archiver with high compression ratio.</description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>A-Mail</name>
+    <url>http://www.goodsoft.be/english/download/amail/amail.exe</url>
+    <version>2.4</version>
+    <description>You can use A-Mail to send anonymous mails from any email-adress to any email-adress. You just have to enter your SMTP-sever and information about the message.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>abiword</name>
+    <url>http://www.abisource.com/downloads/abiword/2.5.1/Windows/abiword-setup-2.5.1.exe</url>
+    <version>2.5.1</version>
+    <description>AbiWord 2.5.1 is an award winning, small, fast, featureful and crossplatform word processor. Get your copy today to experience the state of the art in word processing.</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>ACES</name>
+    <url>http://www.goodsoft.be/english/download/aces/aces.exe</url>
+    <version>1.0</version>
+    <description>ACES is a very fast program with only one function: convering your WAV files to MP3. It does this with incredible quality and speed.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>acrobatreader8</name>
+    <url>http://ardownload.adobe.com/pub/adobe/reader/win/8.x/8.1/enu/AdbeRdr810_en_US.exe</url>
+    <version>8.1</version>
+    <description>Adobe Acrobat PDF file reader.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>activeperl</name>
+    <url>http://downloads.activestate.com/ActivePerl/Windows/5.8/ActivePerl-5.8.7.815-MSWin32-x86-211909.msi</url>
+    <version>5.8.7.815</version>
+    <description>The Perl Programming Language</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>ad-aware</name>
+    <url>http://s3.amazonaws.com/edownload/free/en/win/aaw2007.exe</url>
+    <version>2007</version>
+    <description>This is a spyware removal utility that scans your memory, registry and hard drives for known spyware components and lets you remove them.</description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>alcohol52</name>
+    <url>http://85.17.36.30/Alcohol52_trial_1_9_5_3105.exe</url>
+    <version>1.9.5.3105</version>
+    <description>Alcohol 52% is ideally suited for Laptop use (no need to take your expensive discs along to a meeting where they can become misplaced). Ideal for school/office environments where access to an image file by workstation users would be an advantage.</description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>americas_army</name>
+    <url>http://soc.cdpa.nsysu.edu.tw/Army_Operations/AA28FullInstaller.exe</url>
+    <version>2.80</version>
+    <description>Free first person shooter putting users in the point of view of a US Army soldier.
+
+</description>
+    <catalog>Games</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>antivir_personal</name>
+    <url>http://www.free-av.com/down/windows/antivir_workstation_win7u_en_h.exe</url>
+    <version>7.0</version>
+    <description>Avira AntiVir Personal Edition Classic reliably protects your private computer against dangerous viruses, worms, Trojans and costly dialers. </description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>anydvd</name>
+    <url>http://static.slysoft.com/SetupAnyDVD.exe</url>
+    <version>6.0.6.1</version>
+    <description>AnyDVD is a driver, which unprotects DVD-Movies automatically in the background. This DVD appears unprotected and region code free for all applications and the Windows operating system as well. With AnyDVD's help copy tools like CloneDVD, Pinnacle Instant Copy, InterVideo DVD-Copy, etc. are able to copy CSS protected Movies. With the help of AnyDVD you can watch movies with non matching region codes with every DVD Player Software you like!</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>artrage2</name>
+    <url>http://www2.ambientdesign.com/files/ar2winfree.exe</url>
+    <version>2.0</version>
+    <description>ArtRage lets you do just that in an easy to use, stylish package that gets you painting from the moment you open it up. You can paint with oils, sketch with pencils, sprinkle glitter, and more. You can paint with gold leaf, silver foil, and other metallic colors. You can even load in your photos as Tracing Images to help you recreate them as paintings.</description>
+    <catalog>Graphics</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>camstudio</name>
+    <url>http://www.camstudio.org/CamStudio20.exe</url>
+    <version>2.0</version>
+    <description>CamStudio records activity from your screen and audio from a microphone into AVI video files and can also convert the AVIs into Streaming Flash videos (SWFs) using its built-in SWF Producer.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>CCleaner</name>
+    <url>http://www.ccleaner.com/download/</url>
+    <version>1.34.407</version>
+    <description>CCleaner (Crap Cleaner) is a freeware system optimization and privacy tool. It removes unused and temporary files from your system - allowing Windows to run faster, more efficiently and giving you more hard disk space.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>CDBurnerXP_Pro</name>
+    <url>http://www.cdburnerxp.se/downloadsetup.zip</url>
+    <version>3.0.116</version>
+    <description>With this software you can burn CD-R, CD-RW DVD R/RW DVD-R/RW discs. </description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>CDex</name>
+    <url>http://prdownloads.sourceforge.net/cdexos/cdex_151.exe?download</url>
+    <version>1.51</version>
+    <description>Open Source Digital Audio CD Extractor</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>centericq</name>
+    <url>http://konst.org.ua/download/centericq-4.21.0-win32.zip</url>
+    <version>4.21</version>
+    <description>Centericq is a text mode menu- and window-driven IM interface that supports the ICQ2000, Yahoo!, AIM, IRC, MSN, Gadu-Gadu and Jabber protocols.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>clamwin</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/clamwin/clamwin-0.90.2.1-setup.exe</url>
+    <version>0.90.2.1</version>
+    <description>MS Windows front-end to Clam Antivirus (http://www.clamav.net). Includes
+scheduler, virus database updates, standalone scanner, context menu
+integration to MS Windows Explorer and Addin to MS Outlook. Also
+features easy setup program.</description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>cleancenter</name>
+    <url>http://miniwish.com/cc_demo.exe</url>
+    <version>1.37.1</version>
+    <description>CleanCenter frees up disk space by deleting junk files. Each time you use your PC, unwanted files are created that use increasingly more space on your hard drive. CleanCenter can find more than 50 types of these files. </description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>cleartype</name>
+    <url>http://download.microsoft.com/download/b/7/0/b7019730-0fa3-47a9-a159-98b80c185aad/setup.exe</url>
+    <version>1.0</version>
+    <description>ClearType Tuner PowerToy for Windows XP</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>clonecd</name>
+    <url>http://static.slysoft.com/SetupCloneCD.exe</url>
+    <version>5.2.9.1</version>
+    <description>CloneCD is the ideal tool to make backup copies of your music- or data CDs, regardless if they are copy protected or not! CloneCD's award-winning user interface copies almost any CD in just a few mouse clicks! </description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>clonedvd</name>
+    <url>http://static.slysoft.com/SetupCloneDVD.exe</url>
+    <version>2.9.0.1</version>
+    <description>CloneDVD 2 copies movies in unparalleled picture quality. If it's only the main movie or a complete DVD - CloneDVD compresses even long footage in brilliant quality and at high speed: A special transcoding technology compresses your choice of DVD titles according to your audio and language selection automatically to a freely adjustable target size. Our unique Film Strip assistant will guide you step by step through all settings. With the help of the Video Preview you select the desired DVD titles and decide if you want to trim individual chapters. Quality bars show the direct influence of the title and language selection on the quality of the movie copy. Even beginners always keep track. Copy protected movie DVDs can only be copied with AnyDVD.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>clonedvd_mobile</name>
+    <url>http://static.slysoft.com/SetupCloneDVDmobile.exe</url>
+    <version>1.0.7.1</version>
+    <description>CloneDVD mobile converts your DVD movies quickly and easily into a format that your portable device (Sony PSP, Apple iPod Video, iAudio X5, Creative Labs ZEN Vision, etc) can play. You can also convert your DVDs to other file formats, such as DivX, XviD, AVI, MP4, etc. </description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>CPU-Z</name>
+    <url>http://www.cpuid.com/download/cpu-z-140.zip</url>
+    <version>1.40.5</version>
+    <description>CPU-Z is a freeware that gathers information on some of the main devices of your system.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>cybershredder</name>
+    <url>http://www.cylog.org/files/cshred110.exe.zip</url>
+    <version>1.10</version>
+    <description>CyberShredder is a quick, safe and handy utility that lets you erase confidential files from your computer permanently. Normal file deletion will remove a file's directory entry and allocation table information. The actual disk clusters that contained the file's data remains intact on your hard disk and can be recovered later. CyberShredder overwrites the space occupied from a file with random data and erases the file, so an unerase utility will never be able to recover it.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>cygwin</name>
+    <url>http://cygwin.com/setup.exe</url>
+    <version>1.5.18-1</version>
+    <description>Cygwin is a Linux-like environment for Windows.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>dbdesigner</name>
+    <url>http://213.115.162.124/external/DBDesigner4/DBDesigner4.0.5.6_Setup.exe</url>
+    <version>4.0.5.6</version>
+    <description>DBDesigner 4 is a visual database design system that integrates database design, modeling, creation and maintenance into a single, seamless environment.</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>dc++</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/dcplusplus/DCPlusPlus-0.687.exe</url>
+    <version>0.687</version>
+    <description>This is a project aimed at producing a C++ version of the popular DirectConnect client, enhancing on functionality and performance. Later on, a hub (server) is planned.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>DeepBurner</name>
+    <url>http://www.deepburner.com/download/DeepBurner1.exe</url>
+    <version>1.8</version>
+    <description>CD and DVD Burner</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>democracyplayer</name>
+    <url>http://ftp.osuosl.org/pub/pculture.org/democracy/win/Democracy_Installer.exe</url>
+    <version>0.9.6.1</version>
+    <description>Democracy Player is an Internet television application developed by the Participatory Culture Foundation. It can automatically download videos from RSS-based "channels", manage them and play them.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>dev-c++</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/dev-cpp/devcpp-4.9.9.2_setup.exe</url>
+    <version>5.0 beta 9.2 (4.9.9.2)</version>
+    <description>Bloodshed Dev-C++ is a full-featured Integrated Development Environment (IDE) for the C/C++ programming language. It uses Mingw port of GCC (GNU Compiler Collection) as its compiler. It creates native Win32 executables, either console or GUI. Dev-C++ can also be used in combination with Cygwin.</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>devpascal</name>
+    <url>http://www.bloodshed.net/dev/devpas192.exe</url>
+    <version>1.9.2</version>
+    <description>Dev-Pascal is a full-featured integrated development environment (IDE), which is able to create Windows or console-based Pascal programs using the Free Pascal or GNU Pascal compilers.</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>devphp</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/devphp/devphp2_2_0_300.exe</url>
+    <version>2.2.0.300</version>
+    <description>Dev-PHP is a full-featured integrated development environment (IDE), which is able to create scripts and applications using the PHP scripting language and the PHP-GTK library (both included in the "PHP Package").
+</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>Dexpot</name>
+    <url>http://dexpot.de/download/dexpot14.exe</url>
+    <version>1.4</version>
+    <description>Freeware - Virtual Desktop Manager - Dexpot 1.4 turns your monitor into up to 20. It creates and manages virtual desktops and enables you to work far more efficiently and comfortably with many simultaneously opened windows on Windows 95/98/ME and NT4/2000/XP/2003/Vista.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>discjuggler</name>
+    <url>http://www.epadus.com/download/dj/free/setup.exe</url>
+    <version>6.00.1400</version>
+    <description>DiscJuggler Professional Edition contains a wide array of CD/DVD creation, duplication, and extraction technologies. Following is a full list of features in DiscJuggler Professional Edition and a comparison chart of features between DiscJuggler.NET, DiscJuggler Professional Edition, and DiscJuggler Standard Edition.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>DVD_Shrink</name>
+    <url>ftp://ftp.planetmirror.com/pub/features/200702/dvdshrink/dvdshrink32setup.zip</url>
+    <version>3.2.0.15</version>
+    <description>DVD Shrink is software to backup DVD discs. You can use this software in conjunction with DVD burning software of your choice, to make a backup copy of any DVD video disc.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>eac</name>
+    <url>ftp://fx1.hrz.uni-dortmund.de/sw_data/su0165/EAC/eac-0.95b4.exe</url>
+    <version>0.95b4</version>
+    <description>Exact Audio Copy is a new audio grabber for CD-ROM drives.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>easyeclipse-php</name>
+    <url>http://sourceforge.net/project/downloading.php?group_id=131065&amp;filename=easyeclipse-php-1.2.2.exe</url>
+    <version>1.2.2</version>
+    <description>EasyEclipse for PHP contains the tools needed to start developing PHP code: the PHPEclipse IDE, some database tools, as well as Subclipse providing connectivity to Subversion.</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>eclipse</name>
+    <url>http://www.eclipse.org/downloads/download.php?file=/eclipse/downloads/drops/R-3.3-200706251500/eclipse-SDK-3.3-win32.zip&amp;r=1</url>
+    <version>3.3.0 Classic</version>
+    <description>Popular Java/C++/J2EE/PHP/RoR  Editor. Eclipse Classic is the is the most recent release from the Eclipse top-level project (it is what has traditionally been the main download on this site). It contains what you need to build applications based on Eclipse technology, including integrated development environments (IDE), and rich client applications using the Eclipse Rich Client Platform (RCP). The Eclipse Classic provides superior Java editing with incremental compilation, the Plug-in Development Environment (PDE), complete source code for the Eclipse Platform, and much more.</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>EditPlus</name>
+    <url>ftp://ftp.editplus.com/epp231_en.exe</url>
+    <version>2.31</version>
+    <description>EditPlus is an Internet-ready 32-bit text editor, HTML editor and programmers editor for Windows. While it can serve as a good replacement for Notepad, it also offers many powerful features for Web page authors and programmers.</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>elog</name>
+    <url>http://midas.psi.ch/elog/download/windows/elog-latest.exe</url>
+    <version>2.5.9</version>
+    <description>ELOG is part of a family of applications known as weblogs  . Their general purpose is :  1. to make it easy for people to put information online in a chronological fashion, in the form of short, time-stamped text messages ("entries") with optional HTML markup for presentation, and optional file attachments (images, archives, etc.)   2. to make it easy for other people to access this information through a Web interface, browse entries, search, download files, and optionally add, update, delete or comment on entries.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>emacs</name>
+    <url>http://ftp.gnu.org/pub/gnu/emacs/windows/emacs-22.1-bin-i386.zip</url>
+    <version>22.1</version>
+    <description>Emacs is the extensible, customizable, self-documenting real-time display editor.</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>emule</name>
+    <url>http://switch.dl.sourceforge.net/sourceforge/emule/eMule0.48a-Installer.exe</url>
+    <version>0.48a</version>
+    <description>eMule is a filesharing client which is based on the eDonkey2000 network but offers more features than the standard client</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>endlessonline</name>
+    <url>http://www.freegamesjungle.biz/dl/EOsetup027b.exe</url>
+    <version>0.27b</version>
+    <description>Endless is a 2d anime based online mmorpg. Once playing our online rpg you can become rich and famous, fight evil monsters, become a hero or live as a normal citizen. </description>
+    <catalog>Games</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>eragon_demo</name>
+    <url>ftp://ftp.sierra.com/pub/sierra/eragon/demos/eragon_demo_en.exe</url>
+    <version>DEMO</version>
+    <description>Official demo for eragon</description>
+    <catalog>Games</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>eraser</name>
+    <url>http://superb-west.dl.sourceforge.net/sourceforge/eraser/eraser53.zip</url>
+    <version>5.3</version>
+    <description>Eraser is a secure data removal tool, which allows you to remove sensitive data from your hard drive by overwriting it with carefully selected patterns. </description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>ethereal</name>
+    <url>http://www.ethereal.com/distribution/win32/ethereal-setup-0.99.0.exe</url>
+    <version>0.99.0</version>
+    <description>Ethereal is used by network professionals around the world for troubleshooting, analysis, software and protocol development, and education. It has all of the standard features  you would expect in a protocol analyzer, and several features not seen in any other product. Its open source license allows talented experts in the networking community to add enhancements. It runs on all popular computing platforms, including Unix, Linux, and Windows.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>EVE-Online</name>
+    <url>http://www.eve-online.com/download/client/</url>
+    <version>36800</version>
+    <description>EVE Online is host to the largest virtual universe in the world, and is the fastest-growing Massively Multi-Player Online Game (MMPOG) of the genre. Set tens of thousands of years in the future, EVE is a breathtaking journey to the stars, to an immersive experience filled with adventure, riches, danger, and glory.
+http://eve-online.com</description>
+    <catalog>Games</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>evolution</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/shellter/evolution-win32.exe</url>
+    <version>2.6.2</version>
+    <description>Evolution is an incredibly versatile email/calendar/PIM that took the Linux world by storm a few years ago. It has been called an 'Outlook replacement' by every tech site from ZDNet to InfoWorld. Evolution played a major roll in allowing the Linux desktop to move into the enterprise by giving being able to connect to Microsoft Exchange Server and schedule/accept Microsoft Outlook Meetings. Here's a screenshot of how it handles meeting invitations sent by Outlook.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>ext2-for-windows</name>
+    <url>http://www.fs-driver.org/download/Ext2IFS_1_10b.exe</url>
+    <version>1.10b</version>
+    <description>Provides Windows NT4.0/2000/XP with full access to Linux Ext2 volumes (read access and write access). This may be useful if you have installed both Windows and Linux as a dual boot environment on your computer.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>Ext2IF</name>
+    <url>http://www.fs-driver.org/download/Ext2IFS_1_10c.exe</url>
+    <version>1.10c</version>
+    <description>It provides Windows NT4.0/2000/XP/2003 with full access to Linux Ext2 volumes (read access and write access). This may be useful if you have installed both Windows and Linux as a dual boot environment on your computer.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>fear_combat</name>
+    <url>ftp://ftp.sierra.com/pub/sierra/fear/demo/fearcombat_en_107.exe</url>
+    <version>1.07</version>
+    <description>Free full blown multiplayer for Sierras F.E.A.R.</description>
+    <catalog>Games</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>fear_mp_demo</name>
+    <url>ftp://ftp.sierra.com/pub/sierra/fear/demo/fear_mpdemo_en.exe</url>
+    <version>1.10</version>
+    <description>FEAR single player demo.  One of the best new first person shooters.</description>
+    <catalog>Games</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>fear_sp_demo</name>
+    <url>ftp://ftp.sierra.com/pub/sierra/fear/demo/fear_spdemo_en.exe</url>
+    <version>1.10</version>
+    <description>FEAR single player demo.  One of the best new first person shooters.</description>
+    <catalog>Games</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>feedreader</name>
+    <url>http://kent.dl.sourceforge.net/sourceforge/feedreader/FeedReader290Setup.exe</url>
+    <version>2.90</version>
+    <description>Feedreader is a lightweight open-source aggregator that supports RSS and ATOM formats. It works under Windows 95 and later versions.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>FFDShow</name>
+    <url>http://www.free-codecs.com/download_soft.php?d=2215</url>
+    <version>2006-08-28 (rev. 2546)</version>
+    <description>FFDSHOW is a DirectShow decoding filter for decompressing DivX, XviD, WMV, MPEG-1 and MPEG-2 movies</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>filezilla</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/filezilla/FileZilla_2_2_17_setup.exe</url>
+    <version>2.2.32</version>
+    <description>FileZilla is a fast FTP and SFTP client for Windows with a lot of features. FileZilla Server is a reliable FTP server.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>filezilla_server</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/filezilla/FileZilla_Server-0.9.11.exe</url>
+    <version>0.9.23</version>
+    <description>FileZilla is a fast FTP and SFTP client for Windows with a lot of features. FileZilla Server is a reliable FTP server.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>firebird</name>
+    <url>http://prdownloads.sourceforge.net/firebird/Firebird-2.0.1.12855-1-Win32.exe</url>
+    <version>2.0.1</version>
+    <description>Firebird is a RDBMS offering many ANSI SQL features. It runs on Linux, Windows and a variety of Unix platforms, offering excellent concurrency, high performance and powerful language support for stored procedures and triggers. WEBSITE: click HOME button.</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>firefox</name>
+    <url>http://download.mozilla.org/?product=firefox-2.0.0.6&amp;os=win&amp;lang=en-US</url>
+    <version>2.0.0.6</version>
+    <description>Firefox empowers you to browse faster, more safely and more efficiently than with any other browser.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>Firefox-fr</name>
+    <url>http://download.mozilla.org/?lang=fr&amp;product=firefox-2.0.0.6&amp;os=win</url>
+    <version>2.0.0.6</version>
+    <description>Firefox empowers you to browse faster, more safely and more efficiently than with any other browser.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>flashget</name>
+    <url>http://down5.flashget.com/fgf172.exe</url>
+    <version>1.712</version>
+    <description>FlashGet can split downloaded files into sections, downloading each section simultaneously, for an increase in downloading speed from 100% to 500%. This, coupled with FlashGet's powerful and easy-to-use management features, helps you take control of your downloads like never before.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>flash_player</name>
+    <url>http://fpdownload.macromedia.com/get/flashplayer/current/install_flash_player.exe</url>
+    <version>9,0,45,0</version>
+    <description>Macromedia Flash Player is the high performance, lightweight, highly expressive client runtime that delivers powerful and consistent user experiences across major operating systems, browsers, mobile phones and devices.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>fontpack1</name>
+    <url>http://ryan.shinola.org/files/fontpacks/fontpack1.zip</url>
+    <version>1.0</version>
+    <description>Set 1. Extract into your windows fonts dirrectory.</description>
+    <catalog>Other</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>fontpack2</name>
+    <url>http://ryan.shinola.org/files/fontpacks/fontpack2.zip</url>
+    <version>1.0</version>
+    <description>Set 2. Extract into your windows fonts dirrectory</description>
+    <catalog>Other</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>Foobar</name>
+    <url>http://www.foobar2000.org/foobar2000_0.9.4.3.exe</url>
+    <version>0.9.4.3</version>
+    <description>A very good Audio Player</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>Foxit_PDF_Creator</name>
+    <url>http://download.foxitsoftware.com/addon/manual_download/foxitcreator_setup.exe</url>
+    <version>1.0</version>
+    <description>PDF Creator</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>Foxit_PDF_Reader</name>
+    <url>http://us03.foxitsoftware.com/foxitreader/FoxitReader21_setup.exe</url>
+    <version>2.1</version>
+    <description>A fast and slim pdf reader.</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>fpc</name>
+    <url>ftp://ftp.freepascal.org/pub/fpc/dist/i386-win32-2.0.4/fpc-2.0.4.i386-win32.exe</url>
+    <version>2.0.4</version>
+    <description>Free Pascal (aka FPK Pascal) is a 32 and 64 bit professional Pascal compiler. It is available for different processors: Intel x86, Amd64/x86 64, PowerPC, Sparc. The discontinued 1.0 version also supports the Motorola 680x0. The following operating systems are supported: Linux, FreeBSD, Mac OS X/Darwin, Mac OS classic, DOS, Win32, OS/2, Netware (libc and classic) and MorphOS.</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>Freemind</name>
+    <url>http://umn.dl.sourceforge.net/sourceforge/freemind/FreeMind-Windows-Installer-0_8_0-max.exe</url>
+    <version>0.8.0</version>
+    <description>Open Mindmapping tool</description>
+    <catalog>Other</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>geoshell</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/geoshell/GeoShell_R4.11.10_Setup.exe</url>
+    <version>4.11.10</version>
+    <description>GeoShell is a replacement shell for Windows� to replace the standard desktop interface.</description>
+    <catalog>Other</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>gimp</name>
+    <url>http://downloads.sourceforge.net/gimp-win/gimp-2.2.17-i586-setup.exe</url>
+    <version>2.2.17</version>
+    <description>GIMP is the GNU Image Manipulation Program. It is a freely distributed piece of software for such tasks as photo retouching, image composition and image authoring. It works on many operating systems, in many languages.</description>
+    <catalog>Graphics</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>google_desktop</name>
+    <url>http://desktop.google.com/GoogleDesktopSetup.exe</url>
+    <version>2.0</version>
+    <description>Google Desktop gives you easy access to information on your computer and from the web. It's a desktop search application that provides full text search over your email, computer files, music, photos, chats and web pages that you've viewed. By making your computer searchable, Google Desktop puts your information easily within your reach and frees you from having to manually organize your files, emails and bookmarks. It makes searching your computer as easy as searching the web with Google.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>google_earth</name>
+    <url>http://desktop.google.com/download/earth/GoogleEarthSetup.exe</url>
+    <version>1.0</version>
+    <description>Google Earth puts a planet's worth of imagery and other geographic information right on your desktop. View exotic locales like Maui and Paris as well as points of interest such as local restaurants, hospitals, schools, and more.</description>
+    <catalog>Other</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>google_talk</name>
+    <url>http://dl.google.com/googletalk/googletalk-setup.exe</url>
+    <version>1.0</version>
+    <description>They say talk is cheap. Google thinks it should be free. Google Talk enables you to call or send instant messages to your friends for free�anytime, anywhere in the world. Google Talk offers you:</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>gpg4win</name>
+    <url>http://ftp.gpg4win.org/gpg4win-1.0.0.exe</url>
+    <version>1.0.0</version>
+    <description>GnuPG is the GNU project's complete and free implementation of the OpenPGP standard as defined by RFC2440 . GnuPG allows to encrypt and sign your data and communcation, features a versatile key managment system as well as access modules for all kind of public key directories. GnuPG, also known as GPG, is a command line tool with features for easy integration with other applications. A wealth of frontend applications  and libraries  are available.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>grabit</name>
+    <url>http://www.shemes.com/download_latest_release.php</url>
+    <version>1.5.3</version>
+    <description>Tired of downloading megabytes of headers just to see if there is anything available you want? Try the new GrabIt search and you will never use Usenet like you did before! Instantly find and download all posts on Usenet matching your search keywords!</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>gtk</name>
+    <url>http://umn.dl.sourceforge.net/sourceforge/gimp-win/gtk+-2.10.11-setup.exe</url>
+    <version>2.10.11</version>
+    <description>The Gimp Tool Kit</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>gvim</name>
+    <url>ftp://ftp.vim.org/pub/vim/pc/gvim64.exe</url>
+    <version>6.4</version>
+    <description>VIM adds many of the features that you would expect in an editor: Unlimited undo, syntax colouring, split windows, visual selection, graphical user interface (read: menus, mouse control, scrollbars, text selection), and much much more.</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>hamachi</name>
+    <url>http://files.hamachi.cc/HamachiSetup-0.9.9.9-en.exe</url>
+    <version>0.9.9.9</version>
+    <description>With Hamachi you can organize two or more computers with an Internet connection into their own virtual network for direct secure communication. </description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>HiJackThis</name>
+    <url>http://www.trendsecure.com/portal/en-US/threat_analytics/HJTInstall.exe</url>
+    <version>2.0.2</version>
+    <description>Trend Micro� HijackThis�is a free utility that generates an in depth report of registry and file settings from your computer. HijackThis makes no separation between safe and unsafe settings in its scan results giving you the ability to selectively remove items from your machine. In addition to this scan and remove capability HijackThis comes with several tools useful in manually removing malware from a computer.</description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>icq</name>
+    <url>http://ftp.icq.com/pub/ICQ_Win95_98_NT4/ICQ_5/icq5_setup.exe</url>
+    <version>5.0</version>
+    <description>ICQ is a very popular instant messaging software package.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>imagemagick</name>
+    <url>http://umn.dl.sourceforge.net/sourceforge/imagemagick/ImageMagick-6.3.4-9.zip</url>
+    <version>6.3.4-9</version>
+    <description>ImageMagick, version 6.2.5, is a free software suite to create, edit, and compose bitmap images. It can read, convert and write images in a large variety of formats. Images can be cropped, colors can be changed, various effects can be applied, images can be rotated and combined, and text, lines, polygons, ellipses and Bezier curves can be added to images and stretched and rotated.</description>
+    <catalog>Graphics</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>imgburn</name>
+    <url>http://download.imgburn.com/SetupImgBurn_2.3.2.0.exe</url>
+    <version>v2.3.2.0</version>
+    <description>ImgBurn is a lightweight CD / DVD / HD DVD / Blu-ray burning application that everyone should have in their toolkit!</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>InfranView</name>
+    <url>http://mirror3.free-downloads.net/8484/iview399.exe</url>
+    <version>Version 4.00</version>
+    <description>Infranview is a great image manipulation program</description>
+    <catalog>Graphics</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>inkscape</name>
+    <url>http://internap.dl.sourceforge.net/sourceforge/inkscape/Inkscape-0.43-2.win32.exe</url>
+    <version>0.43</version>
+    <description>A Linux &amp; Windows vector graphics editor (SVG format) featuring transparency, gradients, node editing, pattern fills, PNG export, and more. Aiming for capabilities similar to Illustrator, CorelDraw, Visio, etc.</description>
+    <catalog>Graphics</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>inno_setup</name>
+    <url>http://www.jrsoftware.org/download.php/is.exe</url>
+    <version>5.1.12</version>
+    <description>Inno Setup is a free installer for Windows programs. First introduced in 1997, Inno Setup today rivals and even surpasses many commercial installers in feature set and stability.</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>IrfanView_PlugIns</name>
+    <url>http://irfanview.tuwien.ac.at/plugins/irfanview_plugins_398.exe</url>
+    <version>3.98</version>
+    <description>plugins for IrfanView</description>
+    <catalog>Graphics</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>iso_recorder</name>
+    <url>http://isorecorder.alexfeinman.com/download/ISORecorderV2RC1.msi</url>
+    <version>2.0</version>
+    <description>ISO Recorder is a tool for Windows XP, 2003 and now Windows Vista, that allows you to burn CD and DVD images, copy disks, make images of the existing data CDs and DVDs and create ISO images from a content of a disk folder.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>itunes</name>
+    <url>http://appldnld.apple.com.edgesuite.net/content.info.apple.com/iTunes7/Win/061-3489.20070604.pNBq3/iTunesSetup.exe</url>
+    <version>2007</version>
+    <description>Buy music, movies, TV shows, and audiobooks, or download free podcasts from the iTunes Store 24 hours a day, 7 days a week. Organize and play everything on your Mac or PC. Then sync it to your iPod and bring it along. Anywhere.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>joint_taskforce_demo</name>
+    <url>ftp://ftp.sierra.com/pub/sierra/jtf/demos/jtf_demo.exe</url>
+    <version>English Demo</version>
+    <description>Official english demo for joint task force.</description>
+    <catalog>Games</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>kerio_personal_firewall</name>
+    <url>http://www.sunbelt-software.com/evaluation/440/kerio.exe</url>
+    <version>4.3.246</version>
+    <description>Kerio Personal Firewall (KPF) is a software agent that builds a barrier between your personal computer and the Internet. It is designed to protect your PC against attacks from both the Internet and other computers in the local network. It controls all data flow in both directions from the Internet to your computer and vice versa, and it can block all attempted communication allowing only what you choose to permit. This makes it an ideal solution for notebook computers that freely travel in and out of the corporate network, facing exposure to various risks as they connect from different locations.</description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>Keybreeze</name>
+    <url>http://www.keybreeze.com/downloads/Keybreeze-Setup-Beta.exe</url>
+    <version>3.0</version>
+    <description>Once you press the hotkey, type entries to ...
+
+    * Open files, folders, and websites.
+    * Search your computer.
+    * Search websites.
+    * Perform system tasks.
+    * Control windows on your screen.
+    * Paste custom text into a text field.
+    * Automate actions.
+    * Create notes; set reminders.
+    * Launch plug-ins.
+</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>klite</name>
+    <url>http://www.free-codecs.com/download_soft.php?d=3688&amp;s=95</url>
+    <version>3.30</version>
+    <description>K-Lite Codec Pack is a collection of codecs and related tools. The K-Lite Codec Pack is designed as a user-friendly solution for playing all your movie files.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>knoppix</name>
+    <url>ftp://mirror.switch.ch/mirror/knoppix/KNOPPIX_V5.1.0CD-2006-12-30-EN.iso</url>
+    <version>5.1.0</version>
+    <description>KNOPPIX is a bootable Live system on CD or DVD, consisting of a representative collection of GNU/Linux software, automatic hardware detection, and support for many graphics cards, sound cards, SCSI and USB devices and other peripherals. KNOPPIX can be used as a productive Linux system for the desktop, educational CD, rescue system, or adapted and used as a platform for commercial software product demos. It is not necessary to install anything on a hard disk. Due to on-the-fly decompression, the CD can have up to 2 GB of executable software installed on it (over 8GB on the DVD "Maxi" edition).</description>
+    <catalog>Other</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>Kompozer</name>
+    <url>http://prdownloads.sourceforge.net/kompozer/kompozer-077-win32.exe</url>
+    <version>0.7.7</version>
+    <description>KompoZer is a wysiwyg HTML editor (Nvu/Composer fork) aimed towards advanced users. It is considered an unofficial bug-fix release for Nvu.</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>lame</name>
+    <url>http://download.overnet.org/lame/lame-3.96.1.zip</url>
+    <version>3.96.1</version>
+    <description>LAME is an LGPL MP3 encoder. The Open source development model allowed to improve its quality and speed since 1999. It is now an highly evolved MP3 encoder, with quality and speed able to rival state of the art commercial encoders.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>Launchy</name>
+    <url>http://internap.dl.sourceforge.net/sourceforge/launchy/LaunchySetup125.exe</url>
+    <version>1.25</version>
+    <description>Fast program access.
+
+Bringing power of CLI to GUI.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>lazarus</name>
+    <url>http://umn.dl.sourceforge.net/sourceforge/lazarus/Lazarus-0.9.22-fpc-2.0.4-20070326-win32.exe</url>
+    <version>9.22</version>
+    <description> Lazarus is the class libraries for Free Pascal that emulate Delphi. Free Pascal is a GPL'ed compiler that runs on Linux, Win32, OS/2, 68K and more. Free Pascal is designed to be able to understand and compile Delphi syntax, which is of course OOP. Lazarus is the part of the missing puzzle that will allow you to develop Delphi like programs in all of the above platforms. Unlike Java which strives to be a write once run anywhere, Lazarus and Free Pascal strives for write once compile anywhere. Since the exact same compiler is available on all of the above platforms it means you don't need to do any recoding to produce identical products for different platforms.</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>links</name>
+    <url>http://artax.karlin.mff.cuni.cz/~mikulas/links/download/binaries/win32/links-0.98.exe</url>
+    <version>0.98</version>
+    <description>Links is an open source text and graphic web browser with a pull-down menu system. It renders complex pages (partial HTML 4.0 support including tables and frames, support for multiple character sets), supports color and monochrome terminals and allows horizontal scrolling.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>linkshot</name>
+    <url>http://ryan.shinola.org/files/linkshot/LinkShot.exe</url>
+    <version>1.0</version>
+    <description>LinkShot is a light weight tool for creating thumbnails of webpages.  </description>
+    <catalog>Graphics</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>litestep</name>
+    <url>http://www.litestep.net//upload/lsdev/LiteStep_Installer_omar_3.0.2_1-79.zip</url>
+    <version>3.0.2</version>
+    <description>LiteStep is an explorer replacement. It allows you to customize the look and feel of your desktop.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>lockiteasy</name>
+    <url>http://www.cososys.com/download/lie/1-0-0-0/LockItEasy.exe</url>
+    <version>1.2.4.0</version>
+    <description>Lock it Easy protects your data the way you want it: simple, fast and secure. With the partitioning function you decide the size of each of your USB Flash Drive's partitions.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>mediacoder</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/mediacoder/MediaCoder-0.3.9-20060607.zip</url>
+    <version>0.3.9 (20060607)</version>
+    <description>MediaCoder is a free universal audio/video batch transcoder, putting together lots of excellent audio/video codecs and tools from the open source community into an all-in-one solution, capable of transcoding among different audio/video formats with many extra features.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>Media_Player_Classic</name>
+    <url>http://downloads.sourceforge.net/guliverkli/mpc98me6490.zip</url>
+    <version>6.4.9.0</version>
+    <description>Media Player Classic is an extremely light-weight media player for Windows. It looks just like the good-old Media Player v6.4, but has lots of nice extra features.
+Media Player Classic has, for instance, a built-in DVD player with real-time zoom, support for AVI subtitles, QuickTime and RealVideo support (requires QT and/or Real player), and lots more.
+Definitely a great replacement for the huge and clumsy Microsoft Media Players. </description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>mimedefang</name>
+    <url>http://www.mimedefang.org/static/mimedefang-2.56.tar.gz</url>
+    <version>2.56</version>
+    <description>MIMEDefang is a framework for filtering e-mail. It uses Sendmail's "Milter" API, some C glue code, and some Perl code to let you write high-performance mail filters in Perl.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>Miranda_IM</name>
+    <url>http://superb-west.dl.sourceforge.net/sourceforge/miranda/miranda-im-v0.6.8-unicode.exe</url>
+    <version>0.6.8</version>
+    <description>Small Fast IM client</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>mirc</name>
+    <url>http://mirc.stealth.net/download/mirc621.exe</url>
+    <version>6.21</version>
+    <description>To use IRC you need a small program like mIRC, an IRC client for Windows, written by Khaled Mardam-Bey. mIRC is a friendly IRC client that is well equipped with options and tools. mIRC is shareware, which means that you can download mIRC and try it out freely for 30 days to evaluate it. If during, or at the end of, the evaluation period you decide that you would like to continue using mIRC, you must register your copy.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>mp3gain</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/mp3gain/mp3gain-win-1_2_5.exe</url>
+    <version>1.2.5</version>
+    <description>Tired of reaching for your volume knob every time your mp3 player changes to a new song? MP3Gain analyzes and adjusts mp3 files so that they have the same volume. MP3Gain does not just do peak normalization, as many normalizers do. Instead, it does some statistical analysis to determine how loud the file actually sounds to the human ear. Also, the changes MP3Gain makes are completely lossless. There is no quality lost in the change because the program adjusts the mp3 file directly, without decoding and re-encoding.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>MSVisualCPP_Express</name>
+    <url>http://go.microsoft.com/fwlink/?LinkId=51410&amp;clcid=0x409</url>
+    <version>2005</version>
+    <description>Microsoft Visual C++ Express 2005</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>MSVisualCSharp_Express</name>
+    <url>http://go.microsoft.com/fwlink/?LinkId=51411&amp;clcid=0x409</url>
+    <version>2005</version>
+    <description>Microsoft Visual C Sharp 2005 Express</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>mysql</name>
+    <url>ftp://mirror.x10.com/mysql/Downloads/MySQL-5.0/mysql-5.0.41-win32.zip</url>
+    <version>5.0.41</version>
+    <description>The world's most popular open source database</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>mysqlcc</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/mysqlcc/mysqlcc-0.9.2-win32.zip</url>
+    <version>0.9.2</version>
+    <description>MySQL Control Center is a GUI client for the most popular Open Source SQL database - MySQL. MySQL Control Center is developed and provided by MySQL AB - a commercial company that builds its business providing services around the MySQL database.</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>mysql_administrator</name>
+    <url>http://dev.mysql.com/get/Downloads/MySQLAdministrationSuite/mysql-administrator-1.1.5-win.msi/from/http://mysql.he.net/</url>
+    <version>1.1.5</version>
+    <description>MySQL Administrator is a program for performing administrative operations, such as configuring your MySQL server, monitoring its status and performance, starting and stopping it, managing users and connections, performing backups, and a number of other administrative tasks.</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>mysql_querybrowser</name>
+    <url>http://dev.mysql.com/get/Downloads/MySQLAdministrationSuite/mysql-query-browser-1.1.17-win.msi/from/http://mysql.he.net/</url>
+    <version>1.1.17</version>
+    <description>The MySQL Query Browser is a graphical tool provided by MySQL AB for creating, executing, and optimizing queries in a graphical environment. Where the MySQL Administrator is designed to administer a MySQL server, the MySQL Query Browser is designed to help you query and analyze data stored within your MySQL database.</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>nero</name>
+    <url>ftp://nero-mirror.com/software/Nero7/current/ftp://nero-mirror.com/software/Nero7/current/Nero-7.9.6.0_all_update.exe</url>
+    <version>7.9.6.0</version>
+    <description>Trial DVD and CD burning software.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>netbeans</name>
+    <url>http://us1.mirror.netbeans.org/download/5_5_1/fcs/200704122300/netbeans-5_5_1-windows.exe</url>
+    <version>5.5.1</version>
+    <description>The NetBeans Integrated Development Environment(IDE) is a fast and feature-rich tool for developing Java software. It is standards-compliant and runs on any operating system where a Java Virtual Machine is available. While the IDE is modular(its functionality can be extended by plug- ins), the focus of netbeans.org is on providing all the tools a Java developer needs in one download, with no additional set-up or configuration needed to begin productive work quickly. The base product includes support for desktop(AWT/Swing), web tier (Servlets/JSP/JSF/Struts) and Java Enterprise Edition(EJB and web Services) development, and bundles a database and Java EE application server.</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>netscape</name>
+    <url>http://ftp.netscape.com/pub/netscape8/english/8.0/windows/win32/nsb-setup.exe</url>
+    <version>8.0</version>
+    <description>Another browser.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>netstumbler</name>
+    <url>http://www.netstumbler.com/downloads/netstumblerinstaller_0_4_0.exe</url>
+    <version>0.4.0</version>
+    <description>NetStumbler is a tool for Windows that allows you to detect Wireless Local Area Networks (WLANs) using 802.11b, 802.11a and 802.11g.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>nmap</name>
+    <url>http://download.insecure.org/nmap/dist/nmap-4.21ALPHA4-setup.exe</url>
+    <version>4.21 Alpha 4</version>
+    <description>Nmap ("Network Mapper") is a free open source utility for network exploration or security auditing. It was designed to rapidly scan large networks, although it works fine against single hosts. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. Nmap runs on most types of computers and both console and graphical versions are available. Nmap is free software, available with full source code under the terms of the GNU GPL.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>notepad++</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/notepad-plus/npp.3.3.Installer.exe</url>
+    <version>3.3</version>
+    <description>Notepad++ is a free source code editor which supports several programming languages running under the MS Windows environment.</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>notepad2</name>
+    <url>http://www.flos-freeware.ch/zip/notepad2.zip</url>
+    <version>2.0.16</version>
+    <description>A fast and light-weight Notepad-like text editor with syntax highlighting.</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>nsis</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/nsis/nsis-2.16-setup.exe</url>
+    <version>2.16</version>
+    <description>NSIS (Nullsoft Scriptable Install System) is a professional open-source tool for the development of Windows installers. It is designed to be as small and flexible as possible and is therefore highly suitable for internet distribution.</description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>nvidia_forceware</name>
+    <url>http://download.nvidia.com/Windows/84.21/84.21_forceware_winxp2k_english_whql.exe</url>
+    <version>84.21</version>
+    <description>Nvidia graphics driver for windows 2000 and xp.</description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>NVU</name>
+    <url>http://cvs.nvu.com/download/nvu-1.0-win32-installer-full.exe</url>
+    <version>1.0</version>
+    <description>A complete Web Authoring System for Linux desktop users as well as Microsoft Windows and Macintosh users to rival programs like FrontPage and Dreamweaver. Nvu (which stands for "new view") makes managing a web site a snap. Now anyone can create web pages and manage a website with no technical expertise or knowledge of HTML.
+
+</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>openoffice</name>
+    <url>http://openoffice.bouncer.osuosl.org/?product=OpenOffice.org&amp;os=winwjre&amp;lang=en-US&amp;version=2.2.0</url>
+    <version>2.2.3</version>
+    <description>OpenOffice.org is a multiplatform and multilingual office suite and an open-source project. Compatible with all other major office suites, the product is free to download, use, and distribute.</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>openvpn</name>
+    <url>http://openvpn.net/release/openvpn-2.0.5-install.exe</url>
+    <version>2.1.b7</version>
+    <description>OpenVPN is a full-featured SSL VPN solution which can accomodate a wide range of configurations, including remote access, site-to-site VPNs, WiFi security, and enterprise-scale remote access solutions with load balancing, failover, and fine-grained access-controls</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>opera</name>
+    <url>http://www.opera.com/download/get.pl?id=29737&amp;location=201&amp;nothanks=yes&amp;sub=marine</url>
+    <version>9.23</version>
+    <description>The most full-featured Internet power tool on the market, Opera includes pop-up blocking, tabbed browsing, integrated searches, and advanced functions like Opera's groundbreaking E-mail program, RSS  Newsfeeds and IRC chat. And because we know that our users have different needs, you can customize the look and content of your Opera browser with a few clicks of the mouse.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>paint.net</name>
+    <url>http://www.skyorb.com/downloads/pdn3_08fileM/Paint.NET_3_08_SkyOrb.exe</url>
+    <version>3.08</version>
+    <description>Paint.NET is image and photo manipulation software designed to be used on computers that run Windows 2000, XP, Vista, or Server 2003. It supports layers, unlimited undo, special effects, and a wide variety of useful and powerful tools.</description>
+    <catalog>Graphics</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>passwordsafe</name>
+    <url>http://umn.dl.sourceforge.net/sourceforge/passwordsafe/pwsafe-3.08.exe</url>
+    <version>3.08</version>
+    <description>Password Safe is an Open Source (free) tool that allows you to have a different password for all the different programs and websites that you deal with, without actually having to remember all those usernames and passwords.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>pcinspector</name>
+    <url>http://download.pcinspector.de/pci_filerecovery.exe</url>
+    <version>4.00</version>
+    <description>PC INSPECTOR? File Recovery 4.x is a data recovery program that supports the FAT 12/16/32 and NTFS file systems. </description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>pdfcreator</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/pdfcreator/PDFCreator-0_9_0_AFPLGhostscript_32bit.msi</url>
+    <version>0.9.0</version>
+    <description>PDFCreator is a free tool to create PDFs easily from nearly any application. With the PDFCreator Printer driver you turn any program into a PDF-machine</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>photo_resize</name>
+    <url>http://www.rw-designer.com/NT/1.4/PhotoResize400.exe</url>
+    <version>1.4</version>
+    <description>An easy-to-use and free tool for batch resizing of JPG pictures and photos.</description>
+    <catalog>Graphics</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>phpdesigner</name>
+    <url>http://mpsoftware.zerovektor.com/phpdesigner2006beta_setup.exe</url>
+    <version>2006</version>
+    <description>PHP Designer 2006 is a powerful PHP editor designed to provide you with the complete set of tools you need for PHP coding.</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>picasa</name>
+    <url>http://dl.google.com/picasa/picasa2-current.exe</url>
+    <version>2.0</version>
+    <description>Picasa is software that helps you instantly find, edit and share all the pictures on your PC. Every time you open Picasa, it automatically locates all your pictures (even ones you forgot you had) and sorts them into visual albums organized by date with folder names you will recognize. You can drag and drop to arrange your albums and make labels to create new groups. Picasa makes sure your pictures are always organized.</description>
+    <catalog>Graphics</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>pidgin</name>
+    <url>http://downloads.sourceforge.net/pidgin/pidgin-2.0.1.exe</url>
+    <version>2.0.1</version>
+    <description>A multi-protocol instant messaging (IM) client</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>povray</name>
+    <url>http://www.povray.org/redirect/www.povray.org/ftp/pub/povray/Official/Windows/povwin36.exe</url>
+    <version>3.6.1</version>
+    <description>The Persistence of Vision Raytracer is a high-quality, totally free tool for creating stunning three-dimensional graphics. It is available in official versions for Windows, Mac OS/Mac OS X and i86 Linux. The source code is available for those wanting to do their own ports.</description>
+    <catalog>Graphics</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>privoxy</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/ijbswa/privoxy_setup_3_0_3-2.exe</url>
+    <version>3.0.3</version>
+    <description>Privoxy is a web proxy with advanced filtering capabilities for protecting privacy, modifying web page content, managing cookies, controlling access, and removing ads, banners, pop-ups and other obnoxious Internet junk. Privoxy has a very flexible configuration and can be customized to suit individual needs and tastes. Privoxy has application for both stand-alone systems and multi-user networks.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>process_explorer_nt</name>
+    <url>http://www.sysinternals.com/Files/ProcessExplorerNt.zip</url>
+    <version>v10.06</version>
+    <description>Process Explorer is a Task Manager replacement.</description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>psi</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/psi/psi-0.10-win-setup.exe</url>
+    <version>.10</version>
+    <description>Psi aims to be a powerful ICQ-like Jabber client for the experienced Jabber user. There are builds available for Windows, Linux, and MacOS X.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>PSPad</name>
+    <url>http://pspad.siliconhill.cz/PSPad/files/pspad452inst_en.exe</url>
+    <version>4.5.2 (2240)</version>
+    <description>The universal freeware editor, useful for people who:
+
+    * work with plain text - the editor has a wealth of formatting functions, including a spell checker
+    * create web pages - as web authoring editor, PSPad contains many unique tools to save your time
+    * want to use a good IDE for your compiler - editor PSPad catch and parse compiler output, integrate external help files, compare versions, and much more...
+</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>putty</name>
+    <url>http://www.putty.nl/latest/x86/putty-0.60-installer.exe</url>
+    <version>0.60</version>
+    <description>PuTTY is a free implementation of Telnet and SSH for Win32 and Unix platforms, along with an xterm terminal emulator. It is written and maintained primarily by Simon Tatham</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>python</name>
+    <url>http://www.python.org/ftp/python/2.4.3/python-2.4.3.msi</url>
+    <version>2.4.3</version>
+    <description>Python combines remarkable power with very clear syntax. It has modules, classes, exceptions, very high level dynamic data types, and dynamic typing. There are interfaces to many system calls and libraries, as well as to various windowing systems (X11, Motif, Tk, Mac, MFC, wxWidgets). New built-in modules are easily written in C or C++. Python is also usable as an extension language for applications that need a programmable interface.</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>quake4_demo</name>
+    <url>ftp://ftp.idsoftware.com/idstuff/quake4/demo/Quake4_Demo.exe</url>
+    <version>1.0</version>
+    <description>Quake 4 is id Softwares latest edition in the popular first person shooter series.</description>
+    <catalog>Games</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>Quantum_GIS</name>
+    <url>http://download.qgis.org/qgis/win32/qgis_setup0.8.1.exe</url>
+    <version>0.8.1</version>
+    <description>Quantum GIS (QGIS) is a user friendly Open Source Geographic Information System (GIS) that supports vector, raster, and database formats.</description>
+    <catalog>Other</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>quickpar</name>
+    <url>http://www.nettle.us/quickpar/QuickPar-0.9.1.0.exe</url>
+    <version>0.9.1.0</version>
+    <description>QuickPar is a utility for creating Parity Volumes using the Reed Solomon algorithm. Parity Volumes may be used to verify that a set of files have not been corrupted, or to reconstruct damaged files (providing that you have a sufficient quantity of Parity Volumes to match the missing or damaged files).  QuickPar uses the PAR version 2.0 specification.</description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>quicktime_alternative</name>
+    <url>http://ftp.freenet.de/pub/filepilot/windows/multimedia/video/quicktimealternative/quicktimealt167.exe</url>
+    <version>1.67</version>
+    <description>QuickTime Alternative will allow you to play QuickTime files without having to install the official QuickTime Player.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>radrails</name>
+    <url>http://umn.dl.sourceforge.net/sourceforge/radrails/radrails-0.6.3-win32.zip</url>
+    <version>0.6.3</version>
+    <description>RadRails is an integrated development environment for the Ruby on Rails framework. The goal of this project is to provide Rails developers with everything they need to develop, manage, test and deploy their applications. Features include source control, debugging, WEBrick servers, generator wizards, syntax highlighting, data tools and much much more.</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>real_alternative</name>
+    <url>http://ftp.freenet.de/pub/filepilot/windows/multimedia/video/realalternative/realalt146.exe</url>
+    <version>1.46</version>
+    <description>Real Alternative will allow you to play RealMedia files without having to install RealPlayer.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>registry_mechanic</name>
+    <url>http://www.pctools.com/downloads/rminstall.exe</url>
+    <version>5.2</version>
+    <description>Registry Mechanic is an advanced registry cleaner for Windows that can safely clean and repair problems with your registry in a few simple mouse clicks! Easily fix problems with the Windows registry that are a common cause of crashes and error messages.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>rubyonrails</name>
+    <url>http://rubyforge.org/frs/download.php/7675/InstantRails-1.0-preview7-win.zip</url>
+    <version>1.8.2</version>
+    <description>Rails is a full-stack framework for developing database-backed web applications according to the Model-View-Control pattern. From the Ajax in the view, to the request and response in the controller, to the domain model wrapping the database, Rails gives you a pure-Ruby development environment. To go live, all you need to add is a database and a web server.</description>
+    <catalog>Program</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>savepart</name>
+    <url>http://damien.guibouret.free.fr/savepart.zip</url>
+    <version>3.11</version>
+    <description>Partition Saving is a DOS program that is used to save, restore and copy hard-drive, partitions, floppy disk and DOS devices. With this program you could save all data on a partition to a file (such as you could save this file on a CD for example). Then if something goes wrong, you can completely restore the partition from the backup file. You no longer have to reinstall every piece of software from scratch. All you have to do is restore the partition from the backup file and then update any software that was modified since the backup was created. </description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>scite</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/scintilla/scite174.zip</url>
+    <version>1.74</version>
+    <description>SciTE is a SCIntilla based Text Editor. Originally built to demonstrate Scintilla, it has grown to be a generally useful editor with facilities for building and running programs. It is best used for jobs with simple configurations - I use it for building test and demonstration programs as well as SciTE and Scintilla, themselves.</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>Scorched_3D</name>
+    <url>http://prdownloads.sourceforge.net/scorched3d/Scorched3D-40.1d.exe?download</url>
+    <version>40.1d</version>
+    <description>Scorched 3D is a game based loosely (or actually quite heavily now) on the classic DOS game Scorched Earth "The Mother Of All Games". Scorched 3D adds amongst other new features a 3D island environment and LAN and internet play. Scorched 3D is totally free and is available for both Microsoft Windows and Unix (Linux, FreeBSD, Mac OS X, Solaris etc.) operating systems.</description>
+    <catalog>Games</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>shareaza</name>
+    <url>http://internap.dl.sourceforge.net/sourceforge/shareaza/Shareaza_2.2.1.0.exe</url>
+    <version>2.2.1.0</version>
+    <description>Multi-network peer-to-peer file-sharing client supporting Gnutella2, Gnutella1, eDonkey2000/eMule and BitTorrent protocols. Using C++, MFC and ATL, for Windows.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>skype</name>
+    <url>http://download.skype.com/SkypeSetup.exe</url>
+    <version>3.5.0.234</version>
+    <description>Skype is a little piece of software that lets you talk over the Internet to anyone, anywhere for free.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>slickrun</name>
+    <url>http://bayden.com/dl/sr-upgrade.exe</url>
+    <version>3.9.4</version>
+    <description>SlickRun is a free floating command line utility for Windows. SlickRun gives you almost instant access to any program or website. SlickRun allows you to create command aliases (known as MagicWords), so C:\Program Files\Outlook Express\msimn.exe becomes MAIL.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>smartftp</name>
+    <url>http://www.smartftp.com/get/SFTPNSI.exe</url>
+    <version>2.5.1006.4</version>
+    <description>One of the best FTP clients for windows</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>spybot</name>
+    <url>http://users.belgacom.net/bn846162/Spybot/spybotsd14.exe</url>
+    <version>1.4</version>
+    <description>Spybot - Search &amp; Destroy can detect and remove spyware of different kinds from your computer. Spyware is a relatively new kind of threat that common anti-virus applications do not yet cover. If you see new toolbars in your Internet Explorer that you didn't intentionally install, if your browser crashes, or if you browser start page has changed without your knowing, you most probably have spyware. But even if you don't see anything, you may be infected, because more and more spyware is emerging that is silently tracking your surfing behaviour to create a marketing profile of you that will be sold to advertisement companies. Spybot-S&amp;D is free, so there's no harm in trying to see if something snooped into your computer, too :)</description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>steghide</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/steghide/steghide-0.5.1-win32.zip</url>
+    <version>0.5.1</version>
+    <description>Steghide is a steganography program that is able to hide data in various kinds of image- and audio-files. The color- respectivly sample-frequencies are not changed thus making the embedding resistant against first-order statistical tests.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>strokeit</name>
+    <url>http://jk.tomsk.ru/bf/StrokeIt_9_5.exe</url>
+    <version>.9.5</version>
+    <description>StrokeIt is an advanced mouse gesture recognition engine and command processor. What is a mouse gesture? Mouse gestures are simple symbols that you "draw" on your screen using your mouse. When you perform a mouse gesture that StrokeIt can recognize, it will perform the "action" associated with that gesture. In short, it's a nifty little program that lets you easily control programs by drawing symbols with your mouse.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>subversion</name>
+    <url>http://subversion.tigris.org/files/documents/15/36797/svn-1.4.3-setup.exe</url>
+    <version>1.4.3</version>
+    <description>The goal of the Subversion project is to build a version control system that is a compelling replacement for CVS in the open source community.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>swat4_demo</name>
+    <url>ftp://ftp.sierra.com/pub/sierra/swat4/demos/swat4_spdemo_en.exe</url>
+    <version>demo</version>
+    <description>Official English demo for Swat 4.</description>
+    <catalog>Games</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>SyncBack</name>
+    <url>http://www.2brightsparks.com/assets/software/SyncBack_Setup.zip</url>
+    <version>3.2.10</version>
+    <description>SyncBack is a multi-award winning freeware program that helps you easily backup and synchronise your files.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>Synergy</name>
+    <url>http://umn.dl.sourceforge.net/sourceforge/synergy2/SynergyInstaller-1.3.1.exe</url>
+    <version>1.3.1</version>
+    <description>Synergy lets you easily share a single mouse and keyboard between multiple computers with different operating systems without special hardware. It's intended for users with multiple computers on their desk since each system uses its own display.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>taskswitch_powertoy</name>
+    <url>http://download.microsoft.com/download/whistler/Install/2/WXP/EN-US/TaskswitchPowertoySetup.exe</url>
+    <version>1.0</version>
+    <description>With this PowerToy, in addition to seeing the icon of the application window you are switching to, you will also see a preview of the page. This helps particularly when multiple sessions of an application are open.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>teamspeak_client</name>
+    <url>ftp://ftp.freenet.de/pub/4players/teamspeak.org/releases/ts2_client_rc2_2032.exe</url>
+    <version>2.0.32.60</version>
+    <description>Teamspeak is a quality, scalable application which enables people to speak with one another over the Internet. Teamspeak consists of both client and server software. The Teamspeak server acts as a host to multiple client connections, capable of handling literally thousands of simultaneous users. This results in an Internet based teleconferencing solution that works in a variety of applications such as team mates speaking with one another while playing their favorite online game, small businesses cutting costs on long distance charges, or for personal communication with friends and family.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>teamspeak_server</name>
+    <url>ftp://ftp.freenet.de/pub/4players/teamspeak.org/releases/ts2_server_rc2_20201.exe</url>
+    <version>2.0.20.01</version>
+    <description>Teamspeak is a quality, scalable application which enables people to speak with one another over the Internet. Teamspeak consists of both client and server software. The Teamspeak server acts as a host to multiple client connections, capable of handling literally thousands of simultaneous users. This results in an Internet based teleconferencing solution that works in a variety of applications such as team mates speaking with one another while playing their favorite online game, small businesses cutting costs on long distance charges, or for personal communication with friends and family.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>thunderbird</name>
+    <url>http://download.mozilla.org/?product=thunderbird-2.0.0.6&amp;os=win&amp;lang=en-US</url>
+    <version>2.0.0.6</version>
+    <description>Thunderbird makes emailing safer, faster, and easier than ever before with the industry's best implementations of features such as intelligent spam filters, built-in RSS reader, quick search, and much more.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>tightvnc</name>
+    <url>http://kent.dl.sourceforge.net/sourceforge/vnc-tight/tightvnc-1.2.9-setup.exe</url>
+    <version>1.2.9</version>
+    <description> TightVNC is a free remote control software package derived from the popular VNC software. With TightVNC, you can see the desktop of a remote machine and control it with your local mouse and keyboard, just like you would do it sitting in the front of that computer.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>tor</name>
+    <url>http://tor.eff.org/dist/win32/tor-0.1.0.15-win32.exe</url>
+    <version>0.1.0.15</version>
+    <description>Tor is a network of virtual tunnels that allows people and groups to improve their privacy and security on the Internet. It also enables software developers to create new communication tools with built-in privacy features. Tor provides the foundation for a range of applications that allow organizations and individuals to share information over public networks without compromising their privacy.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>tortoisecvs</name>
+    <url>http://prdownloads.sourceforge.net/tortoisecvs/TortoiseCVS-1.8.22.exe</url>
+    <version>1.8.22</version>
+    <description>TortoiseCVS lets you work with files under CVS version control directly from Windows Explorer. It's freely available under the GPL.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>Tremulous</name>
+    <url>http://prdownloads.sourceforge.net/tremulous/tremulous-1.1.0-installer.exe?download</url>
+    <version>1.1.0</version>
+    <description>Tremulous is a free, open source game that blends a team based FPS with elements of an RTS. Players can choose from 2 unique races, aliens and humans. Players on both teams are able to build working structures in-game like an RTS. These structures provide many functions, the most important being spawning.</description>
+    <catalog>Games</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>tribes</name>
+    <url>ftp://ftp.sierra.com/pub/sierra/tribes/other/tribes_fullgame.exe</url>
+    <version>1.11</version>
+    <description>Starsiege TRIBES is a unique first-person shooter set in the Starsiege universe. Combining breathtaking visual displays with seamless gameplay, TRIBES will revolutionize the world of multiplayer squad-level games.</description>
+    <catalog>Games</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>tribes_vengance_mp_demo</name>
+    <url>ftp://ftp.sierra.com/pub/sierra/tribesvengeance/demos/tribesv_mpdemo.exe</url>
+    <version>DEMO</version>
+    <description>Tribes vengance multiplayer demo.</description>
+    <catalog>Games</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>trillian</name>
+    <url>http://aspect1.tucows.com/files4/trillian-v3.1.exe</url>
+    <version>3.1.5.1</version>
+    <description>Trillian is a fully featured, stand-alone, skinnable chat client that supports AIM, ICQ, MSN, Yahoo Messenger, and IRC. It provides capabilities not possible with original network clients, while supporting standard features such as audio chat, file transfers, group chats, chat rooms, buddy icons, multiple simultaneous connections to the same network, server-side contact importing, typing notification, direct connection (AIM), proxy support, encrypted messaging (AIM/ICQ), SMS support, and privacy settings.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>tv_browser</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/tvbrowser/tvbrowser-2.5.2.exe</url>
+    <version>2.5.2</version>
+    <description>TV-Browser is a digital tv guide. The tv data are retrieved from multiple sources and can be downloaded from our servers after having been automatically processed.</description>
+    <catalog>Other</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>TweakUI_for_XP</name>
+    <url>http://download.microsoft.com/download/f/c/a/fca6767b-9ed9-45a6-b352-839afb2a2679/TweakUiPowertoySetup.exe</url>
+    <version>2.10</version>
+    <description>This PowerToy gives you access to system settings that are not exposed in the Windows XP default user interface, including mouse settings, Explorer settings, taskbar settings, and more.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>unxutils</name>
+    <url>http://unxutils.sourceforge.net/UnxUtils.zip</url>
+    <version>2.5.1</version>
+    <description>Ports of common GNU utilities to native Win32. In this context, native means the executables do only depend on the Microsoft C-runtime (msvcrt.dll) and not an emulation layer like that provided by Cygwin  tools.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>upx</name>
+    <url>http://upx.sourceforge.net/download/upx125w.zip</url>
+    <version>1.25</version>
+    <description>UPX is a free, portable, extendable, high-performance executable packer for several different executable formats. It achieves an excellent compression ratio and offers very fast decompression. Your executables suffer no memory overhead or other drawbacks because of in-place decompression.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>utorrent</name>
+    <url>http://download.utorrent.com/1.6/utorrent.exe</url>
+    <version>1.6</version>
+    <description>BitTorrent client </description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>virtualdub</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/virtualdub/VirtualDub-1.6.11.zip</url>
+    <version>1.6.11</version>
+    <description>VirtualDub is a video capture/processing utility for 32-bit Windows platforms (95/98/ME/NT4/2000/XP), licensed under the GNU General Public License (GPL).  It lacks the editing power of a general-purpose editor such as Adobe Premiere, but is streamlined for fast linear operations over video.  It has batch-processing capabilities for processing large numbers of files and can be extended with third-party video filters.  VirtualDub is mainly geared toward processing AVI files, although it can read (not write) MPEG-1 and also handle sets of BMP images.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>virtual_clonedrive</name>
+    <url>http://static.slysoft.com/SetupVirtualCloneDrive.exe</url>
+    <version>5.1.4.5</version>
+    <description>Virtual CloneDrive works and behaves just like a physical CD/DVD drive, however it exists only virtually. Image files generated with CloneDVD or CloneCD can be mounted onto a virtual drive from your hard-disk or from a network drive and used in the same manner as inserting them into a normal CD/DVD drive. </description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>vlc_player</name>
+    <url>http://mirrors.optralan.com/videolan/vlc/0.8.6c/win32/vlc-0.8.6c-win32.exe</url>
+    <version>0.8.6c</version>
+    <description>VLC (initially VideoLAN Client) is a highly portable multimedia player for various audio and video formats (MPEG-1, MPEG-2, MPEG-4, DivX, mp3, ogg, ...) as well as DVDs, VCDs, and various streaming protocols. It can also be used as a server to stream in unicast or multicast in IPv4 or IPv6 on a high-bandwidth network.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>WeatherMate</name>
+    <url>http://www.ravib.com/wm/WeatherMate.msi</url>
+    <version>2.9</version>
+    <description>WeatherMate is a little Windows program that gives you instant access to current weather conditions and forecasts for thousands of locations worldwide. Features: easy-to-use, attractive interface; displays the weather for multiple locations; highly customizable; moves out of the way when not in use; runs in the system tray; contains no adware and no spyware.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>win2vnc</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/win2vnc/win2vnc-1.4.1-setup.exe</url>
+    <version>1.4.1</version>
+    <description>This program will let you use two screens on two different computers as if they were connected to the same computer. It even works between different operating systems.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>winace</name>
+    <url>http://www.winace.net/files/wace261i.exe</url>
+    <version>2.6</version>
+    <description>WinAce is not just another archiving shell. With it's own powerful compression format ACE and built-in support for other popular compression types like ZIP, RAR and MS-CAB (to name a few), WinAce could actually become the only archiver you need.</description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>winamp</name>
+    <url>http://download.nullsoft.com/winamp/client/winamp535_full_emusic-7plus.exe</url>
+    <version>5.35</version>
+    <description>Winamp is a very common mp3 player.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>Windows_Live_Messenger</name>
+    <url>http://g.msn.com/8reen_us/EN_NOUS/INSTALL_MSN_MESSENGER_DL.EXE</url>
+    <version>8.1</version>
+    <description>Microsoft Windows Live Messenger
+Connect and share instantly on the world�s most popular IM network
+
+</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>winget</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/windows-get/win-get-setup.exe</url>
+    <version>Beta 4</version>
+    <description>win-get is an automated install system and software repository for Microsoft Windows. The ideas for its creation come from apt-get and other related tools for the *nix platforms.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>wings3d</name>
+    <url>http://internap.dl.sourceforge.net/sourceforge/wings/wings-0.98.32a.exe</url>
+    <version>0.98.32a</version>
+    <description>Wings 3D is a subdivision modeler inspired by Nendo and Mirai from Izware.</description>
+    <catalog>Graphics</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>winimage</name>
+    <url>http://ourworld.compuserve.com/homepages/gvollant/winima80.exe</url>
+    <version>8.0</version>
+    <description>WinImage is a fully-fledged disk-imaging suite for easy creation, reading and editing of many image formats and fileystems, including DMF, VHD, FAT, ISO, NTFS and Linux. The disk image is an exact copy of a physical disk (floppy, CD-ROM, hard disk, USB, VHD disk, etc.) or a partition that preserves the original structure. With WinImage in place, you can recreate the disk image on the hard drive or other media, view its content, extract image-based files, add new files and directories, change the format, and defragment the image. All this and more is delivered in one intuitive user interface that enables imaging right out of the box.</description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>winiso</name>
+    <url>http://ewetel.tucows.com/files4/WINISO53.EXE</url>
+    <version>5.3</version>
+    <description>WinISO is a CD-ROM image file utility that can convert BIN to ISO, extract/edit/create ISO files directly, make bootable CDs and as a BIN/ISO converter/extractor/editor.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>winpatrol</name>
+    <url>http://www.winpatrol.com/wpsetup.exe</url>
+    <version>9.8.1.0</version>
+    <description>WinPatrol uses a heuristic approach to detecting attacks and violations of your computing environment. Traditional security programs scan your hard drive searching for previously identified threats. WinPatrol takes snapshot of your critical system resources and alerts you to any changes that may occur without your knowledge. You'll be removing dangerous new programs while others download new reference files.</description>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>winrar</name>
+    <url>http://www.rarlab.com/rar/wrar370.exe</url>
+    <version>3.70</version>
+    <description>WinRAR is a powerful archive manager. It can backup your data and reduce size of email attachments, decompress RAR, ZIP and other files downloaded from Internet and create new archives in RAR and ZIP file format.</description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>winscp</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/winscp/winscp376setup.exe</url>
+    <version>3.7.6</version>
+    <description>Freeware SFTP and SCP client for Windows</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>winzip</name>
+    <url>http://download.winzip.com/winzip100.exe</url>
+    <version>10</version>
+    <description>WinZip, the original and most popular compression utility for Windows, is a powerful and easy-to-use tool that quickly zips and unzips your files to conserve disk space and greatly reduce e-mail transmission time. WinZip 10.0 is available as Standard or Pro</description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>wolfenstien_enemy_territory</name>
+    <url>ftp://ftp.idsoftware.com/idstuff/et/win32/WolfET.exe</url>
+    <version>2.60</version>
+    <description>A great free game modded off of rtcw.</description>
+    <catalog>Games</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>World_Wind</name>
+    <url>http://superb-east.dl.sourceforge.net/sourceforge/nasa-exp/World_Wind_1.4.0_Full.exe</url>
+    <version>1.4</version>
+    <description>World Wind lets you zoom from satellite altitude into any place on Earth. Leveraging Landsat satellite imagery and Shuttle Radar Topography Mission data, World Wind lets you experience Earth terrain in visually rich 3D, just as if you were really there.</description>
+    <catalog>Other</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>xampp</name>
+    <url>http://internap.dl.sourceforge.net/sourceforge/xampp/xampp-win32-1.6.2-installer.exe</url>
+    <version>1.6.2</version>
+    <description>Many people know from their own experience that it's not easy to install an Apache web server and it gets harder if you want to add MySQL, PHP and Perl. XAMPP is an easy to install Apache distribution containing MySQL, PHP and Perl. XAMPP is really very easy to install and to use - just download, extract and start.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>xchat</name>
+    <url>http://www.xchat.org/files/binary/win32/xchat-2.6.1a.exe</url>
+    <version>2.6.1.a</version>
+    <description>XChat is an IRC (chat) program for Windows and UNIX (Linux/BSD) operating systems.   </description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>XnView</name>
+    <url>http://www.xnview-download.de/download/XnView-win.exe</url>
+    <version>1.82</version>
+    <description>With XnView you can quickly and easily view, process and convert image files. The universal program is able to read more than 400 different formats and then convert them to about 50 formats such as GIF, BMP, JPG, PNG, multi page TIFF. XnView can also display video formats, many digital camera formats and more exotic formats such as Amiga IFF and Calamus.</description>
+    <catalog>Graphics</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>xpize</name>
+    <url>http://www.fi-network.org/xpero/XPize46Full.exe</url>
+    <version>4.6</version>
+    <description>XPize is a GUI enhancer for Windows XP and above. It replaces most of the non-XP icons, avis and bmps that Microsoft has always overlooked.</description>
+    <catalog>Accessories</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>xvi32</name>
+    <url>http://www.handshake.de/user/chmaas/delphi/download/xvi32.zip</url>
+    <version>2.51</version>
+    <description>XVI32 is a freeware hex editor running under Windows 95, Windows 98, Windows NT, Windows 2000, and Windows XP. The name XVI32 is derived from XVI, the roman notation for the number 16.</description>
+    <catalog>Office</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>yahoo_messenger</name>
+    <url>http://us.dl1.yimg.com/download.yahoo.com/dl/msgr7/us/msgr7us.exe</url>
+    <version>7.0</version>
+    <description>Yahoo Messenger is a free service that allows you to see when friends come online and to send them instant messages. It also can alert you to new e-mail in your Yahoo Mail or Yahoo Personals accounts, or when you have upcoming events recorded in your Yahoo Calendar. Yahoo Messenger offers firewall support, a standby mode that minimizes the program until an Internet connection is made, the ability to save and print your conversations, and a tabbed interface that provides quick access to your favorite stocks, news, and sports scores.</description>
+    <catalog>Internet</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>zasuite</name>
+    <url>http://download.zonealarm.com/bin/free/3200_zl/zaSuiteSetup_65_737_000_en.exe</url>
+    <version>65_737_000_en</version>
+    <description>The Most Complete Internet Security
+Protects you online and off.
+Blocks the full spectrum of threats on your computer and in the physical world.
+Stops threats before they infect your PC.
+While other suites only detect and remove malicious programs, ZoneAlarm prevents attacks on your system.
+Easy to set up and use.
+Simple to install and run, the intuitive interface tailors the program to meet your needs.</description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>zinf</name>
+    <url>http://easynews.dl.sourceforge.net/sourceforge/zinf/zinf-setup-2.2.1.exe</url>
+    <version>2.2.1</version>
+    <description>The Zinf audio player is a simple, but powerful audio player for Linux and Win32. It supports MP3, Ogg/Vorbis, WAV and Audio CD playback, SHOUTcast/Icecast HTTP streaming, RTP streaming, a powerful music browser, theme support and a download manager.</description>
+    <catalog>Media</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>znes</name>
+    <url>http://internap.dl.sourceforge.net/sourceforge/zsnes/zsnesw142.zip</url>
+    <version>1.42</version>
+    <description>ZSNES is a SNES/Super Famicom emulator for x86 computers. It runs on Windows, MS-DOS and Linux/FreeBSD and supports mode 7, sound, Super FX, and a lot more.</description>
+    <catalog>Games</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+  <Items>
+    <name>zonealarm</name>
+    <url>http://download.zonelabs.com/bin/free/1025_update/zlsSetup_70_337_000_en.exe</url>
+    <version>7.0.337</version>
+    <description>ZoneAlarm is designed to protect your DSL- or cable-connected PC from hackers. This program includes four interlocking security services: a firewall, an application control, an Internet lock, and Zones. The firewall controls the door to your computer and allows only traffic you understand and initiate. The application control allows you to decide which applications can and cannot use the Internet. The Internet lock blocks Internet traffic while your computer is unattended or while you're not using the Internet, and it can be activated automatically with your computer's screensaver or after a set period of inactivity. Zones monitor all activity on your computer and alert you when a new application attempts to access the Internet.</description>
+    <catalog>System</catalog>
+    <type>Free Software</type>
+    <popular>3</popular>
+    <icon />
+  </Items>
+</AppInfoDB>

@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WinAptCommon")]
+[assembly: AssemblyTitle("WinApt.Common")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("spss")]
-[assembly: AssemblyProduct("WinAptCommon")]
-[assembly: AssemblyCopyright("Copyright © spss 2007")]
+[assembly: AssemblyCompany("orchidy")]
+[assembly: AssemblyProduct("WinApt.Common")]
+[assembly: AssemblyCopyright("Copyright © tinylee 2007")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
