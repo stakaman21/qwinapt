@@ -49,7 +49,7 @@ namespace WinApt.ConfigTool
         private void UpdateAppList()
         {
 
-            if (myCmd.AppDB == null)
+            if (myCmd.AppDB.Items.Count == 0)
                 return;
             lvApp.Items.Clear();
             rtxtDesc.Clear();
@@ -67,6 +67,8 @@ namespace WinApt.ConfigTool
                 lvitem.Tag = (int)item["index"];
                 lvApp.Items.Add(lvitem);
             }
+            if (lvApp.Items.Count > 0)
+                lvApp.Items[0].Selected = true;
         }
 
         private void lstCatalog_SelectedIndexChanged(object sender, EventArgs e)
@@ -100,8 +102,11 @@ namespace WinApt.ConfigTool
             myCmd.CurItem.catalog = lstCatalog.SelectedItem.ToString();
             AddItemForm addForm = new AddItemForm(myCmd);
             addForm.ShowDialog();
-            myCmd.AppDB.Add(myCmd.CurItem);
-            UpdateAppList();
+            if (addForm.DialogResult != DialogResult.Cancel)
+            {
+                myCmd.AppDB.Add(myCmd.CurItem);
+                UpdateAppList();
+            }
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
@@ -114,8 +119,11 @@ namespace WinApt.ConfigTool
             myCmd.CurItem = (AppInfoBase)myCmd.AppDB.Items[(int)lvApp.SelectedItems[0].Tag];
             AddItemForm edtForm = new AddItemForm(myCmd);
             edtForm.ShowDialog();
-            myCmd.AppDB.Items[(int)lvApp.SelectedItems[0].Tag] = myCmd.CurItem;
-            UpdateAppList();
+            if (edtForm.DialogResult != DialogResult.Cancel)
+            {
+                myCmd.AppDB.Items[(int)lvApp.SelectedItems[0].Tag] = myCmd.CurItem;
+                UpdateAppList();
+            }
         }
 
         private void btnDel_Click(object sender, EventArgs e)
@@ -127,6 +135,31 @@ namespace WinApt.ConfigTool
                 return;
             myCmd.AppDB.Items.RemoveAt((int)lvApp.SelectedItems[0].Tag);
             lvApp.Items.Remove(lvApp.SelectedItems[0]);
+        }
+
+        private void btnMerge_Click(object sender, EventArgs e)
+        {
+            //
+            //TODO: Merge info with current one.
+            //
+            if (myCmd.AppDB.Items.Count == 0)
+            {
+                MessageBox.Show("Load first, then merge!");
+                return;
+            }
+            string newFile = "";
+            if (openDlg.ShowDialog() == DialogResult.OK)
+            {
+                newFile = openDlg.FileName;
+            }
+            if ("" != newFile)
+                myCmd.MergeDB(newFile);
+            UpdateAppList();
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            UpdateAppList();
         }
     }
 }

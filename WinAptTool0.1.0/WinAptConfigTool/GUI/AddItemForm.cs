@@ -24,6 +24,8 @@ namespace WinApt.ConfigTool.GUI
                 rtxtDesc.Text = cmd.CurItem.description;
                 cbPopularity.Text = cmd.CurItem.popular.ToString();
             }
+            cbCatalogs.Text = cmd.CurItem.catalog;
+            cbTypes.Text = cmd.CurItem.type;
         }
 
         private void btnOK_Click(object sender, EventArgs e)
@@ -32,19 +34,24 @@ namespace WinApt.ConfigTool.GUI
             //TODO: add a new item
             //
             if ("" == txtVersion.Text || "" == txtName.Text || "" == txtUrl.Text)
+            {
                 MessageBox.Show("Please enter need messages.");
+                return;
+            }
             AppInfoBase item = cmd.CurItem;
             item.version = txtVersion.Text;
             item.name = txtName.Text;
             item.url = txtUrl.Text;
             item.description = rtxtDesc.Text;
             item.popular = int.Parse(cbPopularity.Text);
+            item.catalog = cbCatalogs.Text;
+            item.type = cbTypes.Text;
             Close();
         }
 
-        private void btnCancal_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
+        //private void btnCancal_Click(object sender, EventArgs e)
+        //{
+        //    Close();
+        //}
     }
 }

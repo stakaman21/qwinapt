@@ -28,7 +28,6 @@ namespace WinApt.ConfigTool
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.cbType = new System.Windows.Forms.ComboBox();
@@ -47,26 +46,19 @@ namespace WinApt.ConfigTool
             this.openDlg = new System.Windows.Forms.OpenFileDialog();
             this.btnEdit = new System.Windows.Forms.Button();
             this.saveDlg = new System.Windows.Forms.SaveFileDialog();
+            this.btnMerge = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 8);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 12);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Search";
-            // 
             // txtSearch
             // 
             this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSearch.Location = new System.Drawing.Point(58, 11);
+            this.txtSearch.Location = new System.Drawing.Point(12, 11);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(257, 21);
+            this.txtSearch.Size = new System.Drawing.Size(202, 21);
             this.txtSearch.TabIndex = 1;
             // 
             // label2
@@ -105,8 +97,8 @@ namespace WinApt.ConfigTool
             this.splitContainer1.Panel2.Controls.Add(this.rtxtDesc);
             this.splitContainer1.Panel2.Controls.Add(this.splitter1);
             this.splitContainer1.Panel2.Controls.Add(this.lvApp);
-            this.splitContainer1.Size = new System.Drawing.Size(553, 330);
-            this.splitContainer1.SplitterDistance = 188;
+            this.splitContainer1.Size = new System.Drawing.Size(620, 330);
+            this.splitContainer1.SplitterDistance = 210;
             this.splitContainer1.TabIndex = 4;
             // 
             // lstCatalog
@@ -131,7 +123,7 @@ namespace WinApt.ConfigTool
             "Accessories"});
             this.lstCatalog.Location = new System.Drawing.Point(0, 0);
             this.lstCatalog.Name = "lstCatalog";
-            this.lstCatalog.Size = new System.Drawing.Size(188, 324);
+            this.lstCatalog.Size = new System.Drawing.Size(210, 324);
             this.lstCatalog.TabIndex = 0;
             this.lstCatalog.SelectedIndexChanged += new System.EventHandler(this.lstCatalog_SelectedIndexChanged);
             // 
@@ -141,7 +133,7 @@ namespace WinApt.ConfigTool
             this.rtxtDesc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rtxtDesc.Location = new System.Drawing.Point(0, 177);
             this.rtxtDesc.Name = "rtxtDesc";
-            this.rtxtDesc.Size = new System.Drawing.Size(361, 153);
+            this.rtxtDesc.Size = new System.Drawing.Size(406, 153);
             this.rtxtDesc.TabIndex = 2;
             this.rtxtDesc.Text = "";
             // 
@@ -150,7 +142,7 @@ namespace WinApt.ConfigTool
             this.splitter1.Dock = System.Windows.Forms.DockStyle.Top;
             this.splitter1.Location = new System.Drawing.Point(0, 174);
             this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(361, 3);
+            this.splitter1.Size = new System.Drawing.Size(406, 3);
             this.splitter1.TabIndex = 1;
             this.splitter1.TabStop = false;
             // 
@@ -169,7 +161,7 @@ namespace WinApt.ConfigTool
             this.lvApp.Location = new System.Drawing.Point(0, 0);
             this.lvApp.MultiSelect = false;
             this.lvApp.Name = "lvApp";
-            this.lvApp.Size = new System.Drawing.Size(361, 174);
+            this.lvApp.Size = new System.Drawing.Size(406, 174);
             this.lvApp.TabIndex = 0;
             this.lvApp.UseCompatibleStateImageBehavior = false;
             this.lvApp.View = System.Windows.Forms.View.Details;
@@ -192,7 +184,7 @@ namespace WinApt.ConfigTool
             // 
             // btnAdd
             // 
-            this.btnAdd.Location = new System.Drawing.Point(276, 380);
+            this.btnAdd.Location = new System.Drawing.Point(372, 380);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 21);
             this.btnAdd.TabIndex = 5;
@@ -202,7 +194,7 @@ namespace WinApt.ConfigTool
             // 
             // btnDel
             // 
-            this.btnDel.Location = new System.Drawing.Point(490, 380);
+            this.btnDel.Location = new System.Drawing.Point(557, 380);
             this.btnDel.Name = "btnDel";
             this.btnDel.Size = new System.Drawing.Size(75, 21);
             this.btnDel.TabIndex = 6;
@@ -212,9 +204,9 @@ namespace WinApt.ConfigTool
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(125, 380);
+            this.btnSave.Location = new System.Drawing.Point(180, 380);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 21);
+            this.btnSave.Size = new System.Drawing.Size(61, 21);
             this.btnSave.TabIndex = 7;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -222,11 +214,11 @@ namespace WinApt.ConfigTool
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(15, 380);
+            this.btnLoad.Location = new System.Drawing.Point(14, 380);
             this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(75, 21);
+            this.btnLoad.Size = new System.Drawing.Size(61, 21);
             this.btnLoad.TabIndex = 8;
-            this.btnLoad.Text = "Load";
+            this.btnLoad.Text = "Load...";
             this.btnLoad.UseVisualStyleBackColor = true;
             this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
             // 
@@ -237,7 +229,7 @@ namespace WinApt.ConfigTool
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(384, 380);
+            this.btnEdit.Location = new System.Drawing.Point(464, 380);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(75, 21);
             this.btnEdit.TabIndex = 9;
@@ -250,11 +242,33 @@ namespace WinApt.ConfigTool
             this.saveDlg.DefaultExt = "xml";
             this.saveDlg.Title = "Save the AppInfo DB fle";
             // 
+            // btnMerge
+            // 
+            this.btnMerge.Location = new System.Drawing.Point(97, 378);
+            this.btnMerge.Name = "btnMerge";
+            this.btnMerge.Size = new System.Drawing.Size(61, 23);
+            this.btnMerge.TabIndex = 10;
+            this.btnMerge.Text = "Merge...";
+            this.btnMerge.UseVisualStyleBackColor = true;
+            this.btnMerge.Click += new System.EventHandler(this.btnMerge_Click);
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(226, 9);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(68, 23);
+            this.btnSearch.TabIndex = 11;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
             // ConfigForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(577, 413);
+            this.ClientSize = new System.Drawing.Size(644, 413);
+            this.Controls.Add(this.btnSearch);
+            this.Controls.Add(this.btnMerge);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.btnSave);
@@ -264,8 +278,8 @@ namespace WinApt.ConfigTool
             this.Controls.Add(this.cbType);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtSearch);
-            this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "ConfigForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WinApt Config Tool";
@@ -279,7 +293,6 @@ namespace WinApt.ConfigTool
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtSearch;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cbType;
@@ -298,5 +311,7 @@ namespace WinApt.ConfigTool
         private System.Windows.Forms.OpenFileDialog openDlg;
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.SaveFileDialog saveDlg;
+        private System.Windows.Forms.Button btnMerge;
+        private System.Windows.Forms.Button btnSearch;
     }
 }
