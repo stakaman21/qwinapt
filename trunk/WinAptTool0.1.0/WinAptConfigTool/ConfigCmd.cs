@@ -25,6 +25,7 @@ namespace WinApt.ConfigTool
         }
         public ConfigCmd()
         {
+            myAppDB = new AppInfoDB();
         }
 
         public void LoadDB(string fileName)
@@ -49,6 +50,15 @@ namespace WinApt.ConfigTool
         internal System.Collections.Hashtable FindAppInfo(int index)
         {
             return ((AppInfoBase)myAppDB.Items[index]).ToHashtable();
+        }
+
+        internal void MergeDB(string newFile)
+        {
+            AppInfoDB tmpDB = (AppInfoDB)WinAptLib.ReadFromFile(typeof(AppInfoDB), newFile);
+            foreach (AppInfoBase item in tmpDB.Items)
+            {
+                myAppDB.Add(item);
+            }
         }
     }
 }

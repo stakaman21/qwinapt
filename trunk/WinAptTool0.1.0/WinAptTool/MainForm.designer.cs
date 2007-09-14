@@ -52,7 +52,6 @@ namespace WinApt.Client
             System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem("Accessories", 11);
             this.lbType = new System.Windows.Forms.Label();
             this.cbTypes = new System.Windows.Forms.ComboBox();
-            this.lbSearch = new System.Windows.Forms.Label();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.btnHelp = new System.Windows.Forms.Button();
             this.btnProperty = new System.Windows.Forms.Button();
@@ -69,6 +68,7 @@ namespace WinApt.Client
             this.colPop = new System.Windows.Forms.ColumnHeader();
             this.txtDesc = new System.Windows.Forms.RichTextBox();
             this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -99,19 +99,10 @@ namespace WinApt.Client
             this.cbTypes.TabIndex = 2;
             this.cbTypes.SelectedIndexChanged += new System.EventHandler(this.cbTypes_SelectedIndexChanged);
             // 
-            // lbSearch
-            // 
-            this.lbSearch.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbSearch.Location = new System.Drawing.Point(12, 14);
-            this.lbSearch.Name = "lbSearch";
-            this.lbSearch.Size = new System.Drawing.Size(100, 21);
-            this.lbSearch.TabIndex = 3;
-            this.lbSearch.Text = "Search:";
-            // 
             // txtSearch
             // 
             this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSearch.Location = new System.Drawing.Point(80, 16);
+            this.txtSearch.Location = new System.Drawing.Point(11, 12);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(207, 21);
             this.txtSearch.TabIndex = 4;
@@ -316,11 +307,22 @@ namespace WinApt.Client
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(224, 10);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(63, 23);
+            this.btnSearch.TabIndex = 15;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(647, 446);
+            this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.btnOK);
@@ -329,7 +331,6 @@ namespace WinApt.Client
             this.Controls.Add(this.btnProperty);
             this.Controls.Add(this.btnHelp);
             this.Controls.Add(this.txtSearch);
-            this.Controls.Add(this.lbSearch);
             this.Controls.Add(this.cbTypes);
             this.Controls.Add(this.lbType);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -362,10 +363,10 @@ namespace WinApt.Client
 		private System.Windows.Forms.Button btnApply;
 		private System.Windows.Forms.Button btnProperty;
 		private System.Windows.Forms.Button btnHelp;
-		private System.Windows.Forms.TextBox txtSearch;
-		private System.Windows.Forms.Label lbSearch;
+        private System.Windows.Forms.TextBox txtSearch;
 		private System.Windows.Forms.ComboBox cbTypes;
         private System.Windows.Forms.Label lbType;
         private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnSearch;
 	}
 }

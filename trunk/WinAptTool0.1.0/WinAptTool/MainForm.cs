@@ -80,6 +80,8 @@ namespace WinApt.Client
                 lvApps.Items.Add(lvitem);
             }
             initTag = false;
+            if (lvApps.Items.Count > 0)
+                lvApps.Items[0].Selected = true;
 
         }
 
@@ -212,6 +214,11 @@ namespace WinApt.Client
             upForm.Dispose();
             btnOK.Enabled = true;
             btnApply.Enabled = true;
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            updateLvApp();
         }
 	}
 }
