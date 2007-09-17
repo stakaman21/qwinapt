@@ -1,5 +1,0 @@
-bin\Release\WinAptCommon.dll
-bin\Release\WinAptCommon.pdb
-obj\Release\ResolveAssemblyReference.cache
-obj\Release\WinAptCommon.dll
-obj\Release\WinAptCommon.pdb

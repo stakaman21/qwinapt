@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("WinAptParser")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("spss")]
+[assembly: AssemblyCompany("orchidy")]
 [assembly: AssemblyProduct("WinAptParser")]
-[assembly: AssemblyCopyright("Copyright © spss 2007")]
+[assembly: AssemblyCopyright("Copyright © tinylee 2007")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

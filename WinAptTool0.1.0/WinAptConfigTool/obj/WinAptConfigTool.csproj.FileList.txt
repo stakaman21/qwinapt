@@ -1,7 +1,0 @@
-bin\Release\WinAptConfigTool.exe
-bin\Release\WinAptConfigTool.pdb
-obj\Release\ResolveAssemblyReference.cache
-obj\Release\WinAptConfigTool.Properties.Resources.resources
-obj\Release\WinAptConfigTool.csproj.GenerateResource.Cache
-obj\Release\WinAptConfigTool.exe
-obj\Release\WinAptConfigTool.pdb

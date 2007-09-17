@@ -141,6 +141,9 @@
   <data name="strExecuteFormWaiting" xml:space="preserve">
     <value>Waiting for cancal...</value>
   </data>
+  <data name="strMainFormDownloadUrl" xml:space="preserve">
+    <value>Download Url:</value>
+  </data>
   <data name="strSplashLabelDownloadDB" xml:space="preserve">
     <value>Download DB file...</value>
   </data>

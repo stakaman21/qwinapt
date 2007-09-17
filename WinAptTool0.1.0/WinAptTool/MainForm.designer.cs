@@ -67,21 +67,38 @@ namespace WinApt.Client
             // 
             // splitContainer1
             // 
+            this.splitContainer1.AccessibleDescription = null;
+            this.splitContainer1.AccessibleName = null;
             resources.ApplyResources(this.splitContainer1, "splitContainer1");
+            this.splitContainer1.BackgroundImage = null;
+            this.splitContainer1.Font = null;
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.AccessibleDescription = null;
+            this.splitContainer1.Panel1.AccessibleName = null;
+            resources.ApplyResources(this.splitContainer1.Panel1, "splitContainer1.Panel1");
+            this.splitContainer1.Panel1.BackgroundImage = null;
             this.splitContainer1.Panel1.Controls.Add(this.lvCatalog);
+            this.splitContainer1.Panel1.Font = null;
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.AccessibleDescription = null;
+            this.splitContainer1.Panel2.AccessibleName = null;
+            resources.ApplyResources(this.splitContainer1.Panel2, "splitContainer1.Panel2");
+            this.splitContainer1.Panel2.BackgroundImage = null;
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
+            this.splitContainer1.Panel2.Font = null;
             // 
             // lvCatalog
             // 
-            this.lvCatalog.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lvCatalog.AccessibleDescription = null;
+            this.lvCatalog.AccessibleName = null;
             resources.ApplyResources(this.lvCatalog, "lvCatalog");
+            this.lvCatalog.BackgroundImage = null;
+            this.lvCatalog.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lvCatalog.FullRowSelect = true;
             this.lvCatalog.HideSelection = false;
             this.lvCatalog.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
@@ -125,26 +142,43 @@ namespace WinApt.Client
             // 
             // splitContainer2
             // 
+            this.splitContainer2.AccessibleDescription = null;
+            this.splitContainer2.AccessibleName = null;
             resources.ApplyResources(this.splitContainer2, "splitContainer2");
+            this.splitContainer2.BackgroundImage = null;
+            this.splitContainer2.Font = null;
             this.splitContainer2.Name = "splitContainer2";
             // 
             // splitContainer2.Panel1
             // 
+            this.splitContainer2.Panel1.AccessibleDescription = null;
+            this.splitContainer2.Panel1.AccessibleName = null;
+            resources.ApplyResources(this.splitContainer2.Panel1, "splitContainer2.Panel1");
+            this.splitContainer2.Panel1.BackgroundImage = null;
             this.splitContainer2.Panel1.Controls.Add(this.lvApps);
+            this.splitContainer2.Panel1.Font = null;
             // 
             // splitContainer2.Panel2
             // 
+            this.splitContainer2.Panel2.AccessibleDescription = null;
+            this.splitContainer2.Panel2.AccessibleName = null;
+            resources.ApplyResources(this.splitContainer2.Panel2, "splitContainer2.Panel2");
+            this.splitContainer2.Panel2.BackgroundImage = null;
             this.splitContainer2.Panel2.Controls.Add(this.txtDesc);
+            this.splitContainer2.Panel2.Font = null;
             // 
             // lvApps
             // 
+            this.lvApps.AccessibleDescription = null;
+            this.lvApps.AccessibleName = null;
+            resources.ApplyResources(this.lvApps, "lvApps");
+            this.lvApps.BackgroundImage = null;
             this.lvApps.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lvApps.CheckBoxes = true;
             this.lvApps.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.colApps,
             this.colVersion,
             this.colPop});
-            resources.ApplyResources(this.lvApps, "lvApps");
             this.lvApps.FullRowSelect = true;
             this.lvApps.GridLines = true;
             this.lvApps.HideSelection = false;
@@ -171,46 +205,69 @@ namespace WinApt.Client
             // 
             // txtDesc
             // 
-            this.txtDesc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtDesc.AccessibleDescription = null;
+            this.txtDesc.AccessibleName = null;
             resources.ApplyResources(this.txtDesc, "txtDesc");
+            this.txtDesc.BackgroundImage = null;
+            this.txtDesc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtDesc.Font = null;
             this.txtDesc.Name = "txtDesc";
             this.txtDesc.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.txtDesc_LinkClicked);
             // 
             // lbType
             // 
+            this.lbType.AccessibleDescription = null;
+            this.lbType.AccessibleName = null;
             resources.ApplyResources(this.lbType, "lbType");
             this.lbType.Name = "lbType";
             // 
             // cbTypes
             // 
-            this.cbTypes.FormattingEnabled = true;
+            this.cbTypes.AccessibleDescription = null;
+            this.cbTypes.AccessibleName = null;
             resources.ApplyResources(this.cbTypes, "cbTypes");
+            this.cbTypes.BackgroundImage = null;
+            this.cbTypes.Font = null;
+            this.cbTypes.FormattingEnabled = true;
             this.cbTypes.Name = "cbTypes";
             this.cbTypes.SelectedIndexChanged += new System.EventHandler(this.cbTypes_SelectedIndexChanged);
             // 
             // txtSearch
             // 
-            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSearch.AccessibleDescription = null;
+            this.txtSearch.AccessibleName = null;
             resources.ApplyResources(this.txtSearch, "txtSearch");
+            this.txtSearch.BackgroundImage = null;
+            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSearch.Font = null;
             this.txtSearch.Name = "txtSearch";
             // 
             // btnHelp
             // 
+            this.btnHelp.AccessibleDescription = null;
+            this.btnHelp.AccessibleName = null;
             resources.ApplyResources(this.btnHelp, "btnHelp");
+            this.btnHelp.BackgroundImage = null;
             this.btnHelp.Name = "btnHelp";
             this.btnHelp.UseVisualStyleBackColor = true;
             this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
             // 
             // btnProperty
             // 
+            this.btnProperty.AccessibleDescription = null;
+            this.btnProperty.AccessibleName = null;
             resources.ApplyResources(this.btnProperty, "btnProperty");
+            this.btnProperty.BackgroundImage = null;
             this.btnProperty.Name = "btnProperty";
             this.btnProperty.UseVisualStyleBackColor = true;
             this.btnProperty.Click += new System.EventHandler(this.btnProperty_Click);
             // 
             // btnApply
             // 
+            this.btnApply.AccessibleDescription = null;
+            this.btnApply.AccessibleName = null;
             resources.ApplyResources(this.btnApply, "btnApply");
+            this.btnApply.BackgroundImage = null;
             this.btnApply.Name = "btnApply";
             this.btnApply.TabStop = false;
             this.btnApply.UseVisualStyleBackColor = true;
@@ -218,7 +275,10 @@ namespace WinApt.Client
             // 
             // btnCancal
             // 
+            this.btnCancal.AccessibleDescription = null;
+            this.btnCancal.AccessibleName = null;
             resources.ApplyResources(this.btnCancal, "btnCancal");
+            this.btnCancal.BackgroundImage = null;
             this.btnCancal.Name = "btnCancal";
             this.btnCancal.TabStop = false;
             this.btnCancal.UseVisualStyleBackColor = true;
@@ -226,29 +286,42 @@ namespace WinApt.Client
             // 
             // btnOK
             // 
+            this.btnOK.AccessibleDescription = null;
+            this.btnOK.AccessibleName = null;
             resources.ApplyResources(this.btnOK, "btnOK");
+            this.btnOK.BackgroundImage = null;
             this.btnOK.Name = "btnOK";
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // btnUpdate
             // 
+            this.btnUpdate.AccessibleDescription = null;
+            this.btnUpdate.AccessibleName = null;
             resources.ApplyResources(this.btnUpdate, "btnUpdate");
+            this.btnUpdate.BackgroundImage = null;
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnSearch
             // 
+            this.btnSearch.AccessibleDescription = null;
+            this.btnSearch.AccessibleName = null;
             resources.ApplyResources(this.btnSearch, "btnSearch");
+            this.btnSearch.BackgroundImage = null;
+            this.btnSearch.Font = null;
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // MainForm
             // 
+            this.AccessibleDescription = null;
+            this.AccessibleName = null;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = null;
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.splitContainer1);
@@ -260,7 +333,9 @@ namespace WinApt.Client
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.cbTypes);
             this.Controls.Add(this.lbType);
+            this.Font = null;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = null;
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.Load += new System.EventHandler(this.MainFormLoad);

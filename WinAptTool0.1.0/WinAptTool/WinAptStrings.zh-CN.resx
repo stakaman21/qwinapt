@@ -141,6 +141,9 @@
   <data name="strExecuteFormWaiting" xml:space="preserve">
     <value>等待取消...</value>
   </data>
+  <data name="strMainFormDownloadUrl" xml:space="preserve">
+    <value>下载地址:</value>
+  </data>
   <data name="strSplashLabelDownloadDB" xml:space="preserve">
     <value>下载数据文件...</value>
   </data>

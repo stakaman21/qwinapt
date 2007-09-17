@@ -133,6 +133,15 @@ namespace WinApt.Client {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Download Url:.
+        /// </summary>
+        internal static string strMainFormDownloadUrl {
+            get {
+                return ResourceManager.GetString("strMainFormDownloadUrl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Download DB file....
         /// </summary>
         internal static string strSplashLabelDownloadDB {
