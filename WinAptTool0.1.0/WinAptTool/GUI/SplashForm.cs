@@ -49,23 +49,24 @@ namespace WinApt.Client.GUI
             try
             {
                 string fileName = "appinfodb_" + MainForm.myCmdMgr.Config.local + ".xml";
-                if (File.Exists(fileName))
+                if (!File.Exists(fileName))
                 {
-                    StreamReader infile = File.OpenText(fileName);
-                    content = infile.ReadToEnd();
-                    infile.Close();
+                    if (!WinAptLib.DownloadDbFile(MainForm.myCmdMgr.Config.updateUrl))
+                        throw new Exception("Download file error.\n");
                 }
-                else
-                {
-                    this.lbSplash.Text = "Download DB file.";
-                    lbSplash.Update();
-                    content = WinAptLib.getPageContent(MainForm.myCmdMgr.Config.updateUrl);
-                    File.WriteAllText(fileName, content);
-                }
+                StreamReader infile = File.OpenText(fileName);
+                content = infile.ReadToEnd();
+                infile.Close();
+                //else
+                //{
+                //    this.lbSplash.Text = "Download DB file.";
+                //    lbSplash.Update();
+                //    content = WinAptLib.getPageContent(MainForm.myCmdMgr.Config.updateUrl);
+                //    File.WriteAllText(fileName, content);
+                //}
             }
             catch (Exception e)
             {
-                
                 throw new Exception("Download  " + MainForm.myCmdMgr.Config.updateUrl + " wrong, check the network.");
             }
             finally

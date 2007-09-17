@@ -23,7 +23,7 @@ namespace WinApt.Client.GUI
             //
             //TODO: change here.
             //
-            string updateUrl = "http://qwinapt.googlecode.com/files/appinfodb_" + local + ".xml";
+            string updateUrl = "http://qwinapt.googlecode.com/files/appinfodb_" + local + ".zip";
             MainForm.myCmdMgr.Config = new AppInfoConfig(local, basePath, updateUrl);
             //create dires
             foreach (string str in dirs)

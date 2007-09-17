@@ -4,6 +4,7 @@ using System.Text;
 using System.Xml.Serialization;
 using System.IO;
 using System.Net;
+using ICSharpCode.SharpZipLib.Zip;
 
 namespace WinApt.Common
 {
@@ -53,6 +54,103 @@ namespace WinApt.Common
             object o = x.Deserialize(reader);
             reader.Close();
             return o;
+        }
+        public static bool DownloadDbFile(string url)
+        {
+            try
+            {
+                HttpWebRequest request = (HttpWebRequest)
+            WebRequest.Create(url);
+                HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+                SaveBinaryFile(response, "tmpDB.zip");
+                UnZip("tmpDB.zip", @".\");
+                File.Delete("tmpDB.zip");
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public static void UnZip(string zipFileName,string dir)
+        {
+            ZipInputStream s = new ZipInputStream(File.OpenRead(zipFileName));
+            try
+            {
+                ZipEntry theEntry;
+                while ((theEntry = s.GetNextEntry()) != null)
+                {
+                    string directoryName = Path.GetDirectoryName(dir);
+                    string fileName = Path.GetFileName(theEntry.Name);
+
+                    Directory.CreateDirectory(directoryName);
+
+                    if (fileName != String.Empty)
+                    {
+
+                        FileStream streamWriter = File.Create(dir + fileName);
+
+                        int size = 2048;
+                        byte[] data = new byte[2048];
+                        while (true)
+                        {
+                            size = s.Read(data, 0, data.Length);
+                            if (size > 0)
+                            {
+                                streamWriter.Write(data, 0, size);
+                            }
+                            else
+                            {
+                                break;
+                            }
+                        }
+
+                        streamWriter.Close();
+                    }
+                }
+                s.Close();
+            }
+            catch (Exception eu)
+            {
+                throw eu;
+            }
+            finally
+            {
+                s.Close();
+            }
+
+        }//end UnZip
+
+        private static bool SaveBinaryFile(WebResponse response, string FileName)
+        {
+            bool Value = true;
+            byte[] buffer = new byte[2048];
+
+            try
+            {
+                if (File.Exists(FileName))
+                    File.Delete(FileName);
+                Stream outStream = System.IO.File.Create(FileName);
+                Stream inStream = response.GetResponseStream();
+
+                int l;
+                do
+                {
+                    l = inStream.Read(buffer, 0, buffer.Length);
+                    if (l > 0)
+                        outStream.Write(buffer, 0, l);
+                }
+                while (l > 0);
+
+                outStream.Close();
+                inStream.Close();
+            }
+            catch
+            {
+                Value = false;
+            }
+            return Value;
         }
     }
 }
