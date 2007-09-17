@@ -38,18 +38,15 @@ namespace WinApt.Client
 		{
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("All", 0);
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("Internet", 1);
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem("Other", 2);
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem("Office", 3);
-            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem("Graphics", 4);
-            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem("Media", 5);
-            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem("Education", 6);
-            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem("Games", 7);
-            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem("System", 8);
-            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem("Program", 9);
-            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem("Accessibility", 10);
-            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem("Accessories", 11);
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.lvCatalog = new System.Windows.Forms.ListView();
+            this.imgList1 = new System.Windows.Forms.ImageList(this.components);
+            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
+            this.lvApps = new System.Windows.Forms.ListView();
+            this.colApps = new System.Windows.Forms.ColumnHeader();
+            this.colVersion = new System.Windows.Forms.ColumnHeader();
+            this.colPop = new System.Windows.Forms.ColumnHeader();
+            this.txtDesc = new System.Windows.Forms.RichTextBox();
             this.lbType = new System.Windows.Forms.Label();
             this.cbTypes = new System.Windows.Forms.ComboBox();
             this.txtSearch = new System.Windows.Forms.TextBox();
@@ -58,15 +55,6 @@ namespace WinApt.Client
             this.btnApply = new System.Windows.Forms.Button();
             this.btnCancal = new System.Windows.Forms.Button();
             this.btnOK = new System.Windows.Forms.Button();
-            this.imgList1 = new System.Windows.Forms.ImageList(this.components);
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.lvCatalog = new System.Windows.Forms.ListView();
-            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.lvApps = new System.Windows.Forms.ListView();
-            this.colApps = new System.Windows.Forms.ColumnHeader();
-            this.colVersion = new System.Windows.Forms.ColumnHeader();
-            this.colPop = new System.Windows.Forms.ColumnHeader();
-            this.txtDesc = new System.Windows.Forms.RichTextBox();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -77,90 +65,46 @@ namespace WinApt.Client
             this.splitContainer2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lbType
+            // splitContainer1
             // 
-            this.lbType.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbType.Location = new System.Drawing.Point(293, 14);
-            this.lbType.Name = "lbType";
-            this.lbType.Size = new System.Drawing.Size(113, 21);
-            this.lbType.TabIndex = 1;
-            this.lbType.Text = "Show Type:";
+            resources.ApplyResources(this.splitContainer1, "splitContainer1");
+            this.splitContainer1.Name = "splitContainer1";
             // 
-            // cbTypes
+            // splitContainer1.Panel1
             // 
-            this.cbTypes.FormattingEnabled = true;
-            this.cbTypes.Items.AddRange(new object[] {
-            "Free Software",
-            "Green Software",
-            "Share Software"});
-            this.cbTypes.Location = new System.Drawing.Point(396, 16);
-            this.cbTypes.Name = "cbTypes";
-            this.cbTypes.Size = new System.Drawing.Size(243, 20);
-            this.cbTypes.TabIndex = 2;
-            this.cbTypes.SelectedIndexChanged += new System.EventHandler(this.cbTypes_SelectedIndexChanged);
+            this.splitContainer1.Panel1.Controls.Add(this.lvCatalog);
             // 
-            // txtSearch
+            // splitContainer1.Panel2
             // 
-            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtSearch.Location = new System.Drawing.Point(11, 12);
-            this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(207, 21);
-            this.txtSearch.TabIndex = 4;
+            this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
             // 
-            // btnHelp
+            // lvCatalog
             // 
-            this.btnHelp.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHelp.Location = new System.Drawing.Point(11, 410);
-            this.btnHelp.Name = "btnHelp";
-            this.btnHelp.Size = new System.Drawing.Size(80, 31);
-            this.btnHelp.TabIndex = 7;
-            this.btnHelp.Text = "&Help";
-            this.btnHelp.UseVisualStyleBackColor = true;
-            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
-            // 
-            // btnProperty
-            // 
-            this.btnProperty.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProperty.Location = new System.Drawing.Point(108, 410);
-            this.btnProperty.Name = "btnProperty";
-            this.btnProperty.Size = new System.Drawing.Size(95, 31);
-            this.btnProperty.TabIndex = 8;
-            this.btnProperty.Text = "&Preferences";
-            this.btnProperty.UseVisualStyleBackColor = true;
-            this.btnProperty.Click += new System.EventHandler(this.btnProperty_Click);
-            // 
-            // btnApply
-            // 
-            this.btnApply.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnApply.Location = new System.Drawing.Point(363, 410);
-            this.btnApply.Name = "btnApply";
-            this.btnApply.Size = new System.Drawing.Size(80, 31);
-            this.btnApply.TabIndex = 9;
-            this.btnApply.Text = "&Apply";
-            this.btnApply.UseVisualStyleBackColor = true;
-            this.btnApply.Click += new System.EventHandler(this.btnApply_Click);
-            // 
-            // btnCancal
-            // 
-            this.btnCancal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancal.Location = new System.Drawing.Point(460, 410);
-            this.btnCancal.Name = "btnCancal";
-            this.btnCancal.Size = new System.Drawing.Size(80, 31);
-            this.btnCancal.TabIndex = 10;
-            this.btnCancal.Text = "&Cancal";
-            this.btnCancal.UseVisualStyleBackColor = true;
-            this.btnCancal.Click += new System.EventHandler(this.btnCancal_Click);
-            // 
-            // btnOK
-            // 
-            this.btnOK.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOK.Location = new System.Drawing.Point(558, 410);
-            this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(80, 31);
-            this.btnOK.TabIndex = 11;
-            this.btnOK.Text = "&OK";
-            this.btnOK.UseVisualStyleBackColor = true;
-            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
+            this.lvCatalog.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.lvCatalog, "lvCatalog");
+            this.lvCatalog.FullRowSelect = true;
+            this.lvCatalog.HideSelection = false;
+            this.lvCatalog.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            ((System.Windows.Forms.ListViewItem)(resources.GetObject("lvCatalog.Items"))),
+            ((System.Windows.Forms.ListViewItem)(resources.GetObject("lvCatalog.Items1"))),
+            ((System.Windows.Forms.ListViewItem)(resources.GetObject("lvCatalog.Items2"))),
+            ((System.Windows.Forms.ListViewItem)(resources.GetObject("lvCatalog.Items3"))),
+            ((System.Windows.Forms.ListViewItem)(resources.GetObject("lvCatalog.Items4"))),
+            ((System.Windows.Forms.ListViewItem)(resources.GetObject("lvCatalog.Items5"))),
+            ((System.Windows.Forms.ListViewItem)(resources.GetObject("lvCatalog.Items6"))),
+            ((System.Windows.Forms.ListViewItem)(resources.GetObject("lvCatalog.Items7"))),
+            ((System.Windows.Forms.ListViewItem)(resources.GetObject("lvCatalog.Items8"))),
+            ((System.Windows.Forms.ListViewItem)(resources.GetObject("lvCatalog.Items9"))),
+            ((System.Windows.Forms.ListViewItem)(resources.GetObject("lvCatalog.Items10"))),
+            ((System.Windows.Forms.ListViewItem)(resources.GetObject("lvCatalog.Items11")))});
+            this.lvCatalog.LargeImageList = this.imgList1;
+            this.lvCatalog.MultiSelect = false;
+            this.lvCatalog.Name = "lvCatalog";
+            this.lvCatalog.SmallImageList = this.imgList1;
+            this.lvCatalog.TileSize = new System.Drawing.Size(168, 29);
+            this.lvCatalog.UseCompatibleStateImageBehavior = false;
+            this.lvCatalog.View = System.Windows.Forms.View.Tile;
+            this.lvCatalog.SelectedIndexChanged += new System.EventHandler(this.lvCatalog_SelectedIndexChanged);
             // 
             // imgList1
             // 
@@ -179,60 +123,10 @@ namespace WinApt.Client
             this.imgList1.Images.SetKeyName(10, "fuzhu.png");
             this.imgList1.Images.SetKeyName(11, "fujian.png");
             // 
-            // splitContainer1
-            // 
-            this.splitContainer1.Location = new System.Drawing.Point(12, 41);
-            this.splitContainer1.Name = "splitContainer1";
-            // 
-            // splitContainer1.Panel1
-            // 
-            this.splitContainer1.Panel1.Controls.Add(this.lvCatalog);
-            // 
-            // splitContainer1.Panel2
-            // 
-            this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(627, 360);
-            this.splitContainer1.SplitterDistance = 209;
-            this.splitContainer1.TabIndex = 13;
-            // 
-            // lvCatalog
-            // 
-            this.lvCatalog.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lvCatalog.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lvCatalog.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lvCatalog.FullRowSelect = true;
-            this.lvCatalog.HideSelection = false;
-            this.lvCatalog.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1,
-            listViewItem2,
-            listViewItem3,
-            listViewItem4,
-            listViewItem5,
-            listViewItem6,
-            listViewItem7,
-            listViewItem8,
-            listViewItem9,
-            listViewItem10,
-            listViewItem11,
-            listViewItem12});
-            this.lvCatalog.LargeImageList = this.imgList1;
-            this.lvCatalog.Location = new System.Drawing.Point(0, 0);
-            this.lvCatalog.MultiSelect = false;
-            this.lvCatalog.Name = "lvCatalog";
-            this.lvCatalog.Size = new System.Drawing.Size(209, 360);
-            this.lvCatalog.SmallImageList = this.imgList1;
-            this.lvCatalog.TabIndex = 0;
-            this.lvCatalog.TileSize = new System.Drawing.Size(168, 29);
-            this.lvCatalog.UseCompatibleStateImageBehavior = false;
-            this.lvCatalog.View = System.Windows.Forms.View.Tile;
-            this.lvCatalog.SelectedIndexChanged += new System.EventHandler(this.lvCatalog_SelectedIndexChanged);
-            // 
             // splitContainer2
             // 
-            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer2.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.splitContainer2, "splitContainer2");
             this.splitContainer2.Name = "splitContainer2";
-            this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
             // splitContainer2.Panel1
             // 
@@ -241,9 +135,6 @@ namespace WinApt.Client
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.txtDesc);
-            this.splitContainer2.Size = new System.Drawing.Size(414, 360);
-            this.splitContainer2.SplitterDistance = 206;
-            this.splitContainer2.TabIndex = 0;
             // 
             // lvApps
             // 
@@ -253,17 +144,13 @@ namespace WinApt.Client
             this.colApps,
             this.colVersion,
             this.colPop});
-            this.lvApps.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lvApps.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.lvApps, "lvApps");
             this.lvApps.FullRowSelect = true;
             this.lvApps.GridLines = true;
             this.lvApps.HideSelection = false;
-            this.lvApps.Location = new System.Drawing.Point(0, 0);
             this.lvApps.MultiSelect = false;
             this.lvApps.Name = "lvApps";
-            this.lvApps.Size = new System.Drawing.Size(414, 206);
             this.lvApps.SmallImageList = this.imgList1;
-            this.lvApps.TabIndex = 0;
             this.lvApps.UseCompatibleStateImageBehavior = false;
             this.lvApps.View = System.Windows.Forms.View.Details;
             this.lvApps.ItemChecked += new System.Windows.Forms.ItemCheckedEventHandler(this.lvApps_ItemChecked);
@@ -272,56 +159,96 @@ namespace WinApt.Client
             // 
             // colApps
             // 
-            this.colApps.Text = "Applications";
-            this.colApps.Width = 190;
+            resources.ApplyResources(this.colApps, "colApps");
             // 
             // colVersion
             // 
-            this.colVersion.Text = "Version";
-            this.colVersion.Width = 110;
+            resources.ApplyResources(this.colVersion, "colVersion");
             // 
             // colPop
             // 
-            this.colPop.Text = "Popularity";
-            this.colPop.Width = 110;
+            resources.ApplyResources(this.colPop, "colPop");
             // 
             // txtDesc
             // 
             this.txtDesc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtDesc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtDesc.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.txtDesc, "txtDesc");
             this.txtDesc.Name = "txtDesc";
-            this.txtDesc.Size = new System.Drawing.Size(414, 150);
-            this.txtDesc.TabIndex = 0;
-            this.txtDesc.Text = "";
             this.txtDesc.LinkClicked += new System.Windows.Forms.LinkClickedEventHandler(this.txtDesc_LinkClicked);
+            // 
+            // lbType
+            // 
+            resources.ApplyResources(this.lbType, "lbType");
+            this.lbType.Name = "lbType";
+            // 
+            // cbTypes
+            // 
+            this.cbTypes.FormattingEnabled = true;
+            resources.ApplyResources(this.cbTypes, "cbTypes");
+            this.cbTypes.Name = "cbTypes";
+            this.cbTypes.SelectedIndexChanged += new System.EventHandler(this.cbTypes_SelectedIndexChanged);
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.txtSearch, "txtSearch");
+            this.txtSearch.Name = "txtSearch";
+            // 
+            // btnHelp
+            // 
+            resources.ApplyResources(this.btnHelp, "btnHelp");
+            this.btnHelp.Name = "btnHelp";
+            this.btnHelp.UseVisualStyleBackColor = true;
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
+            // 
+            // btnProperty
+            // 
+            resources.ApplyResources(this.btnProperty, "btnProperty");
+            this.btnProperty.Name = "btnProperty";
+            this.btnProperty.UseVisualStyleBackColor = true;
+            this.btnProperty.Click += new System.EventHandler(this.btnProperty_Click);
+            // 
+            // btnApply
+            // 
+            resources.ApplyResources(this.btnApply, "btnApply");
+            this.btnApply.Name = "btnApply";
+            this.btnApply.TabStop = false;
+            this.btnApply.UseVisualStyleBackColor = true;
+            this.btnApply.Click += new System.EventHandler(this.btnApply_Click);
+            // 
+            // btnCancal
+            // 
+            resources.ApplyResources(this.btnCancal, "btnCancal");
+            this.btnCancal.Name = "btnCancal";
+            this.btnCancal.TabStop = false;
+            this.btnCancal.UseVisualStyleBackColor = true;
+            this.btnCancal.Click += new System.EventHandler(this.btnCancal_Click);
+            // 
+            // btnOK
+            // 
+            resources.ApplyResources(this.btnOK, "btnOK");
+            this.btnOK.Name = "btnOK";
+            this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(225, 410);
+            resources.ApplyResources(this.btnUpdate, "btnUpdate");
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(80, 31);
-            this.btnUpdate.TabIndex = 14;
-            this.btnUpdate.Text = "&Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(224, 10);
+            resources.ApplyResources(this.btnSearch, "btnSearch");
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(63, 23);
-            this.btnSearch.TabIndex = 15;
-            this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(647, 446);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.splitContainer1);
@@ -336,8 +263,6 @@ namespace WinApt.Client
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "MainForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Quick WinApt Tool";
             this.Load += new System.EventHandler(this.MainFormLoad);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);

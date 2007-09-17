@@ -13,6 +13,19 @@ namespace WinApt.Common
         public static int NoFile = 0;
         public static int Downloaded = 1;
         public static int NewVersion = 2;
+        public static string[] Catalogs = { "All",
+                                            "Internet",
+                                            "Other",
+                                            "Office",
+                                            "Graphics",
+                                            "Media",
+                                            "Education",
+                                            "Games",
+                                            "System",
+                                            "Program",
+                                            "Accessibility",
+                                            "Accessories"};
+        public static string[] Types = { "Free Software","Green Software","Share Software"};
         //public enum State
         //{
         //    NoFile = 0,

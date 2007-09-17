@@ -28,6 +28,7 @@ namespace WinApt.Client.GUI
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChoseForm));
             this.lbText = new System.Windows.Forms.Label();
             this.txtPath = new System.Windows.Forms.TextBox();
             this.btnBrowser = new System.Windows.Forms.Button();
@@ -38,62 +39,68 @@ namespace WinApt.Client.GUI
             // 
             // lbText
             // 
-            this.lbText.AutoSize = true;
-            this.lbText.Location = new System.Drawing.Point(12, 22);
+            this.lbText.AccessibleDescription = null;
+            this.lbText.AccessibleName = null;
+            resources.ApplyResources(this.lbText, "lbText");
+            this.lbText.Font = null;
             this.lbText.Name = "lbText";
-            this.lbText.Size = new System.Drawing.Size(190, 26);
-            this.lbText.TabIndex = 0;
-            this.lbText.Text = "It seems that you run me at first time!\r\nlet us do some basic config.";
             // 
             // txtPath
             // 
-            this.txtPath.Location = new System.Drawing.Point(15, 61);
+            this.txtPath.AccessibleDescription = null;
+            this.txtPath.AccessibleName = null;
+            resources.ApplyResources(this.txtPath, "txtPath");
+            this.txtPath.BackgroundImage = null;
+            this.txtPath.Font = null;
             this.txtPath.Name = "txtPath";
-            this.txtPath.Size = new System.Drawing.Size(187, 21);
-            this.txtPath.TabIndex = 1;
             // 
             // btnBrowser
             // 
-            this.btnBrowser.Location = new System.Drawing.Point(208, 61);
+            this.btnBrowser.AccessibleDescription = null;
+            this.btnBrowser.AccessibleName = null;
+            resources.ApplyResources(this.btnBrowser, "btnBrowser");
+            this.btnBrowser.BackgroundImage = null;
+            this.btnBrowser.Font = null;
             this.btnBrowser.Name = "btnBrowser";
-            this.btnBrowser.Size = new System.Drawing.Size(62, 23);
-            this.btnBrowser.TabIndex = 2;
-            this.btnBrowser.Text = "Browser...";
             this.btnBrowser.UseVisualStyleBackColor = true;
             this.btnBrowser.Click += new System.EventHandler(this.btnBrowser_Click);
             // 
             // btnOK
             // 
+            this.btnOK.AccessibleDescription = null;
+            this.btnOK.AccessibleName = null;
+            resources.ApplyResources(this.btnOK, "btnOK");
+            this.btnOK.BackgroundImage = null;
             this.btnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnOK.Location = new System.Drawing.Point(104, 101);
+            this.btnOK.Font = null;
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(75, 23);
-            this.btnOK.TabIndex = 3;
-            this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            resources.ApplyResources(this.openFileDialog1, "openFileDialog1");
             // 
             // fdDlg
             // 
-            this.fdDlg.Description = "Chose base folder to save files:";
+            resources.ApplyResources(this.fdDlg, "fdDlg");
             // 
             // ChoseForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AccessibleDescription = null;
+            this.AccessibleName = null;
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(292, 133);
+            this.BackgroundImage = null;
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.btnBrowser);
             this.Controls.Add(this.txtPath);
             this.Controls.Add(this.lbText);
+            this.Font = null;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = null;
             this.Name = "ChoseForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Config Tool";
             this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();

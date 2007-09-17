@@ -28,6 +28,7 @@ namespace WinApt.Client.GUI
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ExecuteForm));
             this.lbAction = new System.Windows.Forms.Label();
             this.txtConsole = new System.Windows.Forms.TextBox();
             this.btnCancal = new System.Windows.Forms.Button();
@@ -36,47 +37,34 @@ namespace WinApt.Client.GUI
             // 
             // lbAction
             // 
-            this.lbAction.AutoSize = true;
-            this.lbAction.Location = new System.Drawing.Point(12, 20);
+            resources.ApplyResources(this.lbAction, "lbAction");
             this.lbAction.Name = "lbAction";
-            this.lbAction.Size = new System.Drawing.Size(0, 13);
-            this.lbAction.TabIndex = 0;
             // 
             // txtConsole
             // 
-            this.txtConsole.Location = new System.Drawing.Point(14, 48);
-            this.txtConsole.Multiline = true;
+            resources.ApplyResources(this.txtConsole, "txtConsole");
             this.txtConsole.Name = "txtConsole";
             this.txtConsole.ReadOnly = true;
-            this.txtConsole.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtConsole.Size = new System.Drawing.Size(441, 181);
-            this.txtConsole.TabIndex = 1;
             // 
             // btnCancal
             // 
-            this.btnCancal.Location = new System.Drawing.Point(274, 234);
+            resources.ApplyResources(this.btnCancal, "btnCancal");
             this.btnCancal.Name = "btnCancal";
-            this.btnCancal.Size = new System.Drawing.Size(75, 25);
-            this.btnCancal.TabIndex = 2;
-            this.btnCancal.Text = "&Cancal";
             this.btnCancal.UseVisualStyleBackColor = true;
             this.btnCancal.Click += new System.EventHandler(this.btnCancal_Click);
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(102, 235);
+            resources.ApplyResources(this.btnOK, "btnOK");
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(75, 25);
-            this.btnOK.TabIndex = 3;
-            this.btnOK.Text = "&OK";
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // ExecuteForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(467, 271);
+            this.ControlBox = false;
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.btnCancal);
             this.Controls.Add(this.txtConsole);
@@ -85,8 +73,6 @@ namespace WinApt.Client.GUI
             this.Name = "ExecuteForm";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Apply Changes";
             this.ResumeLayout(false);
             this.PerformLayout();
 

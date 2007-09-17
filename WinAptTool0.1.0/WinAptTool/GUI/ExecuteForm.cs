@@ -9,6 +9,7 @@ using WinApt.Common;
 using System.IO;
 using System.Threading;
 using System.Diagnostics;
+using System.Resources;
 
 namespace WinApt.Client.GUI
 {
@@ -26,11 +27,15 @@ namespace WinApt.Client.GUI
         {
             InitializeComponent();
             this.cmdMgr = cmdMgr;
-            lbAction.Text = "We will take follow changes:";
+            //We will take follow changes:
+            lbAction.Text = MainForm.LocRM.GetString("strExecuteFormLabelText");
+
             if (cmdMgr.SelectItems.Count > 0)
             {
                 needStart = true;
-                txtConsole.Text = "We are going to download:\n";
+                //We are going to download:\n
+                txtConsole.Text = MainForm.LocRM.GetString("strExecuteFormGoDownload");
+                txtConsole.AppendText("\n");
                 foreach (object item in cmdMgr.SelectItems)
                 {
                     AppInfoBase it = (AppInfoBase)cmdMgr.InfoDB.Items[(int)item];
@@ -41,7 +46,9 @@ namespace WinApt.Client.GUI
             if (cmdMgr.DelectItems.Count > 0)
             {
                 needStart = true;
-                txtConsole.AppendText("We are going to delete:\n");
+                //We are going to delete:\n
+                txtConsole.AppendText(MainForm.LocRM.GetString("strExecuteFormGoDel"));
+                txtConsole.AppendText("\n");
                 foreach (object item in cmdMgr.DelectItems)
                 {
                     AppInfoBase it = (AppInfoBase)cmdMgr.InfoDB.Items[(int)item];
@@ -62,7 +69,8 @@ namespace WinApt.Client.GUI
                 Close();
             }
             if(!_stop)
-                txtConsole.AppendText("User Cancal...");
+                //User Cancal...
+                txtConsole.AppendText(MainForm.LocRM.GetString("strExecuteFormUserCancal"));
             _stop = true;
         }
         public void Execute()
@@ -71,7 +79,9 @@ namespace WinApt.Client.GUI
             {
                 if (_stop)
                     break;
-                string newStr = string.Format("We are downloading {0}/{1}", i, cmdMgr.SelectItems.Count);
+                //We are downloading {0}/{1}
+                string format = MainForm.LocRM.GetString("strExecuteFormDownloading");
+                string newStr = string.Format(format, i, cmdMgr.SelectItems.Count);
                 UpdateLabel(newStr);
                 AppInfoBase it = (AppInfoBase)cmdMgr.InfoDB.Items[(int)cmdMgr.SelectItems[i]];
                 string cmd = "-O " + cmdMgr.GetFilePath((int)cmdMgr.SelectItems[i]) + " " + it.url;
@@ -82,13 +92,15 @@ namespace WinApt.Client.GUI
             {
                 if (_stop)
                     break;
-                UpdateLabel("Deleting files.");
+                //Deleting files.
+                UpdateLabel(MainForm.LocRM.GetString("strExecuteFormDeleting"));
                 string cmd = cmdMgr.GetFilePath((int)cmdMgr.DelectItems[i]);
                 //no exception if file doesnot exists.
                 File.Delete(cmd);
                 cmdMgr.Config.Items.Remove(cmdMgr.InfoDB.Items[(int)cmdMgr.DelectItems[i]]);
             }
-            UpdateText("Done.");
+            //Done.
+            UpdateText(MainForm.LocRM.GetString("strExecuteFormDone"));
             CancalChange(_stop);
             WinAptLib.WriteToFile(cmdMgr.Config, MainForm.configFile);
             _stop = true;
@@ -174,7 +186,8 @@ namespace WinApt.Client.GUI
             if (_stop)
             {
                 p.Kill();
-                UpdateText("Waiting for cancal..."); 
+                //Waiting for cancal...
+                UpdateText(MainForm.LocRM.GetString("strExecuteFormWaiting"));
             }
             else
                 p.WaitForExit();

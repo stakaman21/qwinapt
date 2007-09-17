@@ -11,6 +11,8 @@ using System;
 using System.Windows.Forms;
 using WinApt.Client.GUI;
 using WinApt.Common;
+using System.Threading;
+using System.Resources;
 
 namespace WinApt.Client
 {
@@ -26,12 +28,19 @@ namespace WinApt.Client
 		private static void Main(string[] args)
 		{
 			Application.EnableVisualStyles();
-			Application.SetCompatibleTextRenderingDefault(false);
+            Application.SetCompatibleTextRenderingDefault(false);
+            
+            // load current culture, en-US or zh-CN
+            Thread.CurrentThread.CurrentUICulture = Thread.CurrentThread.CurrentCulture;
+            // load resource files
+            MainForm.LocRM = new ResourceManager("WinApt.Client.WinAptStrings", typeof(MainForm).Assembly);
+
             SplashForm mySplash = new SplashForm();
             bool exitFlag = false;
             mySplash.Show();
             try
             {
+                //when the fisrt time run this program, exception("new") throws
                 mySplash.InitApp();
             }
             catch (Exception e)
@@ -51,12 +60,12 @@ namespace WinApt.Client
                 else
                 {
                     MessageBox.Show(e.Message);
+                    exitFlag = true;
                 }
             }
             finally
             {
                 mySplash.Close();
-                exitFlag = false;
             }
             if (exitFlag)
                 return;

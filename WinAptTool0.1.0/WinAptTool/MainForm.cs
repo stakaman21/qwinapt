@@ -13,6 +13,8 @@ using System.Drawing;
 using System.Windows.Forms;
 using WinApt.Common;
 using WinApt.Client.GUI;
+using System.Globalization;
+using System.Resources;
 
 namespace WinApt.Client
 {
@@ -25,10 +27,15 @@ namespace WinApt.Client
         private string[] chars = { "★", "★★", "★★★", "★★★★", "★★★★★" };
         public static CmdMgr myCmdMgr = null;
         private bool initTag = true;
+        public static ResourceManager LocRM;
 
         public MainForm()
 		{
-			//
+            //
+            //TDDO: here to select different UI of users system.
+            //
+
+            //
 			// The InitializeComponent() call is required for Windows Forms designer support.
 			//
 			InitializeComponent();
@@ -36,6 +43,10 @@ namespace WinApt.Client
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
+
+            cbTypes.Items.Add(LocRM.GetString("strTypeFree"));
+            cbTypes.Items.Add(LocRM.GetString("strTypeGreen"));
+            cbTypes.Items.Add(LocRM.GetString("strTypeShare"));
 		}
 
 		
@@ -59,9 +70,9 @@ namespace WinApt.Client
             lvApps.Items.Clear();
             txtDesc.Clear();
 
-            string catalog = lvCatalog.SelectedItems[0].Text;
+            string catalog = WinAptLib.Catalogs[lvCatalog.SelectedItems[0].Index];
 
-            ArrayList items = myCmdMgr.FindAppInfoList(cbTypes.Text, catalog, txtSearch.Text);
+            ArrayList items = myCmdMgr.FindAppInfoList(WinAptLib.Types[cbTypes.SelectedIndex], catalog, txtSearch.Text);
             initTag = true;
             foreach (Hashtable item in items)
             {

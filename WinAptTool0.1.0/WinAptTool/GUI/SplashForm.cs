@@ -23,7 +23,7 @@ namespace WinApt.Client.GUI
             //TODO: add init code before main form show.
             //
 
-            this.lbSplash.Text = "Loading config file.";
+            this.lbSplash.Text = MainForm.LocRM.GetString("strSplashLabelText");
 
             if (MainForm.myCmdMgr == null)
                 MainForm.myCmdMgr = new CmdMgr();
@@ -44,30 +44,25 @@ namespace WinApt.Client.GUI
             }
             //download update page.
             string content = "";
-            this.lbSplash.Text = "Load DB file.";
+            this.lbSplash.Text = MainForm.LocRM.GetString("strSplashLabelLoadDB");
             lbSplash.Update();
             try
             {
                 string fileName = "appinfodb_" + MainForm.myCmdMgr.Config.local + ".xml";
                 if (!File.Exists(fileName))
                 {
+                    this.lbSplash.Text = MainForm.LocRM.GetString("strSplashLabelDownloadDB");
+                    lbSplash.Update();
                     if (!WinAptLib.DownloadDbFile(MainForm.myCmdMgr.Config.updateUrl))
                         throw new Exception("Download file error.\n");
                 }
                 StreamReader infile = File.OpenText(fileName);
                 content = infile.ReadToEnd();
                 infile.Close();
-                //else
-                //{
-                //    this.lbSplash.Text = "Download DB file.";
-                //    lbSplash.Update();
-                //    content = WinAptLib.getPageContent(MainForm.myCmdMgr.Config.updateUrl);
-                //    File.WriteAllText(fileName, content);
-                //}
             }
             catch (Exception e)
             {
-                throw new Exception("Download  " + MainForm.myCmdMgr.Config.updateUrl + " wrong, check the network.");
+                throw new Exception(string.Format(MainForm.LocRM.GetString("strSplashLabelDownloadError")));
             }
             finally
             {

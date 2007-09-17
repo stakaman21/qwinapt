@@ -13,6 +13,8 @@ using System.Collections;
 using System.Xml.Serialization;
 using System.IO;
 using WinApt.Common;
+using System.Text;
+using System.Web;
 
 namespace WinApt.Parser
 {
@@ -95,6 +97,8 @@ namespace WinApt.Parser
                     startPos = str.IndexOf("ftp");
                 endPos = str.LastIndexOf("'>");
                 string url = str.Substring(startPos, endPos - startPos);
+                //convert unicode to local url
+                url = HttpUtility.UrlDecode(url, Encoding.Default);
                 //find version
                 string version = retlist[i].Groups[1].Captures[1].Value;
                 //find description

@@ -19,6 +19,11 @@ namespace WinApt.Client.GUI
         public void Config()
         {
             string local = System.Threading.Thread.CurrentThread.CurrentCulture.Name;
+            //if not zh-CN or en-US, use english for default.
+            if (local != "zh-CN" && local != "en-US")
+            {
+                local = "en-US";
+            }
             string[] dirs = { "Internet", "Office", "Other", "Graphics", "System", "Media", "Program", "Accessories", "Games", "Accessibility","Education" };
             //
             //TODO: change here.
