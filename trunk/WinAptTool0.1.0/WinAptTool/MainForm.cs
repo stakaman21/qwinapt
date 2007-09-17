@@ -106,7 +106,8 @@ namespace WinApt.Client
             Hashtable item = myCmdMgr.FindAppInfo((int)lvApps.SelectedItems[0].Tag);
             int state = (int)item["state"];
             txtDesc.Text = (string)item["description"];
-            txtDesc.AppendText("\n\nDownload Url:\n" + (string)item["url"]);
+            txtDesc.AppendText("\n\n");
+            txtDesc.AppendText(LocRM.GetString("strMainFormDownloadUrl") + "\n" + (string)item["url"]);
             if (state == WinAptLib.NewVersion)
             {
                 txtDesc.AppendText("\nnew version: " + (string)item["version"] + "    " + (string)item["url"]);
@@ -219,10 +220,12 @@ namespace WinApt.Client
             UpdateForm upForm = new UpdateForm();
             upForm.Show();
             upForm.Update();
-            string content = WinAptLib.getPageContent(myCmdMgr.Config.updateUrl);
+            WinAptLib.DownloadDbFile(myCmdMgr.Config.updateUrl);
+            string fileName = "appinfodb_" + MainForm.myCmdMgr.Config.local + ".xml";
+            string content = WinAptLib.GetAppInfoContent(fileName);
             myCmdMgr.UpdateAppDB(content);
             updateLvApp();
-            upForm.Dispose();
+            upForm.Close();
             btnOK.Enabled = true;
             btnApply.Enabled = true;
         }

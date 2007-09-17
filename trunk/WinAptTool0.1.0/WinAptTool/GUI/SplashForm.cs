@@ -56,9 +56,7 @@ namespace WinApt.Client.GUI
                     if (!WinAptLib.DownloadDbFile(MainForm.myCmdMgr.Config.updateUrl))
                         throw new Exception("Download file error.\n");
                 }
-                StreamReader infile = File.OpenText(fileName);
-                content = infile.ReadToEnd();
-                infile.Close();
+                content = WinAptLib.GetAppInfoContent(fileName);
             }
             catch (Exception e)
             {

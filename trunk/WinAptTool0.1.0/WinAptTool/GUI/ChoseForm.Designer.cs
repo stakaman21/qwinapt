@@ -39,40 +39,25 @@ namespace WinApt.Client.GUI
             // 
             // lbText
             // 
-            this.lbText.AccessibleDescription = null;
-            this.lbText.AccessibleName = null;
             resources.ApplyResources(this.lbText, "lbText");
-            this.lbText.Font = null;
             this.lbText.Name = "lbText";
             // 
             // txtPath
             // 
-            this.txtPath.AccessibleDescription = null;
-            this.txtPath.AccessibleName = null;
             resources.ApplyResources(this.txtPath, "txtPath");
-            this.txtPath.BackgroundImage = null;
-            this.txtPath.Font = null;
             this.txtPath.Name = "txtPath";
             // 
             // btnBrowser
             // 
-            this.btnBrowser.AccessibleDescription = null;
-            this.btnBrowser.AccessibleName = null;
             resources.ApplyResources(this.btnBrowser, "btnBrowser");
-            this.btnBrowser.BackgroundImage = null;
-            this.btnBrowser.Font = null;
             this.btnBrowser.Name = "btnBrowser";
             this.btnBrowser.UseVisualStyleBackColor = true;
             this.btnBrowser.Click += new System.EventHandler(this.btnBrowser_Click);
             // 
             // btnOK
             // 
-            this.btnOK.AccessibleDescription = null;
-            this.btnOK.AccessibleName = null;
-            resources.ApplyResources(this.btnOK, "btnOK");
-            this.btnOK.BackgroundImage = null;
             this.btnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btnOK.Font = null;
+            resources.ApplyResources(this.btnOK, "btnOK");
             this.btnOK.Name = "btnOK";
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
@@ -80,7 +65,6 @@ namespace WinApt.Client.GUI
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            resources.ApplyResources(this.openFileDialog1, "openFileDialog1");
             // 
             // fdDlg
             // 
@@ -88,18 +72,14 @@ namespace WinApt.Client.GUI
             // 
             // ChoseForm
             // 
-            this.AccessibleDescription = null;
-            this.AccessibleName = null;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = null;
+            this.ControlBox = false;
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.btnBrowser);
             this.Controls.Add(this.txtPath);
             this.Controls.Add(this.lbText);
-            this.Font = null;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Icon = null;
             this.Name = "ChoseForm";
             this.TopMost = true;
             this.ResumeLayout(false);

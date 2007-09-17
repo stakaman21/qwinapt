@@ -151,12 +151,12 @@ namespace WinApt.Client
                 //already contains, mark as needDownload
                 if ((index = myAppDB.Contains(item)) != -1)
                 {
-                    ((AppInfoBase)myAppDB.Items[index]).setState(1);
+                    ((AppInfoBase)myAppDB.Items[index]).setState(WinAptLib.Downloaded);
                 }
                 //has older version, mark as needUpdate
                 if ((index = myAppDB.HasOldVersion(item)) != -1)
                 {
-                    ((AppInfoBase)myAppDB.Items[index]).setState(2);
+                    ((AppInfoBase)myAppDB.Items[index]).setState(WinAptLib.NewVersion);
                     ((AppInfoBase)myAppDB.Items[index]).version = ((AppInfoBase)item).version;
                 }
             }

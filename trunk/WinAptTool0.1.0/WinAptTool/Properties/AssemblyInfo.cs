@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("WinAptTool")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("spss")]
+[assembly: AssemblyCompany("orchidy")]
 [assembly: AssemblyProduct("WinAptTool")]
-[assembly: AssemblyCopyright("Copyright © spss 2007")]
+[assembly: AssemblyCopyright("Copyright © tinylee 2007")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

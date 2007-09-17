@@ -165,5 +165,13 @@ namespace WinApt.Common
             }
             return Value;
         }
+        public static string GetAppInfoContent(string fileName)
+        {
+            string ret = "";
+            StreamReader infile = File.OpenText(fileName);
+            ret = infile.ReadToEnd();
+            infile.Close();
+            return ret;
+        }
     }
 }
