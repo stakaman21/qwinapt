@@ -61,6 +61,12 @@
     <Compile Include="GUI\ChoseForm.Designer.cs">
       <DependentUpon>ChoseForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\ConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ConfigForm.Designer.cs">
+      <DependentUpon>ConfigForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\ExecuteForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +108,14 @@
     <EmbeddedResource Include="GUI\ChoseForm.zh-CN.resx">
       <SubType>Designer</SubType>
       <DependentUpon>ChoseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ConfigForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ConfigForm.zh-CN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConfigForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\ExecuteForm.resx">
       <SubType>Designer</SubType>

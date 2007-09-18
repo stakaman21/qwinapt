@@ -23,7 +23,7 @@ namespace WinApt.Client
 	/// </summary>
 	public partial class MainForm : Form
 	{
-        public static string configFile = "configDB.xml";
+        public static string configFile = @"config\base.xml";
         private string[] chars = { "★", "★★", "★★★", "★★★★", "★★★★★" };
         public static CmdMgr myCmdMgr = null;
         private bool initTag = true;
@@ -203,7 +203,10 @@ namespace WinApt.Client
 
         private void btnProperty_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Nothing implement yet!");
+            //MessageBox.Show("Nothing implement yet!");
+            ConfigForm fmConfig = new ConfigForm(this);
+            fmConfig.ShowDialog();
+            fmConfig.Close();
         }
 
         private void btnHelp_Click(object sender, EventArgs e)
@@ -214,25 +217,35 @@ namespace WinApt.Client
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
+            UpdateDB();
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            updateLvApp();
+        }
+        public void UpdateDB()
+        {
             btnUpdate.Enabled = false;
             btnOK.Enabled = false;
             btnApply.Enabled = false;
             UpdateForm upForm = new UpdateForm();
             upForm.Show();
             upForm.Update();
-            WinAptLib.DownloadDbFile(myCmdMgr.Config.updateUrl);
-            string fileName = "appinfodb_" + MainForm.myCmdMgr.Config.local + ".xml";
-            string content = WinAptLib.GetAppInfoContent(fileName);
-            myCmdMgr.UpdateAppDB(content);
-            updateLvApp();
+            if (!WinAptLib.DownloadDbFile(myCmdMgr.Config.updateUrl))
+            {
+                MessageBox.Show(string.Format(LocRM.GetString("strSplashLabelDownloadError"), myCmdMgr.Config.updateUrl));
+            }
+            else
+            {
+                string fileName = myCmdMgr.Config.usingDB;
+                string content = WinAptLib.GetAppInfoContent(fileName);
+                myCmdMgr.UpdateAppDB(content);
+                updateLvApp();
+            }
             upForm.Close();
             btnOK.Enabled = true;
             btnApply.Enabled = true;
-        }
-
-        private void btnSearch_Click(object sender, EventArgs e)
-        {
-            updateLvApp();
         }
 	}
 }

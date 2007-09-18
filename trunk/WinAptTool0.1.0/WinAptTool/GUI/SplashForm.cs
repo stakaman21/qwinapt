@@ -48,19 +48,19 @@ namespace WinApt.Client.GUI
             lbSplash.Update();
             try
             {
-                string fileName = "appinfodb_" + MainForm.myCmdMgr.Config.local + ".xml";
+                string fileName = MainForm.myCmdMgr.Config.usingDB;
                 if (!File.Exists(fileName))
                 {
                     this.lbSplash.Text = MainForm.LocRM.GetString("strSplashLabelDownloadDB");
                     lbSplash.Update();
                     if (!WinAptLib.DownloadDbFile(MainForm.myCmdMgr.Config.updateUrl))
-                        throw new Exception("Download file error.\n");
+                        throw new Exception(string.Format(MainForm.LocRM.GetString("strSplashLabelDownloadError"), MainForm.myCmdMgr.Config.updateUrl));
                 }
                 content = WinAptLib.GetAppInfoContent(fileName);
             }
             catch (Exception e)
             {
-                throw new Exception(string.Format(MainForm.LocRM.GetString("strSplashLabelDownloadError")));
+                throw e; 
             }
             finally
             {

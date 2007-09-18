@@ -84,8 +84,9 @@ namespace WinApt.Client.GUI
                 string newStr = string.Format(format, i, cmdMgr.SelectItems.Count);
                 UpdateLabel(newStr);
                 AppInfoBase it = (AppInfoBase)cmdMgr.InfoDB.Items[(int)cmdMgr.SelectItems[i]];
-                string cmd = "-O " + cmdMgr.GetFilePath((int)cmdMgr.SelectItems[i]) + " " + it.url;
-                if (ExecuteCmd(cmd))
+                string fname = cmdMgr.GetFilePath((int)cmdMgr.SelectItems[i]);
+                string url = it.url;
+                if (ExecuteCmd(fname,url))
                     cmdMgr.Config.Items.Add(cmdMgr.InfoDB.Items[(int)cmdMgr.SelectItems[i]]);
             }
             for (int i = 0; i < cmdMgr.DelectItems.Count; i++)
@@ -158,11 +159,11 @@ namespace WinApt.Client.GUI
             }
         }
         #endregion
-        public bool ExecuteCmd(string param)
+        public bool ExecuteCmd(string fileName,string url)
         {
             ProcessStartInfo start = new ProcessStartInfo("wget.exe");
             //set params
-            start.Arguments = param;
+            start.Arguments = "-O " + fileName + " " + url;
             //no dos window
             start.CreateNoWindow = true;
             //start.RedirectStandardOutput = true;//
@@ -188,6 +189,8 @@ namespace WinApt.Client.GUI
                 p.Kill();
                 //Waiting for cancal...
                 UpdateText(MainForm.LocRM.GetString("strExecuteFormWaiting"));
+                //if cancal, delete the file.
+                File.Delete(fileName);
             }
             else
                 p.WaitForExit();
