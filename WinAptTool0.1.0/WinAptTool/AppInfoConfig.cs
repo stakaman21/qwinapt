@@ -14,14 +14,18 @@ namespace WinApt.Client
     /// app that has already downloaded
     /// local dirs
     /// </summary>
-[XmlRoot("AppInfoConfig")]
+    [XmlRoot("AppInfoConfig")]
     public class AppInfoConfig
     {
+        //current local, values: en-US or zh-CN
         [XmlElement("local")]
         public string local = string.Empty;
-
+        //update url: default is http://qwinapt.googlecode.com/files/appinfodb_
         [XmlElement("updateUrl")]
         public string updateUrl = string.Empty;
+
+        [XmlElement("UsingDB")]
+        public string usingDB = string.Empty;
 
         [XmlElement("basePath")]
         public string basePath = string.Empty;
@@ -33,14 +37,16 @@ namespace WinApt.Client
         {
             updateUrl = "";
             basePath = "";
+            usingDB = "";
             Items = new ArrayList();
         }
 
-        public AppInfoConfig(string local, string basepath, string updateurl)
+        public AppInfoConfig(string local, string basepath, string updateurl,string usingDB)
         {
             this.local = local;
             this.basePath = basepath;
             this.updateUrl = updateurl;
+            this.usingDB = usingDB;
             Items = new ArrayList();
         }
     }

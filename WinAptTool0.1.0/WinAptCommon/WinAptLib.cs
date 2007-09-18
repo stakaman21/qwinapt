@@ -13,6 +13,7 @@ namespace WinApt.Common
         public static int NoFile = 0;
         public static int Downloaded = 1;
         public static int NewVersion = 2;
+        public static string ConfigPath = @"config\";
         public static string[] Catalogs = { "All",
                                             "Internet",
                                             "Other",
@@ -76,7 +77,7 @@ namespace WinApt.Common
             WebRequest.Create(url);
                 HttpWebResponse response = (HttpWebResponse)request.GetResponse();
                 SaveBinaryFile(response, "tmpDB.zip");
-                UnZip("tmpDB.zip", @".\");
+                UnZip("tmpDB.zip", ConfigPath);
                 File.Delete("tmpDB.zip");
             }
             catch (Exception e)

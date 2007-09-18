@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using System.IO;
+using WinApt.Common;
 
 namespace WinApt.Client.GUI
 {
@@ -25,11 +26,14 @@ namespace WinApt.Client.GUI
                 local = "en-US";
             }
             string[] dirs = { "Internet", "Office", "Other", "Graphics", "System", "Media", "Program", "Accessories", "Games", "Accessibility","Education" };
+            Directory.CreateDirectory(WinAptLib.ConfigPath);
             //
             //TODO: change here.
             //
             string updateUrl = "http://qwinapt.googlecode.com/files/appinfodb_" + local + ".zip";
-            MainForm.myCmdMgr.Config = new AppInfoConfig(local, basePath, updateUrl);
+            string usingdb = @"config\appinfodb_" + local + ".xml";
+            MainForm.myCmdMgr.Config = new AppInfoConfig(local, basePath, updateUrl,usingdb);
+            
             //create dires
             foreach (string str in dirs)
             {

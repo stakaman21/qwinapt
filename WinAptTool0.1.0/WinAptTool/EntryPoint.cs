@@ -31,6 +31,7 @@ namespace WinApt.Client
             Application.SetCompatibleTextRenderingDefault(false);
             
             // load current culture, en-US or zh-CN
+            // make be can change to configalbe later.
             Thread.CurrentThread.CurrentUICulture = Thread.CurrentThread.CurrentCulture;
             // load resource files
             MainForm.LocRM = new ResourceManager("WinApt.Client.WinAptStrings", typeof(MainForm).Assembly);
