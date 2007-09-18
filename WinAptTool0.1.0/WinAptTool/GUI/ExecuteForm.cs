@@ -187,6 +187,7 @@ namespace WinApt.Client.GUI
             if (_stop)
             {
                 p.Kill();
+                p.WaitForExit();
                 //Waiting for cancal...
                 UpdateText(MainForm.LocRM.GetString("strExecuteFormWaiting"));
                 //if cancal, delete the file.

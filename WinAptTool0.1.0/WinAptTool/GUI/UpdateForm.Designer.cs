@@ -34,22 +34,16 @@ namespace WinApt.Client.GUI
             // 
             // label1
             // 
-            this.label1.AccessibleDescription = null;
-            this.label1.AccessibleName = null;
             resources.ApplyResources(this.label1, "label1");
+            this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Name = "label1";
             // 
             // UpdateForm
             // 
-            this.AccessibleDescription = null;
-            this.AccessibleName = null;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = null;
             this.Controls.Add(this.label1);
-            this.Font = null;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Icon = null;
             this.Name = "UpdateForm";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
