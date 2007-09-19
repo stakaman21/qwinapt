@@ -44,8 +44,8 @@ namespace WinApt.Client.GUI
         private void btnBrowser_Click(object sender, EventArgs e)
         {
             fdDlg.SelectedPath = Environment.CurrentDirectory;
+            fdDlg.Description = MainForm.LocRM.GetString("strChoseFormOpenFile");
             this.fdDlg.ShowDialog();
-            
             basePath = fdDlg.SelectedPath;
             txtPath.Text = basePath;
         }

@@ -431,6 +431,22 @@
   <data name="colPop.Text" xml:space="preserve">
     <value>好评度</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="MenuItemExplore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="MenuItemExplore.Text" xml:space="preserve">
+    <value>浏览</value>
+  </data>
+  <data name="MenuItemOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="MenuItemOpen.Text" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="cntxtMenuAppItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 48</value>
+  </data>
   <data name="lbType.Text" xml:space="preserve">
     <value>显示类别:</value>
   </data>

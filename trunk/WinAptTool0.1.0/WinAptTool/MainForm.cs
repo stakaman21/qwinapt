@@ -188,18 +188,18 @@ namespace WinApt.Client
             Close();
         }
 
-        private void lvApps_DoubleClick(object sender, EventArgs e)
-        {
-            if (lvApps.SelectedItems.Count == 0)
-                return;
-            if (!lvApps.SelectedItems[0].Checked)
-            {
-                if (myCmdMgr.ExploreFile((int)lvApps.SelectedItems[0].Tag))
-                {
-                    lvApps.SelectedItems[0].Checked = true;
-                }
-            }
-        }
+        //private void lvApps_DoubleClick(object sender, EventArgs e)
+        //{
+        //    if (lvApps.SelectedItems.Count == 0)
+        //        return;
+        //    if (!lvApps.SelectedItems[0].Checked)
+        //    {
+        //        if (myCmdMgr.ExploreFile((int)lvApps.SelectedItems[0].Tag))
+        //        {
+        //            lvApps.SelectedItems[0].Checked = true;
+        //        }
+        //    }
+        //}
 
         private void btnProperty_Click(object sender, EventArgs e)
         {
@@ -246,6 +246,30 @@ namespace WinApt.Client
             upForm.Close();
             btnOK.Enabled = true;
             btnApply.Enabled = true;
+        }
+        //explore file that contains
+        private void MenuItemExplore_Click(object sender, EventArgs e)
+        {
+            if (!myCmdMgr.ExploreFile((int)lvApps.SelectedItems[0].Tag))
+            {
+                MessageBox.Show("strMainFormOpenItem");
+            }
+        }
+
+        private void cntxtMenuAppItem_Opening(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            if (!lvApps.SelectedItems[0].Checked)
+            {
+                e.Cancel = true;
+            }
+        }
+
+        private void MenuItemOpen_Click(object sender, EventArgs e)
+        {
+            if (!myCmdMgr.OpenFile((int)lvApps.SelectedItems[0].Tag))
+            {
+                MessageBox.Show(LocRM.GetString("strMainFormOpenItem"));
+            }
         }
 	}
 }
