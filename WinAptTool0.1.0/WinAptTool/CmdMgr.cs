@@ -13,6 +13,7 @@ using System.IO;
 using System.Xml.Serialization;
 using WinApt.Client.GUI;
 using WinApt.Common;
+using System.Diagnostics;
 
 
 namespace WinApt.Client
@@ -108,6 +109,24 @@ namespace WinApt.Client
         /// <param name="index"></param>
         /// <returns></returns>
         public bool ExploreFile(int index)
+        {
+            string fileName = GetFilePath(index);
+            if (File.Exists(fileName))
+            {
+                Process.Start("Explorer.exe","/select, " + fileName);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        /// <summary>
+        /// Open a file
+        /// </summary>
+        /// <param name="index"></param>
+        /// <returns></returns>
+        public bool OpenFile(int index)
         {
             string fileName = GetFilePath(index);
             if (File.Exists(fileName))

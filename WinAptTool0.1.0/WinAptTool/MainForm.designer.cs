@@ -46,6 +46,9 @@ namespace WinApt.Client
             this.colApps = new System.Windows.Forms.ColumnHeader();
             this.colVersion = new System.Windows.Forms.ColumnHeader();
             this.colPop = new System.Windows.Forms.ColumnHeader();
+            this.cntxtMenuAppItem = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.MenuItemExplore = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuItemOpen = new System.Windows.Forms.ToolStripMenuItem();
             this.txtDesc = new System.Windows.Forms.RichTextBox();
             this.lbType = new System.Windows.Forms.Label();
             this.cbTypes = new System.Windows.Forms.ComboBox();
@@ -63,6 +66,7 @@ namespace WinApt.Client
             this.splitContainer2.Panel1.SuspendLayout();
             this.splitContainer2.Panel2.SuspendLayout();
             this.splitContainer2.SuspendLayout();
+            this.cntxtMenuAppItem.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -179,6 +183,7 @@ namespace WinApt.Client
             this.colApps,
             this.colVersion,
             this.colPop});
+            this.lvApps.ContextMenuStrip = this.cntxtMenuAppItem;
             this.lvApps.FullRowSelect = true;
             this.lvApps.GridLines = true;
             this.lvApps.HideSelection = false;
@@ -188,7 +193,6 @@ namespace WinApt.Client
             this.lvApps.UseCompatibleStateImageBehavior = false;
             this.lvApps.View = System.Windows.Forms.View.Details;
             this.lvApps.ItemChecked += new System.Windows.Forms.ItemCheckedEventHandler(this.lvApps_ItemChecked);
-            this.lvApps.DoubleClick += new System.EventHandler(this.lvApps_DoubleClick);
             this.lvApps.SelectedIndexChanged += new System.EventHandler(this.lvApps_SelectedIndexChanged);
             // 
             // colApps
@@ -202,6 +206,39 @@ namespace WinApt.Client
             // colPop
             // 
             resources.ApplyResources(this.colPop, "colPop");
+            // 
+            // cntxtMenuAppItem
+            // 
+            this.cntxtMenuAppItem.AccessibleDescription = null;
+            this.cntxtMenuAppItem.AccessibleName = null;
+            resources.ApplyResources(this.cntxtMenuAppItem, "cntxtMenuAppItem");
+            this.cntxtMenuAppItem.BackgroundImage = null;
+            this.cntxtMenuAppItem.Font = null;
+            this.cntxtMenuAppItem.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuItemExplore,
+            this.MenuItemOpen});
+            this.cntxtMenuAppItem.Name = "cntxtMenuAppItem";
+            this.cntxtMenuAppItem.Opening += new System.ComponentModel.CancelEventHandler(this.cntxtMenuAppItem_Opening);
+            // 
+            // MenuItemExplore
+            // 
+            this.MenuItemExplore.AccessibleDescription = null;
+            this.MenuItemExplore.AccessibleName = null;
+            resources.ApplyResources(this.MenuItemExplore, "MenuItemExplore");
+            this.MenuItemExplore.BackgroundImage = null;
+            this.MenuItemExplore.Name = "MenuItemExplore";
+            this.MenuItemExplore.ShortcutKeyDisplayString = null;
+            this.MenuItemExplore.Click += new System.EventHandler(this.MenuItemExplore_Click);
+            // 
+            // MenuItemOpen
+            // 
+            this.MenuItemOpen.AccessibleDescription = null;
+            this.MenuItemOpen.AccessibleName = null;
+            resources.ApplyResources(this.MenuItemOpen, "MenuItemOpen");
+            this.MenuItemOpen.BackgroundImage = null;
+            this.MenuItemOpen.Name = "MenuItemOpen";
+            this.MenuItemOpen.ShortcutKeyDisplayString = null;
+            this.MenuItemOpen.Click += new System.EventHandler(this.MenuItemOpen_Click);
             // 
             // txtDesc
             // 
@@ -345,6 +382,7 @@ namespace WinApt.Client
             this.splitContainer2.Panel1.ResumeLayout(false);
             this.splitContainer2.Panel2.ResumeLayout(false);
             this.splitContainer2.ResumeLayout(false);
+            this.cntxtMenuAppItem.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -368,5 +406,8 @@ namespace WinApt.Client
         private System.Windows.Forms.Label lbType;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.ContextMenuStrip cntxtMenuAppItem;
+        private System.Windows.Forms.ToolStripMenuItem MenuItemExplore;
+        private System.Windows.Forms.ToolStripMenuItem MenuItemOpen;
 	}
 }

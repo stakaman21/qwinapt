@@ -33,7 +33,6 @@ namespace WinApt.Client.GUI
             this.txtPath = new System.Windows.Forms.TextBox();
             this.btnBrowser = new System.Windows.Forms.Button();
             this.btnOK = new System.Windows.Forms.Button();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.fdDlg = new System.Windows.Forms.FolderBrowserDialog();
             this.SuspendLayout();
             // 
@@ -62,14 +61,6 @@ namespace WinApt.Client.GUI
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // fdDlg
-            // 
-            resources.ApplyResources(this.fdDlg, "fdDlg");
-            // 
             // ChoseForm
             // 
             resources.ApplyResources(this, "$this");
@@ -93,7 +84,6 @@ namespace WinApt.Client.GUI
         private System.Windows.Forms.TextBox txtPath;
         private System.Windows.Forms.Button btnBrowser;
         private System.Windows.Forms.Button btnOK;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.FolderBrowserDialog fdDlg;
     }
 }

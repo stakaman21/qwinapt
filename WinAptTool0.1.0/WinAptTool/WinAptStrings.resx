@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="strChoseFormOpenFile" xml:space="preserve">
+    <value>Chose base folder to save files:</value>
+  </data>
   <data name="strExecuteFormDeleting" xml:space="preserve">
     <value>Deleting files.</value>
   </data>
@@ -143,6 +146,9 @@
   </data>
   <data name="strMainFormDownloadUrl" xml:space="preserve">
     <value>Download Url:</value>
+  </data>
+  <data name="strMainFormOpenItem" xml:space="preserve">
+    <value>Download file first!</value>
   </data>
   <data name="strSplashLabelDownloadDB" xml:space="preserve">
     <value>Download DB file...</value>

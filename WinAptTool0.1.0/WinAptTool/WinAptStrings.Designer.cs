@@ -61,6 +61,15 @@ namespace WinApt.Client {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Chose base folder to save files:.
+        /// </summary>
+        internal static string strChoseFormOpenFile {
+            get {
+                return ResourceManager.GetString("strChoseFormOpenFile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Deleting files..
         /// </summary>
         internal static string strExecuteFormDeleting {
@@ -138,6 +147,15 @@ namespace WinApt.Client {
         internal static string strMainFormDownloadUrl {
             get {
                 return ResourceManager.GetString("strMainFormDownloadUrl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Download file first!.
+        /// </summary>
+        internal static string strMainFormOpenItem {
+            get {
+                return ResourceManager.GetString("strMainFormOpenItem", resourceCulture);
             }
         }
         
