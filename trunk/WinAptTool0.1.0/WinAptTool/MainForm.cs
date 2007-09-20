@@ -189,19 +189,6 @@ namespace WinApt.Client
             Close();
         }
 
-        //private void lvApps_DoubleClick(object sender, EventArgs e)
-        //{
-        //    if (lvApps.SelectedItems.Count == 0)
-        //        return;
-        //    if (!lvApps.SelectedItems[0].Checked)
-        //    {
-        //        if (myCmdMgr.ExploreFile((int)lvApps.SelectedItems[0].Tag))
-        //        {
-        //            lvApps.SelectedItems[0].Checked = true;
-        //        }
-        //    }
-        //}
-
         private void btnProperty_Click(object sender, EventArgs e)
         {
             //MessageBox.Show("Nothing implement yet!");
@@ -218,37 +205,27 @@ namespace WinApt.Client
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            UpdateDB();
+            UpdateDB(true);
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
             updateLvApp();
         }
-        public void UpdateDB()
+        public void UpdateDB(bool isDownload)
         {
-            btnUpdate.Enabled = false;
-            //btnOK.Enabled = false;
-            //btnApply.Enabled = false;
-            UpdateForm upForm = new UpdateForm(myCmdMgr.Config.updateUrl);
-            upForm.ShowDialog();
-            //upForm.Update();
-            //if (!WinAptLib.DownloadDbFile(myCmdMgr.Config.updateUrl))
-            //{
-            //    MessageBox.Show(string.Format(LocRM.GetString("strSplashLabelDownloadError"), myCmdMgr.Config.updateUrl));
-            //}
-            //else
-            //{
-                string fileName = myCmdMgr.Config.usingDB;
-                string content = WinAptLib.GetAppInfoContent(fileName);
-                if (content == "")
-                    return;
-                myCmdMgr.UpdateAppDB(content);
-                updateLvApp();
-            //}
-            //upForm.Close();
-            //btnOK.Enabled = true;
-            //btnApply.Enabled = true;
+            if (isDownload)
+            {
+                btnUpdate.Enabled = false;
+                UpdateForm upForm = new UpdateForm(myCmdMgr.Config.updateUrl);
+                upForm.ShowDialog();
+            }
+            string fileName = myCmdMgr.Config.usingDB;
+            string content = WinAptLib.GetAppInfoContent(fileName);
+            if (content == "")
+                return;
+            myCmdMgr.UpdateAppDB(content);
+            updateLvApp();
         }
         //explore file that contains
         private void MenuItemExplore_Click(object sender, EventArgs e)
@@ -272,6 +249,14 @@ namespace WinApt.Client
             if (!myCmdMgr.OpenFile((int)lvApps.SelectedItems[0].Tag))
             {
                 MessageBox.Show(LocRM.GetString("strMainFormOpenItem"));
+            }
+        }
+
+        private void txtSearch_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                btnSearch_Click(sender, e);
             }
         }
 	}

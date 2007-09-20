@@ -70,6 +70,24 @@ namespace WinApt.Client {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Currently there is no such DB file, update DB now?.
+        /// </summary>
+        internal static string strConfigFormDownload {
+            get {
+                return ResourceManager.GetString("strConfigFormDownload", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Need Update DB.
+        /// </summary>
+        internal static string strConfigFormMessageTitle {
+            get {
+                return ResourceManager.GetString("strConfigFormMessageTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Deleting files..
         /// </summary>
         internal static string strExecuteFormDeleting {

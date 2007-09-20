@@ -120,6 +120,12 @@
   <data name="strChoseFormOpenFile" xml:space="preserve">
     <value>请选则保存下载文件的目录:</value>
   </data>
+  <data name="strConfigFormDownload" xml:space="preserve">
+    <value>当前本地没有该数据库文件,现在是否下载?</value>
+  </data>
+  <data name="strConfigFormMessageTitle" xml:space="preserve">
+    <value>需要更新数据库</value>
+  </data>
   <data name="strExecuteFormDeleting" xml:space="preserve">
     <value>删除文件中.</value>
   </data>

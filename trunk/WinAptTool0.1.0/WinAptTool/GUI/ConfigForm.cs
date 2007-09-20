@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using WinApt.Common;
+using System.IO;
 
 namespace WinApt.Client.GUI
 {
@@ -24,13 +25,48 @@ namespace WinApt.Client.GUI
             //
             //TODO: update db file
             //
-            MainForm.myCmdMgr.Config.local = cbDbs.Text;
-            MainForm.myCmdMgr.Config.updateUrl = txtUrl.Text;
-            MainForm.myCmdMgr.Config.usingDB = WinAptLib.ConfigPath + "appinfodb_" + cbDbs.Text + ".xml";
-            WinAptLib.WriteToFile(MainForm.myCmdMgr.Config, MainForm.configFile);
-            btnOK.Enabled = false;
-            fmMain.UpdateDB();
-            btnOK.Enabled = true;
+            string curDB = WinAptLib.ConfigPath + "appinfodb_" + cbDbs.Text + ".xml";
+            if (!File.Exists(curDB))
+            {
+                //currently there is no such DB file, update DB now?
+                string message = MainForm.LocRM.GetString("strConfigFormDownload");
+                // Need Update DB
+                string caption = MainForm.LocRM.GetString("strConfigFormMessageTitle");
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                DialogResult result;
+                // Displays the MessageBox.
+                result = MessageBox.Show(message, caption, buttons);
+                if (result == DialogResult.No)
+                {
+                    // restore value
+                    cbDbs.Text = MainForm.myCmdMgr.Config.local;
+                    txtUrl.Text = MainForm.myCmdMgr.Config.updateUrl;
+                    return;
+                }
+                else
+                {
+                    btnOK.Enabled = false;
+                    MainForm.myCmdMgr.Config.local = cbDbs.Text;
+                    MainForm.myCmdMgr.Config.updateUrl = txtUrl.Text;
+                    MainForm.myCmdMgr.Config.usingDB = WinAptLib.ConfigPath + "appinfodb_" + cbDbs.Text + ".xml";
+                    //download db;
+                    fmMain.UpdateDB(true);
+                    btnOK.Enabled = true;
+                }
+            }
+            //nothing change, just return;
+            if (cbDbs.Text == MainForm.myCmdMgr.Config.local)
+            {
+                return;
+            }
+            else
+            {
+                MainForm.myCmdMgr.Config.local = cbDbs.Text;
+                MainForm.myCmdMgr.Config.updateUrl = txtUrl.Text;
+                MainForm.myCmdMgr.Config.usingDB = WinAptLib.ConfigPath + "appinfodb_" + cbDbs.Text + ".xml";
+                WinAptLib.WriteToFile(MainForm.myCmdMgr.Config, MainForm.configFile);
+                fmMain.UpdateDB(false);
+            }
         }
 
         private void cbDbs_SelectedIndexChanged(object sender, EventArgs e)
