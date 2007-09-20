@@ -30,23 +30,34 @@ namespace WinApt.Client.GUI
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SplashForm));
             this.lbSplash = new System.Windows.Forms.Label();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // lbSplash
             // 
             this.lbSplash.AutoSize = true;
-            this.lbSplash.Location = new System.Drawing.Point(40, 278);
+            this.lbSplash.Location = new System.Drawing.Point(19, 295);
             this.lbSplash.Name = "lbSplash";
-            this.lbSplash.Size = new System.Drawing.Size(0, 12);
+            this.lbSplash.Size = new System.Drawing.Size(0, 13);
             this.lbSplash.TabIndex = 3;
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.progressBar1.Location = new System.Drawing.Point(0, 310);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(485, 15);
+            this.progressBar1.TabIndex = 4;
+            this.progressBar1.Visible = false;
             // 
             // SplashForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(485, 300);
+            this.ClientSize = new System.Drawing.Size(485, 325);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.lbSplash);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SplashForm";
@@ -62,6 +73,7 @@ namespace WinApt.Client.GUI
         #endregion
 
         private System.Windows.Forms.Label lbSplash;
+        private System.Windows.Forms.ProgressBar progressBar1;
 
     }
 }

@@ -42,6 +42,7 @@ namespace WinApt.Client.GUI
             // 
             // txtConsole
             // 
+            this.txtConsole.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtConsole, "txtConsole");
             this.txtConsole.Name = "txtConsole";
             this.txtConsole.ReadOnly = true;

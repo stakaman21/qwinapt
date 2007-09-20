@@ -163,7 +163,7 @@ namespace WinApt.Client.GUI
         {
             ProcessStartInfo start = new ProcessStartInfo("wget.exe");
             //set params
-            start.Arguments = "-O " + fileName + " " + url;
+            start.Arguments = "-O \"" + fileName + "\" " + url;
             //no dos window
             start.CreateNoWindow = true;
             //start.RedirectStandardOutput = true;//

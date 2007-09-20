@@ -171,8 +171,11 @@
   <data name="&gt;&gt;txtConsole.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="btnCancal.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="btnCancal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>274, 234</value>
+    <value>282, 234</value>
   </data>
   <data name="btnCancal.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 25</value>
@@ -195,8 +198,11 @@
   <data name="&gt;&gt;btnCancal.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="btnOK.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>102, 235</value>
+    <value>110, 235</value>
   </data>
   <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 25</value>

@@ -53,7 +53,8 @@ namespace WinApt.Client.GUI
                 {
                     this.lbSplash.Text = MainForm.LocRM.GetString("strSplashLabelDownloadDB");
                     lbSplash.Update();
-                    if (!WinAptLib.DownloadDbFile(MainForm.myCmdMgr.Config.updateUrl))
+                    progressBar1.Visible = true;
+                    if (!WinAptLib.DownloadDbFile(MainForm.myCmdMgr.Config.updateUrl,progressBar1))
                         throw new Exception(string.Format(MainForm.LocRM.GetString("strSplashLabelDownloadError"), MainForm.myCmdMgr.Config.updateUrl));
                 }
                 content = WinAptLib.GetAppInfoContent(fileName);

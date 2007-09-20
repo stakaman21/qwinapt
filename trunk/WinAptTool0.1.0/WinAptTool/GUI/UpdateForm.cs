@@ -12,10 +12,20 @@ namespace WinApt.Client.GUI
 {
     public partial class UpdateForm : Form
     {
-        public UpdateForm()
+        private string url;
+        public UpdateForm(string url)
         {
             InitializeComponent();
+            this.url = url;
+        }
 
+        private void UpdateForm_Shown(object sender, EventArgs e)
+        {
+            if (!WinAptLib.DownloadDbFile(url, this.proBar))
+            {
+                MessageBox.Show(string.Format(MainForm.LocRM.GetString("strSplashLabelDownloadError"),url));
+            }
+            Close();
         }
 
     }
