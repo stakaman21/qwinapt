@@ -12,7 +12,7 @@ namespace WinApt.Parser
             Console.WriteLine("start to download information...");
             WinGetParser myApp = new WinGetParser();
             myApp.UpdateData();
-            WinAptLib.WriteToFile(myApp.myAppInfoDB, @"appinfodb.xml");
+            WinAptLib.WriteToFile(myApp.myAppInfoDB, @"appinfodb_en-US.xml");
         }
     }
 }

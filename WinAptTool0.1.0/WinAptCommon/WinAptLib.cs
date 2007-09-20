@@ -74,7 +74,7 @@ namespace WinApt.Common
             try
             {
                 HttpWebRequest request = (HttpWebRequest)
-            WebRequest.Create(url);
+                WebRequest.Create(url);
                 HttpWebResponse response = (HttpWebResponse)request.GetResponse();
                 SaveBinaryFile(response, "tmpDB.zip");
                 UnZip("tmpDB.zip", ConfigPath);

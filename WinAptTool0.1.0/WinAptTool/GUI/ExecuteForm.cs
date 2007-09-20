@@ -206,13 +206,13 @@ namespace WinApt.Client.GUI
                 foreach (int i in cmdMgr.SelectItems)
                 {
                     AppInfoBase item = (AppInfoBase)cmdMgr.InfoDB.Items[i];
-                    item.setState(0);
+                    item.setState(WinAptLib.NoFile);
                 }
                 
                 foreach (int i in cmdMgr.DelectItems)
                 {
                     AppInfoBase item = (AppInfoBase)cmdMgr.InfoDB.Items[i];
-                    item.setState(1);
+                    item.setState(WinAptLib.Downloaded);
                 }
             }
             cmdMgr.SelectItems.Clear();
