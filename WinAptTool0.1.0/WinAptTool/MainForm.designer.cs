@@ -218,6 +218,7 @@ namespace WinApt.Client
             this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtSearch, "txtSearch");
             this.txtSearch.Name = "txtSearch";
+            this.txtSearch.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSearch_KeyPress);
             // 
             // btnHelp
             // 
