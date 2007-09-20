@@ -5,6 +5,8 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Threading;
+using WinApt.Common;
 
 namespace WinApt.Client.GUI
 {
@@ -13,6 +15,8 @@ namespace WinApt.Client.GUI
         public UpdateForm()
         {
             InitializeComponent();
+
         }
+
     }
 }

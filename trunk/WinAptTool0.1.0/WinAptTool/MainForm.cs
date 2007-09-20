@@ -153,6 +153,7 @@ namespace WinApt.Client
                 }
                 i.setState(WinAptLib.NoFile);
             }
+            e.Item.Selected = true;
             btnApply.Enabled = true;
         }
         /// <summary>

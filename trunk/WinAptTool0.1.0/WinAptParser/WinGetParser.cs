@@ -139,11 +139,11 @@ namespace WinApt.Parser
                 );
             Match ret1 = regex1.Match(content);
             MatchCollection retlist = regex2.Matches(ret1.Value);
-            string[] ret = new string[retlist.Count - 1];
+            string[] ret = new string[retlist.Count];
             //the last element will be Next, pass it.
-            for (int i = 1; i < retlist.Count; i++)
+            for (int i = 0; i < retlist.Count; i++)
             {
-                ret[i - 1] = mainPageUrl + this.surfix + retlist[i].Groups[1].Value;
+                ret[i] = mainPageUrl + this.surfix + retlist[i].Groups[1].Value;
             }
             return ret;
         }
@@ -195,28 +195,15 @@ namespace WinApt.Parser
         {
             content = WinAptLib.getPageContent(this.mainPageUrl);
             Parser("");
+            Console.WriteLine("Get {0} pages.", pageUrls.Length);
             foreach (string url in this.pageUrls)
             {
+                Console.WriteLine("Parsing page {0}", url);
                 content = WinAptLib.getPageContent(url);
                 Parser(content);
             }
 
         }
-        /// <summary>
-        /// Test Code
-        /// </summary>
-        /// <param name="args"></param>
-        #region Test Main
-        //[STAThread] 
-        //static void Main(string[] args)
-        //{
-        //    Console.WriteLine("start to download information...");
-        //    WinGetParser myApp = new WinGetParser();
-        //    myApp.UpdateData();
-        //    WinAptLib.WriteToFile(myApp.myAppInfoDB,@"appinfodb.xml");
-        //}
-        #endregion
-
     }
 
 
