@@ -125,10 +125,10 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="cbDbs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 23</value>
+    <value>15, 25</value>
   </data>
   <data name="cbDbs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 20</value>
+    <value>121, 21</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="cbDbs.TabIndex" type="System.Int32, mscorlib">
@@ -150,10 +150,10 @@
     <value>True</value>
   </data>
   <data name="lbChoseDB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 8</value>
+    <value>12, 9</value>
   </data>
   <data name="lbChoseDB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 12</value>
+    <value>57, 13</value>
   </data>
   <data name="lbChoseDB.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -173,11 +173,15 @@
   <data name="&gt;&gt;lbChoseDB.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnOK.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
   <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>154, 110</value>
+    <value>159, 119</value>
   </data>
   <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 21</value>
+    <value>75, 23</value>
   </data>
   <data name="btnOK.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -201,10 +205,10 @@
     <value>True</value>
   </data>
   <data name="lbUrl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 52</value>
+    <value>12, 56</value>
   </data>
   <data name="lbUrl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 12</value>
+    <value>40, 13</value>
   </data>
   <data name="lbUrl.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -225,7 +229,7 @@
     <value>1</value>
   </data>
   <data name="txtUrl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 73</value>
+    <value>15, 79</value>
   </data>
   <data name="txtUrl.Size" type="System.Drawing.Size, System.Drawing">
     <value>366, 21</value>
@@ -249,12 +253,11 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 12</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>393, 143</value>
+    <value>393, 155</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>

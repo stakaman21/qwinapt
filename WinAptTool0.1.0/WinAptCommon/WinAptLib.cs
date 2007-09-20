@@ -5,6 +5,7 @@ using System.Xml.Serialization;
 using System.IO;
 using System.Net;
 using ICSharpCode.SharpZipLib.Zip;
+using System.Windows.Forms;
 
 namespace WinApt.Common
 {
@@ -69,16 +70,21 @@ namespace WinApt.Common
             reader.Close();
             return o;
         }
-        public static bool DownloadDbFile(string url)
+        public static bool DownloadDbFile(string url, ProgressBar pbar)
         {
+            pbar.Maximum = 100;
             try
             {
                 HttpWebRequest request = (HttpWebRequest)
                 WebRequest.Create(url);
+                pbar.Value = 10;
                 HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+                pbar.Value = 40;
                 SaveBinaryFile(response, "tmpDB.zip");
+                pbar.Value = 80;
                 UnZip("tmpDB.zip", ConfigPath);
                 File.Delete("tmpDB.zip");
+                pbar.Value = 100;
             }
             catch (Exception e)
             {
@@ -169,6 +175,8 @@ namespace WinApt.Common
         public static string GetAppInfoContent(string fileName)
         {
             string ret = "";
+            if (!File.Exists(fileName))
+                return "";
             StreamReader infile = File.OpenText(fileName);
             ret = infile.ReadToEnd();
             infile.Close();

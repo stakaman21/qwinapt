@@ -228,32 +228,34 @@ namespace WinApt.Client
         public void UpdateDB()
         {
             btnUpdate.Enabled = false;
-            btnOK.Enabled = false;
-            btnApply.Enabled = false;
-            UpdateForm upForm = new UpdateForm();
-            upForm.Show();
-            upForm.Update();
-            if (!WinAptLib.DownloadDbFile(myCmdMgr.Config.updateUrl))
-            {
-                MessageBox.Show(string.Format(LocRM.GetString("strSplashLabelDownloadError"), myCmdMgr.Config.updateUrl));
-            }
-            else
-            {
+            //btnOK.Enabled = false;
+            //btnApply.Enabled = false;
+            UpdateForm upForm = new UpdateForm(myCmdMgr.Config.updateUrl);
+            upForm.ShowDialog();
+            //upForm.Update();
+            //if (!WinAptLib.DownloadDbFile(myCmdMgr.Config.updateUrl))
+            //{
+            //    MessageBox.Show(string.Format(LocRM.GetString("strSplashLabelDownloadError"), myCmdMgr.Config.updateUrl));
+            //}
+            //else
+            //{
                 string fileName = myCmdMgr.Config.usingDB;
                 string content = WinAptLib.GetAppInfoContent(fileName);
+                if (content == "")
+                    return;
                 myCmdMgr.UpdateAppDB(content);
                 updateLvApp();
-            }
-            upForm.Close();
-            btnOK.Enabled = true;
-            btnApply.Enabled = true;
+            //}
+            //upForm.Close();
+            //btnOK.Enabled = true;
+            //btnApply.Enabled = true;
         }
         //explore file that contains
         private void MenuItemExplore_Click(object sender, EventArgs e)
         {
             if (!myCmdMgr.ExploreFile((int)lvApps.SelectedItems[0].Tag))
             {
-                MessageBox.Show("strMainFormOpenItem");
+                MessageBox.Show(LocRM.GetString("strMainFormOpenItem"));
             }
         }
 

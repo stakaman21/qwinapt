@@ -39,10 +39,12 @@ namespace WinApt.Client.GUI
             // lbText
             // 
             resources.ApplyResources(this.lbText, "lbText");
+            this.lbText.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lbText.Name = "lbText";
             // 
             // txtPath
             // 
+            this.txtPath.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtPath, "txtPath");
             this.txtPath.Name = "txtPath";
             // 

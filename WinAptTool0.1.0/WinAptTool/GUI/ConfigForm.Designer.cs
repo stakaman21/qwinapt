@@ -66,6 +66,7 @@ namespace WinApt.Client.GUI
             // 
             // txtUrl
             // 
+            this.txtUrl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.txtUrl, "txtUrl");
             this.txtUrl.Name = "txtUrl";
             // 
