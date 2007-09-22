@@ -17,6 +17,7 @@ namespace WinApt.Client.GUI
         {
             InitializeComponent();
             this.url = url;
+            timer1.Start();
         }
 
         private void UpdateForm_Shown(object sender, EventArgs e)
@@ -25,7 +26,13 @@ namespace WinApt.Client.GUI
             {
                 MessageBox.Show(string.Format(MainForm.LocRM.GetString("strSplashLabelDownloadError"),url));
             }
+            timer1.Stop();
             Close();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            Update();
         }
 
     }
