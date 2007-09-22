@@ -28,14 +28,20 @@ namespace WinApt.Client.GUI
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UpdateForm));
             this.proBar = new System.Windows.Forms.ProgressBar();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // proBar
             // 
             resources.ApplyResources(this.proBar, "proBar");
             this.proBar.Name = "proBar";
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // UpdateForm
             // 
@@ -55,6 +61,7 @@ namespace WinApt.Client.GUI
         #endregion
 
         private System.Windows.Forms.ProgressBar proBar;
+        private System.Windows.Forms.Timer timer1;
 
     }
 }
