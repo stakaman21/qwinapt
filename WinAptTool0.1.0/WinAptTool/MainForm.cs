@@ -218,7 +218,10 @@ namespace WinApt.Client
             {
                 btnUpdate.Enabled = false;
                 UpdateForm upForm = new UpdateForm(myCmdMgr.Config.updateUrl);
+                this.Enabled = false;
                 upForm.ShowDialog();
+                this.Enabled = true;
+                
             }
             string fileName = myCmdMgr.Config.usingDB;
             string content = WinAptLib.GetAppInfoContent(fileName);
