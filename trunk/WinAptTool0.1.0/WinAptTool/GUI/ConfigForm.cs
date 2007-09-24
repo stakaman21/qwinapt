@@ -18,6 +18,7 @@ namespace WinApt.Client.GUI
             InitializeComponent();
             this.fmMain = fmMain;
             cbDbs.Text = MainForm.myCmdMgr.Config.local;
+            btnOK.Focus();
         }
 
         private void btnOK_Click(object sender, EventArgs e)
